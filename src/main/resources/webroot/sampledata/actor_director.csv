@@ -1,0 +1,982 @@
+movieId,actor,director
+1,Tom Hanks|Tim Allen|Don Rickles,John Lasseter
+2,Robin Williams|Kirsten Dunst|Bonnie Hunt,Joe Johnston
+3,Walter Matthau|Jack Lemmon|Ann-Margret,Howard Deutch
+4,,
+5,Steve Martin|Diane Keaton|Martin Short,Charles Shyer
+6,Al Pacino|Robert De Niro|Val Kilmer,Michael Mann
+7,Harrison Ford|Julia Ormond|Greg Kinnear,Sydney Pollack
+8,Jonathan Taylor Thomas|Brad Renfro|Charles Rocket,Peter Hewitt
+9,,
+10,,
+11,Michael Douglas|Annette Bening|Martin Sheen,Rob Reiner
+12,Leslie Nielsen|Mel Brooks|Peter MacNicol,Mel Brooks
+13,Kevin Bacon|Bob Hoskins|Bridget Fonda,Simon Wells
+14,,
+15,Geena Davis|Matthew Modine|Frank Langella,Renny Harlin
+17,Emma Thompson|Kate Winslet|James Fleet,Ang Lee
+18,Tim Roth|Antonio Banderas|Sammi Davis,Allison Anders|Alexandre Rockwell|Robert Rodriguez
+19,Jim Carrey|Ian McNeice|Simon Callow,Steve Oedekerk
+20,Wesley Snipes|Woody Harrelson|Jennifer Lopez,Joseph Ruben
+21,,
+22,Sigourney Weaver|Holly Hunter|Dermot Mulroney,Jon Amiel
+23,,
+24,Mary Steenburgen|Sean Patrick Flanery|Lance Henriksen,Victor Salva
+25,,
+26,,
+27,Christina Ricci|Demi Moore|Rosie O&apos;Donnell,Lesli Linka Glatter
+28,Amanda Root|Ciarán Hinds|Susan Fleetwood,Roger Michell
+29,,
+30,Gong Li|Baotian Li|Xiaoxiao Wang,Yimou Zhang
+31,,
+32,Bruce Willis|Madeleine Stowe|Brad Pitt,Terry Gilliam
+33,Craig Sheffer|Elizabeth McGovern|Tom Hulce,Jean-Jacques Annaud
+34,James Cromwell|Magda Szubanski|Christine Cavanaugh,Chris Noonan
+35,Emma Thompson|Jonathan Pryce|Steven Waddington,Christopher Hampton
+36,,
+37,Peter Reznick|John McDonough|Avi Hoffman,Stephen Low
+38,Kirstie Alley|Steve Guttenberg|Mary-Kate Olsen,Andy Tennant
+39,Alicia Silverstone|Stacey Dash|Brittany Murphy,Amy Heckerling
+40,Richard Harris|James Earl Jones|Vusi Kunene,Darrell Roodt
+41,Ian McKellen|Annette Bening|Christopher Bowen,Richard Loncraine
+42,Larenz Tate|Keith David|Chris Tucker,Albert Hughes|Allen Hughes
+43,Robert Downey Jr.|Sam Neill|David Thewlis,Michael Hoffman
+44,Christopher Lambert|Robin Shou|Linden Ashby,Paul W.S. Anderson
+45,Nicole Kidman|Matt Dillon|Joaquin Phoenix,Gus Van Sant
+46,Winona Ryder|Ellen Burstyn|Anne Bancroft,Jocelyn Moorhouse
+47,Morgan Freeman|Brad Pitt|Kevin Spacey,David Fincher
+48,Mel Gibson|Linda Hunt|Christian Bale,Mike Gabriel|Eric Goldberg
+49,Pascale Bussières|Rachael Crawford|Henry Czerny,Patricia Rozema
+50,Kevin Spacey|Gabriel Byrne|Chazz Palminteri,Bryan Singer
+51,Cynthia Rothrock|Daniel McVicar|Lydie Denier,Richard W. Munchkin
+52,Woody Allen|Mira Sorvino|Pamela Blair,Woody Allen
+53,Enrico Lo Verso|Michele Placido|Piro Milkani,Gianni Amelio
+54,Steve Guttenberg|Olivia d&apos;Abo|Jay O. Sanders,Holly Goldberg Sloan
+55,Jennifer Jason Leigh|Mare Winningham|Ted Levine,Ulu Grosbard
+56,Johnny Morina|Maggie Castle|Christopher Olscamp,Robert Tinnell
+57,,
+58,Massimo Troisi|Philippe Noiret|Maria Grazia Cucinotta,Michael Radford|Massimo Troisi
+59,Lothaire Bluteau|Patrick Goyette|Jean-Louis Millette,Robert Lepage
+60,Hal Scardino|Litefoot|Lindsay Crouse,Frank Oz
+61,Sally Field|Kiefer Sutherland|Ed Harris,John Schlesinger
+62,,
+63,Shawn Wayans|Marlon Wayans|Keenen Ivory Wayans,Paris Barclay
+64,Sandra Bullock|Denis Leary|Stephen Dillane,Bill Bennett
+65,Pauly Shore|Stephen Baldwin|William Atherton,Jason Bloom
+66,Patrick Bergin|Matt Frewer|Austin O&apos;Brien,Farhad Mann
+67,Al Pacino|Mary Elizabeth Mastrantonio|Jerry Barone,James Foley
+68,Victoria Abril|Josiane Balasko|Alain Chabat,Josiane Balasko
+69,Ice Cube|Chris Tucker|Nia Long,F. Gary Gray
+70,Harvey Keitel|George Clooney|Juliette Lewis,Robert Rodriguez
+71,William Baldwin|Cindy Crawford|Steven Berkoff,Andrew Sipes
+72,Josh Hamilton|Eric Stoltz|Samuel Gould,Noah Baumbach
+73,Jean-Paul Belmondo|Michel Boujenah|Alessandra Martines,Claude Lelouch
+74,Christian Slater|Mary Stuart Masterson|Pamela Adlon,Michael Goldenberg
+75,Rick Moranis|Tom Arnold|Julianne Phillips,Steve Miner
+76,Peter Weller|Roy Dupuis|Jennifer Rubin,Christian Duguay
+77,Nico|Tina Aumont|Christian Päffgen,Susanne Ofteringer
+78,Jack Nicholson|David Morse|Anjelica Huston,Sean Penn
+79,Demi Moore|Alec Baldwin|Joseph Gordon-Levitt,Brian Gibson
+80,Aida Mohammadkhani|Mohsen Kafili|Fereshteh Sadre Orafaiy,Jafar Panahi
+81,Andy Garcia|Christopher Walken|Christopher Lloyd,Gary Fleder
+82,,
+83,Al Freeman Jr.|Phylicia Rashad|Leon,Tim Reid
+84,Victoria Foyt|Viveca Lindfors|Jon Robin Baitz,Henry Jaglom
+85,,
+86,Jeff Bridges|Caroline Goodall|John Savage,Ridley Scott
+87,Jason Alexander|Faye Dunaway|Eric Lloyd,Ken Kwapis
+88,,
+89,Johnny Depp|Christopher Walken|Courtney Chase,John Badham
+90,,
+92,Julia Roberts|John Malkovich|George Cole,Stephen Frears
+93,Eddie Murphy|Angela Bassett|Allen Payne,Wes Craven
+94,Matt Dillon|Timothy Hutton|Noah Emmerich,Ted Demme
+95,,
+96,Michael Maloney|Richard Briers|Hetta Charnley,Kenneth Branagh
+97,Vincent Cassel|Hubert Koundé|Saïd Taghmaoui,Mathieu Kassovitz
+98,Sadie Frost|Jude Law|Sean Pertwee,Paul W.S. Anderson
+99,Nick Broomfield|Nina Xining Zuo|Madam Alex,Nick Broomfield
+100,Al Pacino|John Cusack|Bridget Fonda,Harold Becker
+101,Luke Wilson|Owen Wilson|Ned Dowd,Wes Anderson
+102,,
+103,,
+104,Adam Sandler|Christopher McDonald|Julie Bowen,Dennis Dugan
+105,Clint Eastwood|Meryl Streep|Annie Corley,Clint Eastwood
+106,,
+107,Tim Curry|Billy Connolly|Jennifer Saunders,Brian Henson
+108,Christy Turlington|Azzedine Alaïa|Giorgio Armani,Robert Leacock
+109,Raymond J. Barry|Rustam Branaman|Jennifer MacDonald,James Bruce
+110,Mel Gibson|Sophie Marceau|Patrick McGoohan,Mel Gibson
+111,Robert De Niro|Jodie Foster|Cybill Shepherd,Martin Scorsese
+112,Jackie Chan|Anita Mui|Françoise Yip,Stanley Tong
+113,Meryl Streep|Liam Neeson|Edward Furlong,Barbet Schroeder
+114,Helena Bonham Carter|Kate Nelligan|Clive Russell,Mort Ransen
+115,Michel Serrault|Eddy Mitchell|Sabine Azéma,Étienne Chatiliez
+116,Kenneth Branagh|Glenn Close|Isa Baschwitz,Jon Blair
+117,Hugh O&apos;Conor|Antony Sher|Tobias Arnold,Benjamin Ross
+118,,
+119,,
+120,Halle Berry|Jim Belushi|Bill Hunter,Charles T. Kanganis
+121,,
+122,,
+123,Brigitte Lin|Takeshi Kaneshiro|Tony Leung Chiu-wai,Kar-Wai Wong
+124,Sergio Castellitto|Tiziana Lodato|Franco Scaldati,Giuseppe Tornatore
+125,,
+126,Jason James Richter|Melody Kay|Jack Black,Peter MacDonald
+127,Hind Sabri|Ghalya Lacroix|Nejia Ouerghi,Moufida Tlatli
+128,Maggie Cogan|Katina Commings,Michel Negroponte
+129,,
+130,Miranda Rhyne|Charlotte Eve Blythe|Anna Thomson,Rebecca Miller
+131,Matt Dillon|Anne Parillaud|Gabriel Byrne,Michael Lindsay-Hogg
+132,,
+133,Luisito Martí|Caridad Ravelo|Raúl Carbonell,Ángel Muñiz
+134,Lloyd Dunn|Chris Grigg|Mark Hosler,Craig Baldwin
+135,Kelsey Grammer|Lauren Holly|Rob Schneider,David S. Ward
+136,,
+137,,
+138,Jacob Tierney|Drake Bell|Gena Rowlands,Terence Davies
+139,Champa|Om Puri|Mohan Agashe,Sandip Ray
+140,Robert Redford|Michelle Pfeiffer|Stockard Channing,Jon Avnet
+141,Robin Williams|Nathan Lane|Gene Hackman,Mike Nichols
+142,Rafal Synówka|Jerzy Binczycki|Marzena Trybala,Jerzy Kaszubowski
+143,Martin Sheen|Michael York|Morgan Fairchild,Jakov Sedlar
+144,,
+145,Will Smith|Martin Lawrence|Lisa Boyle,Michael Bay
+146,Stephen Lang|Ryan Slater|Yi Ding,Christopher Cain
+147,Leonardo DiCaprio|Lorraine Bracco|Marilyn Sokol,Scott Kalvert
+148,Hugh Grant|Alan Rickman|Georgina Cates,Mike Newell
+149,Isabelle Huppert|Martin Donovan|Elina Löwensohn,Hal Hartley
+150,Tom Hanks|Bill Paxton|Kevin Bacon,Ron Howard
+151,Liam Neeson|Jessica Lange|John Hurt,Michael Caton-Jones
+152,Lili Taylor|Christopher Walken|Annabella Sciorra,Abel Ferrara
+153,Val Kilmer|Tommy Lee Jones|Jim Carrey,Joel Schumacher
+154,Catherine Deneuve|Jean Sorel|Michel Piccoli,Luis Buñuel
+155,Patricia Arquette|U Aung Ko|Frances McDormand,John Boorman
+156,Harvey Keitel|Lou Reed|Michael J. Fox,Paul Auster|Wayne Wang|Harvey Wang
+157,John Candy|Alan Alda|Rhea Perlman,Michael Moore
+158,Bill Pullman|Christina Ricci|Cathy Moriarty,Brad Silberling
+159,Harvey Keitel|John Turturro|Delroy Lindo,Spike Lee
+160,Laura Linney|Tim Curry|Dylan Walsh,Frank Marshall
+161,,
+162,Robert Crumb|Aline Kominsky-Crumb|Charles Crumb,Terry Zwigoff
+163,Antonio Banderas|Salma Hayek|Joaquim de Almeida,Robert Rodriguez
+164,Denzel Washington|Tom Sizemore|Jennifer Beals,Carl Franklin
+165,Bruce Willis|Jeremy Irons|Samuel L. Jackson,John McTiernan
+166,James Duval|Rose McGowan|Johnathon Schaech,Gregg Araki
+167,Embeth Davidtz|Tom Bell|Gemma Jones,Christopher Menaul
+168,Sean Connery|Richard Gere|Julia Ormond,Jerry Zucker
+169,Jason James Richter|Michael Madsen|Francis Capra,Dwight H. Little
+170,,
+171,Steven Weber|Michael T. Weiss|Peter Jacobson,Christopher Ashley
+172,Keanu Reeves|Dolph Lundgren|Dina Meyer,Robert Longo
+173,Sylvester Stallone|Armand Assante|Rob Schneider,Danny Cannon
+174,Pauly Shore|Tia Carrere|Stanley Tucci,John Fortenberry
+175,,
+176,Steve Buscemi|Catherine Keener|Dermot Mulroney,Tom DiCillo
+177,Scott Bakula|Kevin J. O&apos;Connor|J. Trevor Edmond,Clive Barker
+178,Thomas Gibson|Ruth Marshall|Cameron Bancroft,Denys Arcand
+179,Chris O&apos;Donnell|Drew Barrymore|Matthew Lillard,Antonia Bird
+180,Shannen Doherty|Jeremy London|Jason Lee,Kevin Smith
+181,Karan Ashley|Johnny Yong Bosch|Steve Cardenas,Bryan Spicer
+182,Elizabeth Perkins|Whoopi Goldberg|Kathleen Turner,David Anspaugh
+183,,
+184,Elina Löwensohn|Peter Fonda|Nic Ratner,Michael Almereyda
+185,Sandra Bullock|Jeremy Northam|Dennis Miller,Irwin Winkler
+186,Hugh Grant|Julianne Moore|Tom Arnold,Chris Columbus
+187,Parker Posey|Omar Townsend|The Lady Bunny,Daisy von Scherler Mayer
+188,Christopher Walken|Elias Koteas|Virginia Madsen,Gregory Widen
+189,Mia Farrow|Tony Goldwyn|Juana Barrios,Norman René
+190,Julianne Moore|Xander Berkeley|Dean Norris,Todd Haynes
+191,,
+192,Craig Mack|Dr. Dre|Afrika Bambaataa,Brian Robbins
+193,Elizabeth Berkley|Kyle MacLachlan|Gina Gershon,Paul Verhoeven
+194,Harvey Keitel|William Hurt|Giancarlo Esposito,Wayne Wang
+195,Julia Roberts|Dennis Quaid|Robert Duvall,Lasse Hallström
+196,Natasha Henstridge|Michael Madsen|Ben Kingsley,Roger Donaldson
+197,Robert Duvall|Aidan Quinn|Frances Fisher,James Keach
+198,Ralph Fiennes|Angela Bassett|Juliette Lewis,Kathryn Bigelow
+199,Catherine Deneuve|Nino Castelnuovo|Anne Vernon,Jacques Demy
+200,Daryl Hannah|Keith Carradine|Moira Kelly,Wesley Strick
+201,Patrick Swayze|Mary Elizabeth Mastrantonio|Joseph Mazzello,Martha Coolidge
+202,Leonardo DiCaprio|David Thewlis|Romane Bohringer,Agnieszka Holland
+203,Wesley Snipes|Patrick Swayze|John Leguizamo,Beeban Kidron
+204,Steven Seagal|Eric Bogosian|Everett McGill,Geoff Murphy
+205,Andie MacDowell|John Turturro|Michael Richards,Diane Keaton
+206,Isaac Mizrahi|Roseanne Barr|Sandra Bernhard,Douglas Keeve
+207,,
+208,Kevin Costner|Jeanne Tripplehorn|Dennis Hopper,Kevin Reynolds
+209,,
+210,Jeff Bridges|Ellen Barkin|John Hurt,Walter Hill
+211,,
+212,Daniel Stern|Jon Polito|Brad Sullivan,Greg Beeman
+213,Nikita Mikhalkov|Ingeborga Dapkunaite|Oleg Menshikov,Nikita Mikhalkov
+214,,
+215,Ethan Hawke|Julie Delpy|Andrea Eckert,Richard Linklater
+216,Adam Sandler|Darren McGavin|Bridgette Wilson-Sampras,Tamra Davis
+217,Alicia Silverstone|Jeremy London|J.T. Walsh,Guy Ferland
+218,Whoopi Goldberg|Mary-Louise Parker|Drew Barrymore,Herbert Ross
+219,Joseph Mazzello|Brad Renfro|Aeryk Egan,Peter Horton
+220,Jeffrey Combs|Barbara Crampton|Jonathan Fuller,Stuart Gordon
+222,Chris O&apos;Donnell|Minnie Driver|Geraldine O&apos;Rawe,Pat O&apos;Connor
+223,Brian O&apos;Halloran|Jeff Anderson|Marilyn Ghigliotti,Kevin Smith
+224,Johnny Depp|Marlon Brando|Faye Dunaway,Jeremy Leven
+225,,
+226,Patsy Kensit|Bruce Greenwood|Andrew McCarthy,René Bonnière
+227,Wesley Snipes|Gary Busey|Yancy Butler,John Badham
+228,,
+229,Sigourney Weaver|Ben Kingsley|Stuart Wilson,Roman Polanski
+230,Kathy Bates|Jennifer Jason Leigh|Christopher Plummer,Taylor Hackford
+231,Jim Carrey|Jeff Daniels|Lauren Holly,Peter Farrelly|Bobby Farrelly
+232,Sihung Lung|Kuei-Mei Yang|Wang Yu-wen,Ang Lee
+233,Bruce Greenwood|Elias Koteas|Don McKellar,Atom Egoyan
+234,Dana Delany|Dan Aykroyd|Rosie O&apos;Donnell,Garry Marshall
+235,Johnny Depp|Martin Landau|Sarah Jessica Parker,Tim Burton
+236,Meg Ryan|Kevin Kline|Timothy Hutton,Lawrence Kasdan
+237,Billy Crystal|Debra Winger|Joe Mantegna,Billy Crystal
+238,Jesse Bradford|Mimi Rogers|Bruce Davison,Phillip Borsos
+239,,
+240,Jeff Goldblum|Christine Lahti|Alicia Silverstone,Brett Leonard
+241,Matthew Modine|Nancy Travis|Samuel L. Jackson,Carlo Carlei
+242,Stefano Dionisi|Enrico Lo Verso|Elsa Zylberstein,Gérard Corbiau
+243,,
+244,Dal McKennon|Art Clokey|Gloria Clokey,Art Clokey
+245,Michael Boatman|Lori Petty|Erich Anderson,Charles Burnett
+246,William Gates|Arthur Agee|Emma Gates,Steve James
+247,Melanie Lynskey|Kate Winslet|Sarah Peirse,Peter Jackson
+248,Sinbad|Phil Hartman|Kim Greist,Randall Miller
+249,Gary Oldman|Jeroen Krabbé|Isabella Rossellini,Bernard Rose
+250,Tom McGowan|Aaron Schwartz|Ben Stiller,Steven Brill
+251,Christopher Lambert|John Lone|Joan Chen,J.F. Lawton
+252,Tim Robbins|Meg Ryan|Walter Matthau,Fred Schepisi
+253,Brad Pitt|Tom Cruise|Antonio Banderas,Neil Jordan
+254,,
+255,,
+256,Arnold Schwarzenegger|Danny DeVito|Emma Thompson,Ivan Reitman
+257,Sean Connery|Laurence Fishburne|Kate Capshaw,Arne Glimcher
+258,Thomas Ian Nicholas|Joss Ackland|Art Malik,Michael Gottlieb
+259,David Caruso|Samuel L. Jackson|Nicolas Cage,Barbet Schroeder
+260,,
+261,Susan Sarandon|Winona Ryder|Kirsten Dunst,Gillian Armstrong
+262,Liesel Matthews|Eleanor Bron|Liam Cunningham,Alfonso Cuarón
+263,Crissy Rock|Vladimir Vega|Sandie Lavelle,Ken Loach
+264,,
+265,Marco Leonardi|Lumi Cavazos|Regina Torné,Alfonso Arau
+266,Brad Pitt|Anthony Hopkins|Aidan Quinn,Edward Zwick
+267,Damon Wayans|Michael Ironside|Bam Bam Bigelow,Nick Castle
+268,Tim Roth|Edward Furlong|Moira Kelly,James Gray
+269,Angel Aviles|Seidy Lopez|Jacob Vargas,Allison Anders
+270,Warren Beatty|Annette Bening|Katharine Hepburn,Glenn Gordon Caron
+271,Jessica Lange|Halle Berry|David Strathairn,Stephen Gyllenhaal
+272,,
+273,Robert De Niro|Kenneth Branagh|Helena Bonham Carter,Kenneth Branagh
+274,Chevy Chase|Farrah Fawcett|Jonathan Taylor Thomas,James Orr
+275,Steve Martin|Madeline Kahn|Robert Klein,Nora Ephron
+276,,
+277,Richard Attenborough|Elizabeth Perkins|Dylan McDermott,Les Mayfield
+278,Sarah Jessica Parker|Mia Farrow|Antonio Banderas,David Frankel
+279,Jimmy Smits|Esai Morales|Edward James Olmos,Gregory Nava
+280,Christian Slater|Kevin Bacon|Gary Oldman,Marc Rocco
+281,Paul Newman|Bruce Willis|Jessica Tandy,Robert Benton
+282,Jodie Foster|Liam Neeson|Natasha Richardson,Michael Apted
+283,Shar-Ron Corley|Gabriel Casseus|Saul Stein,Nick Gomez
+284,Tôru Nakamura|Chad McQueen|Mira Sorvino,Tôru Murakawa
+285,Craig Fairbrass|Elizabeth Hurley|Keith Allen,Vadim Jean
+286,Sue Price|Chad Stahelski|Tina Cote,Albert Pyun
+287,Laura San Giacomo|Paul Rhys|Michael O&apos;Keefe,Alan Jacobs
+288,Woody Harrelson|Juliette Lewis|O-Lan Jones,Oliver Stone
+289,Marisa Tomei|Robert Downey Jr.|Bonnie Hunt,Norman Jewison
+290,Rena Owen|Temuera Morrison|Mamaengaroa Kerr-Bell,Lee Tamahori
+291,Alyssa Milano|Johnathon Schaech|Xander Berkeley,Anne Goursaud
+292,Dustin Hoffman|Rene Russo|Morgan Freeman,Wolfgang Petersen
+293,Jean Reno|Gary Oldman|Natalie Portman,Luc Besson
+294,,
+295,William Baldwin|John Leguizamo|Sadie Frost,Joshua Brand
+296,John Travolta|Uma Thurman|Samuel L. Jackson,Quentin Tarantino
+297,Kadeem Hardison|Bokeem Woodbine|Joe Don Baker,Mario Van Peebles
+298,Sihung Lung|Lai Wang|Bozhao Wang,Ang Lee
+299,Linus Roache|Tom Wilkinson|Robert Carlyle,Antonia Bird
+300,Ralph Fiennes|John Turturro|Rob Morrow,Robert Redford
+301,Yûki Kudô|Akira Takayama|Cary-Hiroyuki Tagawa,Kayo Hatta
+302,Isabelle Adjani|Daniel Auteuil|Jean-Hugues Anglade,Patrice Chéreau
+303,,
+304,,
+305,Sophia Loren|Julia Roberts|Marcello Mastroianni,Robert Altman
+306,Irène Jacob|Jean-Louis Trintignant|Frédérique Feder,Krzysztof Kieslowski
+307,,
+308,Zbigniew Zamachowski|Julie Delpy|Janusz Gajos,Krzysztof Kieslowski
+309,Jing Ning|Gang Wu|Xiaorui Zhao,Ping He
+310,Leslie Nielsen|Christopher Lloyd|Matt McCoy,Fred Gerber
+311,Darlanne Fluegel|Martin Neufeld|James Brolin,George Mihalka
+312,Al Franken|Laura San Giacomo|Vincent D&apos;Onofrio,Harold Ramis
+313,,
+314,Jeni Courtney|Eileen Colgan|Mick Lally,John Sayles
+315,Sylvester Stallone|Sharon Stone|James Woods,Luis Llosa
+316,Kurt Russell|James Spader|Jaye Davidson,Roland Emmerich
+317,Tim Allen|Judge Reinhold|Wendy Crewson,John Pasquin
+318,Tim Robbins|Morgan Freeman|Bob Gunton,Frank Darabont
+319,Kerry Fox|Christopher Eccleston|Ewan McGregor,Danny Boyle
+320,Dennis Haysbert|Mel Harris|Sab Shimono,Scott McGehee|David Siegel
+321,Jorge Perugorría|Vladimir Cruz|Mirta Ibarra,Tomás Gutiérrez Alea|Juan Carlos Tabío
+322,Kevin Spacey|Frank Whaley|Michelle Forbes,George Huang
+324,Jack Thompson|Russell Crowe|John Polson,Geoff Burton|Kevin Dowling
+325,Matt Frewer|Valerie Mahaffey|Lawrence Dane,Kelly Makin
+326,You Ge|Gong Li|Ben Niu,Yimou Zhang
+327,Lori Petty|Ice-T|Naomi Watts,Rachel Talalay
+328,Billy Zane|William Sadler|Jada Pinkett Smith,Ernest R. Dickerson
+329,Patrick Stewart|William Shatner|Malcolm McDowell,David Carson
+330,Clarence Williams III|Corbin Bernsen|Joe Torry,Rusty Cundieff
+331,Willem Dafoe|Miranda Richardson|Rosemary Harris,Brian Gilbert
+332,,
+333,,
+334,Wallace Shawn|Phoebe Brand|George Gaynes,Louis Malle
+335,Peter Gallagher|Elisabeth Shue|Alison Elliott,Steven Soderbergh
+336,Allen Payne|Eddie Griffin|Joe Morton,Preston A. Whitmore II
+337,Johnny Depp|Leonardo DiCaprio|Juliette Lewis,Lasse Hallström
+338,Denzel Washington|Russell Crowe|Kelly Lynch,Brett Leonard
+339,,
+340,Elijah Wood|Kevin Costner|Mare Winningham,Jon Avnet
+341,Sandra Oh|Stephen Chang|Claudette Carracedo,Mina Shum
+342,,
+343,,
+344,Jim Carrey|Courteney Cox|Sean Young,Tom Shadyac
+345,Hugo Weaving|Guy Pearce|Terence Stamp,Stephan Elliott
+346,Stephen Dorff|Sheryl Lee|Ian Hart,Iain Softley
+347,Hugh Grant|Kristin Scott Thomas|Emmanuelle Seigner,Roman Polanski
+348,John Cusack|Dianne Wiest|Jennifer Tilly,Woody Allen
+349,Harrison Ford|Willem Dafoe|Anne Archer,Phillip Noyce
+350,Susan Sarandon|Tommy Lee Jones|Brad Renfro,Joel Schumacher
+351,Ray Liotta|Whoopi Goldberg|Tina Majorino,Jessie Nelson
+352,Alfre Woodard|Delroy Lindo|David Patrick Kelly,Spike Lee
+353,Brandon Lee|Michael Wincott|Rochelle Davis,Alex Proyas
+354,,
+355,John Goodman|Rick Moranis|Rosie O&apos;Donnell,Brian Levant
+356,Tom Hanks|Robin Wright|Gary Sinise,Robert Zemeckis
+357,Hugh Grant|Andie MacDowell|James Fleet,Mike Newell
+358,Omar Epps|Kristy Swanson|Michael Rapaport,John Singleton
+359,,
+360,Nick Nolte|Julia Roberts|Saul Rubinek,Charles Shyer
+361,Nicolas Cage|Bridget Fonda|Rosie Perez,Andrew Bergman
+362,Jason Scott Lee|Cary Elwes|Lena Headey,Stephen Sommers
+363,,
+364,Matthew Broderick|Jeremy Irons|James Earl Jones,Roger Allers|Rob Minkoff
+365,Keanu Reeves|Bridget Fonda|Ruocheng Ying,Bernardo Bertolucci
+366,Heather Langenkamp|Robert Englund|Jf Davis,Wes Craven
+367,Jim Carrey|Cameron Diaz|Peter Riegert,Chuck Russell
+368,Mel Gibson|Jodie Foster|James Garner,Richard Donner
+369,Jennifer Jason Leigh|Campbell Scott|Matthew Broderick,Alan Rudolph
+370,Leslie Nielsen|Priscilla Presley|George Kennedy,Peter Segal
+371,,
+372,Winona Ryder|Ethan Hawke|Janeane Garofalo,Ben Stiller
+373,Nicolas Cage|Dennis Hopper|Lara Flynn Boyle,John Dahl
+374,Macaulay Culkin|Edward Herrmann|John Larroquette,Donald Petrie
+375,Susan Sarandon|Sam Shepard|Nick Stahl,Robert Allan Ackerman
+376,Meryl Streep|Kevin Bacon|David Strathairn,Curtis Hanson
+377,Keanu Reeves|Dennis Hopper|Sandra Bullock,Jan de Bont
+378,Michael Keaton|Geena Davis|Christopher Reeve,Ron Underwood
+379,Jean-Claude Van Damme|Mia Sara|Ron Silver,Peter Hyams
+380,Arnold Schwarzenegger|Jamie Lee Curtis|Tom Arnold,James Cameron
+381,,
+382,Jack Nicholson|Michelle Pfeiffer|James Spader,Mike Nichols
+383,Kevin Costner|Dennis Quaid|Gene Hackman,Lawrence Kasdan
+384,Ellen Barkin|Laurence Fishburne|Frank Langella,Damian Harris
+385,Albert Finney|Brenda Fricker|Michael Gambon,Suri Krishnamma
+386,,
+387,,
+388,James Andrews|Mary Beth Aylesworth|Mike Barbour,Robert Lee King|Raoul O&apos;Connell|Brian Sloan
+389,Gérard Depardieu|Fanny Ardant|Fabrice Luchini,Yves Angelo
+390,,
+391,Allen Payne|Jada Pinkett Smith|Bokeem Woodbine,Doug McHenry
+392,Nick Upton|Deborah Collard|Frank Passingham,Dave Borthwick
+393,Jean-Claude Van Damme|Raul Julia|Ming-Na Wen,Steven E. de Souza
+394,Jason Priestley|Kimberly Williams-Paisley|Peter Riegert,Wallace Wolodarsky
+395,Adam Ant|Heather Graham|Jessica Hamilton,Michael A. Nickles
+396,Steve Alden|David Arquette|Stephen Baldwin,Paul Warner
+397,Eddie Bowz|Heather Medway|Ann Turkel,Vincent Robert
+398,Frank Thomas|Ollie Johnston|Sylvia Roemer,Theodore Thomas
+399,Erika Eleniak|William McNamara|Michael Lerner,Lucas Platt
+400,Blythe Danner|Frank Whaley|Sheryl Lee,Ross Kagan Marks
+401,James Andronica|Cuauhtemoc Rivas|Edward James Olmos,Paul Williams
+402,Lloyd Adams|Robert Wuhl|Eric Bryson,Robert Wuhl
+403,,
+404,,
+405,Christopher Lambert|Mario Van Peebles|Deborah Kara Unger,Andrew Morahan
+406,Nicholas Turturro|Anthony DeSando|Libby Langdon,Michael Corrente
+407,Sam Neill|Jürgen Prochnow|Julie Carmen,John Carpenter
+408,Luke Perry|Stephen Baldwin|James Rebhorn,John G. Avildsen
+409,Duane Martin|Tupac Shakur|Leon,Jeff Pollack
+410,Anjelica Huston|Raul Julia|Christopher Lloyd,Barry Sonnenfeld
+411,Martin Lawrence,Thomas Schlamme
+412,Daniel Day-Lewis|Michelle Pfeiffer|Winona Ryder,Martin Scorsese
+413,Brendan Fraser|Steve Buscemi|Adam Sandler,Michael Lehmann
+414,Kevin Bacon|Charles Gitonga Maina|Yolanda Vazquez,Paul Michael Glaser
+415,Richard Dreyfuss|Emilio Estevez|Rosie O&apos;Donnell,John Badham
+416,Madeleine Stowe|Mary Stuart Masterson|Andie MacDowell,Jonathan Kaplan
+417,Taylor Nichols|Chris Eigeman|Tushka Bergen,Whit Stillman
+418,Robin Williams|John Turturro|Kelly Hunter,Bill Forsyth
+419,Diedrich Bader|Erika Eleniak|Jim Varney,Penelope Spheeris
+420,Eddie Murphy|Jon Tenney|Joey Travolta,John Landis
+421,Sean Bean|David Thewlis|Docs Keepin Time,Caroline Thompson
+422,Madeleine Stowe|Aidan Quinn|James Remar,Michael Apted
+423,Jeff Bridges|Tommy Lee Jones|Suzy Amis,Stephen Hopkins
+424,Nick Nolte|Mary McDonnell|J.T. Walsh,William Friedkin
+425,Jessica Lange|Tommy Lee Jones|Powers Boothe,Tony Richardson
+426,Gabrielle Anwar|Meg Tilly|Terry Kinney,Abel Ferrara
+427,Julian Sands|Sherilyn Fenn|Bill Paxton,Jennifer Lynch
+428,Robert De Niro|Chazz Palminteri|Lillo Brancato,Robert De Niro
+429,Chris Elliott|Ritch Brinkley|James Gammon,Adam Resnick
+430,Jason Priestley|Gabriel Olds|Jerry O&apos;Connell,John Whitesell
+431,Al Pacino|Sean Penn|Penelope Ann Miller,Brian De Palma
+432,Billy Crystal|Jack Palance|Daniel Stern,Paul Weiland
+433,,
+434,Sylvester Stallone|John Lithgow|Michael Rooker,Renny Harlin
+435,Dan Aykroyd|Jane Curtin|Robert Knott,Steve Barron
+436,Bruce Willis|Jane March|Rubén Blades,Richard Rush
+437,Chevy Chase|Jack Palance|Dianne Wiest,Michael Ritchie
+438,Woody Harrelson|Kiefer Sutherland|Dylan McDermott,Gregg Champion
+439,Harvey Keitel|Madonna|James Russo,Abel Ferrara
+440,Kevin Kline|Sigourney Weaver|Frank Langella,Ivan Reitman
+441,,
+442,Sylvester Stallone|Wesley Snipes|Sandra Bullock,Marco Brambilla
+443,,
+444,Uma Thurman|Lorraine Bracco|Pat Morita,Gus Van Sant
+445,Armand Assante|Sherilyn Fenn|Kate Nelligan,Carl Reiner
+446,Leslie Cheung|Fengyi Zhang|Gong Li,Kaige Chen
+447,,
+448,Jeff Bridges|Isabella Rossellini|Rosie Perez,Peter Weir
+449,Larry B. Scott|Mark Christopher Lawrence|Rusty Cundieff,Rusty Cundieff
+450,,
+451,Dennis Quaid|Meg Ryan|James Caan,Steve Kloves
+452,Joan Plowright|Mia Farrow|Natasha Richardson,John Irvin
+453,Michael J. Fox|Gabrielle Anwar|Anthony Higgins,Barry Sonnenfeld
+454,Tom Cruise|Jeanne Tripplehorn|Gene Hackman,Sydney Pollack
+455,Jason James Richter|Lori Petty|Michael Madsen,Simon Wincer
+456,,
+457,Harrison Ford|Tommy Lee Jones|Sela Ward,Andrew Davis
+458,,
+459,Alec Baldwin|Kim Basinger|Michael Madsen,Roger Donaldson
+460,,
+461,V.S. Brodie|Guinevere Turner|T. Wendy McMillan,Rose Troche
+462,,
+463,Rebecca De Mornay|Don Johnson|Stephen Lang,Sidney Lumet
+464,Jean-Claude Van Damme|Lance Henriksen|Yancy Butler,John Woo
+465,Hiep Thi Le|Tommy Lee Jones|Haing S. Ngor,Oliver Stone
+466,Charlie Sheen|Lloyd Bridges|Valeria Golino,Jim Abrahams
+467,Dana Delany|Kim Cattrall|Cynthia Stevenson,Julianna Lavin
+468,Hugh Grant|Tara Fitzgerald|Colm Meaney,Christopher Monger
+469,Jeremy Irons|Meryl Streep|Maria Conchita Alonso,Bille August
+470,Christopher Reid|Christopher Martin|David Edwards,Eric Meza
+471,Tim Robbins|Paul Newman|Jennifer Jason Leigh,Joel Coen|Ethan Coen
+472,Nick Nolte|Albert Brooks|Whittni Wright,James L. Brooks
+473,Pauly Shore|Lori Petty|Andy Dick,Daniel Petrie Jr.
+474,Clint Eastwood|John Malkovich|Rene Russo,Wolfgang Petersen
+475,Daniel Day-Lewis|Pete Postlethwaite|Alison Crosbie,Jim Sheridan
+476,Larenz Tate|Joe Morton|Suzzanne Douglas,Matty Rich
+477,Angela Bassett|Laurence Fishburne|RaéVen Kelly,Brian Gibson
+478,Joe Pesci|Christian Slater|Victoria Abril,Barry Levinson
+479,Emilio Estevez|Cuba Gooding Jr.|Denis Leary,Stephen Hopkins
+480,Sam Neill|Laura Dern|Jeff Goldblum,Steven Spielberg
+481,Brad Pitt|Juliette Lewis|Kathy Larson,Dominic Sena
+482,Eric Stoltz|Julie Delpy|Martin Raymond,Roger Avary
+483,Jesse Bradford|Jeroen Krabbé|Lisa Eichhorn,Steven Soderbergh
+484,Helen Slater|Tom Guiry|Jon Tenney,Daniel Petrie
+485,Arnold Schwarzenegger|F. Murray Abraham|Art Carney,John McTiernan
+486,Michael J. Fox|Christina Vidal|Nathan Lane,James Lapine
+487,Paul Hogan|Cuba Gooding Jr.|Beverly D&apos;Angelo,Simon Wincer
+488,,
+489,Whoopi Goldberg|Ted Danson|Will Smith,Richard Benjamin
+490,Alec Baldwin|Nicole Kidman|Bill Pullman,Harold Becker
+491,Mel Gibson|Nick Stahl|Margaret Whitton,Mel Gibson
+492,Woody Allen|Diane Keaton|Jerry Adler,Woody Allen
+493,Tyrin Turner|Larenz Tate|June Kyoto Lu,Albert Hughes|Allen Hughes
+494,Kurt Russell|Halle Berry|Steven Seagal,Stuart Baird
+495,Tatsuya Fuji|Eiko Matsuda|Aoi Nakajima,Nagisa Ôshima
+496,Tom Noonan|Karen Sillas,Tom Noonan
+497,Kenneth Branagh|Emma Thompson|Keanu Reeves,Kenneth Branagh
+498,Richard Gere|Lena Olin|Anne Bancroft,Mike Figgis|Jon Amiel
+499,Matt Dillon|Annabella Sciorra|Mary-Louise Parker,Anthony Minghella
+500,,
+501,David Thewlis|Lesley Sharp|Katrin Cartlidge,Mike Leigh
+502,Pat Morita|Hilary Swank|Michael Ironside,Christopher Cain
+503,Peter Weller|Judy Davis|Patrick Bauchau,Michael Tolkin
+504,Ray Liotta|Lance Henriksen|Stuart Wilson,Martin Campbell
+505,,
+506,Tilda Swinton|Billy Zane|Quentin Crisp,Sally Potter
+507,Kevin Costner|Clint Eastwood|Laura Dern,Clint Eastwood
+508,Tom Hanks|Denzel Washington|Roberta Maxwell,Jonathan Demme
+509,Holly Hunter|Harvey Keitel|Sam Neill,Jane Campion
+510,Janet Jackson|Tupac Shakur|Regina King,John Singleton
+511,James Caan|Halle Berry|Omar Epps,David S. Ward
+512,Donald Sutherland|Eric Thal|Julie Warner,Stuart Orme
+513,Brian Benben|Mary Stuart Masterson|Ned Beatty,Mel Smith
+514,Denis Leary|Judy Davis|Kevin Spacey,Ted Demme
+515,Anthony Hopkins|Emma Thompson|John Haycraft,James Ivory
+516,Danny DeVito|Gregory Hines|James Remar,Penny Marshall
+517,Sean Connery|Wesley Snipes|Harvey Keitel,Philip Kaufman
+518,Anthony Hopkins|Bridget Fonda|Matthew Broderick,Alan Parker
+519,Robert John Burke|Nancy Allen|Mario Machado,Fred Dekker
+520,Cary Elwes|Richard Lewis|Roger Rees,Mel Brooks
+521,Gary Oldman|Lena Olin|Wallace Wood,Peter Medak
+522,Russell Crowe|Daniel Pollock|Jacqueline McKenzie,Geoffrey Wright
+523,,
+524,Sean Astin|Jon Favreau|Ned Beatty,David Anspaugh
+525,Danny Glover|Matt Dillon|Rick Aviles,Tim Hunter
+526,Cyril Collard|Romane Bohringer|Carlos López,Cyril Collard
+527,Liam Neeson|Ralph Fiennes|Ben Kingsley,Steven Spielberg
+528,Albert Brooks|Brendan Fraser|Dianne Wiest,Michael Ritchie
+529,,
+530,William Hurt|Nathan Yapp|Keith Allen,Chris Menges
+531,Kate Maberly|Maggie Smith|Heydon Prowse,Agnieszka Holland
+532,Kathleen Turner|Sam Waterston|Ricki Lake,John Waters
+533,,
+534,Anthony Hopkins|Debra Winger|Julian Fellowes,Richard Attenborough
+535,Andie MacDowell|Julianne Moore|Tim Robbins,Robert Altman
+536,Steve Martin|Gabriel Byrne|Laura Linney,Gillies MacKinnon
+537,,
+538,Will Smith|Stockard Channing|Donald Sutherland,Fred Schepisi
+539,Tom Hanks|Meg Ryan|Ross Malinger,Nora Ephron
+540,Sharon Stone|William Baldwin|Tom Berenger,Phillip Noyce
+541,Harrison Ford|Rutger Hauer|Sean Young,Ridley Scott
+542,Pauly Shore|Carla Gugino|Lane Smith,Steve Rash
+543,Mike Myers|Nancy Travis|Anthony LaPaglia,Thomas Schlamme
+544,Bruce Willis|Sarah Jessica Parker|Dennis Farina,Rowdy Herrington
+545,Nastassja Kinski|Ben Kingsley|Dennis Goldson,Arthur Joffé
+546,Bob Hoskins|John Leguizamo|Dennis Hopper,Annabel Jankel|Rocky Morton
+547,,
+548,Charlie Sheen|Nastassja Kinski|James Gandolfini,Deran Sarafian
+549,Colm Feore|Derek Keurvorst|Katya Ladan,François Girard
+550,Lara Flynn Boyle|Josh Charles|Stephen Baldwin,Andrew Fleming
+551,Danny Elfman|Chris Sarandon|Catherine O&apos;Hara,Henry Selick
+552,,
+553,,
+554,,
+555,Christian Slater|Patricia Arquette|Dennis Hopper,Tony Scott
+556,James Carville|George Stephanopoulos|Heather Beckel,Chris Hegedus|D.A. Pennebaker
+558,Macaulay Culkin|Christopher Lloyd|Kanin Howell,Pixote Hunt|Joe Johnston
+559,Leslie Hope|Peter Outerbridge|Victor Ertmanis,Jerry Ciccoritti
+560,Martha Plimpton|Kelly Lynch|Rutger Hauer,Jennifer Warren
+561,Anthony LaPaglia|Mimi Rogers|Matt Craven,Mark Malone
+562,,
+563,,
+564,,
+565,Federico Luppi|Ron Perlman|Claudio Brook,Guillermo del Toro
+566,,
+567,Peter Coyote|Verónica Forqué|Victoria Abril,Pedro Almodóvar
+568,,
+569,Luke Edwards|Timothy Busfield|John Ashton,Andrew Scheinman
+570,Jesper Salén|Stellan Skarsgård|Basia Frydman,Åke Sandgren
+571,Julie Walters|Jim Broadbent|Thora Hird,Richard Loncraine
+572,Robin Givens|Marco Hofschneider|Rick Johnson,Eva Sereny
+573,Paolo Villaggio|Isa Danieli|Gigio Morra,Lina Wertmüller
+574,Jeremy Davies|Alberta Watson|Benjamin Hendrickson,David O. Russell
+575,Travis Tedford|Bug Hall|Brittany Ashton Holmes,Penelope Spheeris
+576,Kên Higelin|Jean Yanne|Florence Darel,Rémy Duchemin
+577,Tina Majorino|Keith Carradine|Chelsea Field,George Miller
+579,,
+580,Phoebe Cates|Jim Broadbent|Wendy Hughes,Michael Austin
+581,Lily Tomlin|Tony Curtis|Susie Bright,Rob Epstein|Jeffrey Friedman
+582,Julie Mauduech|Hubert Koundé|Mathieu Kassovitz,Mathieu Kassovitz
+583,Nanni Moretti|Renato Carpentieri|Antonio Neiwiller,Nanni Moretti
+584,Marcello Mastroianni|Luisina Brando|Alejandra Podesta,María Luisa Bemberg
+585,Shelley Long|Gary Cole|Christine Taylor,Betty Thomas
+586,Macaulay Culkin|Joe Pesci|Daniel Stern,Chris Columbus
+587,,
+588,Scott Weinger|Robin Williams|Linda Larkin,Ron Clements|John Musker
+589,Arnold Schwarzenegger|Linda Hamilton|Edward Furlong,James Cameron
+590,Kevin Costner|Mary McDonnell|Graham Greene,Kevin Costner
+591,Billy Blanks|Roddy Piper|Richard Norton,Steve Cohen
+592,Michael Keaton|Jack Nicholson|Kim Basinger,Tim Burton
+593,Jodie Foster|Anthony Hopkins|Scott Glenn,Jonathan Demme
+594,Adriana Caselotti|Harry Stockwell|Lucille La Verne,William Cottrell|David Hand|Wilfred Jackson
+595,Paige O&apos;Hara|Robby Benson|Jesse Corti,Gary Trousdale|Kirk Wise
+596,Dickie Jones|Christian Rub|Mel Blanc,Norman Ferguson|T. Hee|Wilfred Jackson
+597,Richard Gere|Julia Roberts|Jason Alexander,Garry Marshall
+598,Sergey Dreyden|Agnès Soral|Viktor Mikhailov,Yuri Mamin|Arkadiy Tigay
+599,William Holden|Ernest Borgnine|Robert Ryan,Sam Peckinpah
+600,Gil Bellows|Renée Zellweger|Rory Cochrane,C.M. Talkington
+601,,
+602,,
+603,Matthew Modine|Randy Quaid|Paul Reiser,Sam Weisman
+604,Louise Smith,Joseph Strick
+605,Michelle Pfeiffer|George Clooney|Mae Whitman,Michael Hoffman
+606,Tony Todd|Kelly Rowan|Caroline Barclay,Bill Condon
+607,Charles Dance|Clive Owen|Miranda Richardson,Stephen Poliakoff
+608,William H. Macy|Frances McDormand|Steve Buscemi,Joel Coen|Ethan Coen
+609,Michael J. Fox|Sally Field|Ralph Waite,David R. Ellis
+610,Richard Romanus|John Candy|Joe Flaherty,Gerald Potterton|John Bruno|John Halas
+611,Bruce Ramsay|Valentina Vargas|Doug Bradley,Kevin Yagher
+612,David Schwimmer|Gwyneth Paltrow|Michael Rapaport,Matt Reeves
+613,William Hurt|Charlotte Gainsbourg|Anna Paquin,Franco Zeffirelli
+614,Oliver Milburn|Dearbhla Molloy|Danny Cunningham,Anna Campion
+615,,
+616,Phil Harris|Eva Gabor|Sterling Holloway,Wolfgang Reitherman
+617,,
+618,Antonio Banderas|Melanie Griffith|Daryl Hannah,Fernando Trueba
+619,Matt LeBlanc|Jayne Brook|Gene Ross,Bill Couturié
+620,Vittorio Mezzogiorno|Stefan Glowacz|Mathilda May,Werner Herzog
+621,Catherine Deneuve|Daniel Auteuil|Marthe Villalonga,André Téchiné
+623,,
+624,James Russo|Cynda Williams|Paul Calderon,Mika Kaurismäki
+625,Selim Boughedir|Mustapha Adouani|Rabiah Ben-Abdullah,Férid Boughedir
+626,Martin Lawrence|Lynn Whitfield|Regina King,Martin Lawrence
+627,,
+628,Richard Gere|Laura Linney|Edward Norton,Gregory Hoblit
+629,Maurice Dean Wint|Rachael Crawford|Clark Johnson,Clement Virgo
+630,,
+631,Charlie Sheen|Sheena Easton|Dom DeLuise,Larry Leker|Paul Sabella
+632,,
+633,Tim Daly|Caroleen Feeney|Dan Gunther,Hal Salwen
+634,Whoopi Goldberg|Armin Mueller-Stahl|Juliet Landau,Jonathan R. Betuel
+635,Robert Duvall|James Earl Jones|Michael Beach,Richard Pearce
+636,Michael Gunther|Craig Chester|Michael Stock,Todd Verow
+637,Steve Martin|Dan Aykroyd|Phil Hartman,Jonathan Lynn
+638,Richard E. Grant|Samantha Mathis|Judi Dench,Tim Sullivan
+639,Theresa Randle|Isaiah Washington|Spike Lee,Spike Lee
+640,Sharon Stone|Isabelle Adjani|Chazz Palminteri,Jeremiah S. Chechik
+641,Thierry Lhermitte|Ludwig Briand|Patrick Timsit,Hervé Palud
+642,Anica Dobra|Felicitas Grimm-Luck|Martin Umbach,Martin Enlen
+643,Ulrich Mühe|Iris Berben|Marita Marschall,Carlo Rola
+644,Erik Goertz|Anton Rattinger|Dieter Wardetzky,Ed Herzog
+645,Emmanuelle Béart|Michel Serrault|Jean-Hugues Anglade,Claude Sautet
+647,Denzel Washington|Meg Ryan|Lou Diamond Phillips,Edward Zwick
+648,Tom Cruise|Jon Voight|Emmanuelle Béart,Brian De Palma
+649,Masatoshi Nagase|Lili Taylor|Fisher Stevens,Friðrik Þór Friðriksson
+650,Robin Wright|Morgan Freeman|Stockard Channing,Pen Densham
+651,Veronica Ferres|Joachim Król|Richy Müller,Sönke Wortmann
+652,Pang Eun-jin|Hwang Sin-hye|Chu-Ryun Kim,Park Chul-Soo
+653,,
+654,Peter Ketnath|Nina Hoss|Steffen Schroeder,Joseph Vilsmaier
+655,Pauline Collins|George Tabori|Ulrich Tukur,Michael Verhoeven
+656,Whoopi Goldberg|Frank Langella|Dennis Farina,Steve Rash
+657,Leon Schuster|John Matshikiza|Wilson Dunster,Gray Hofmeyr
+658,Max Cullen|Kris McQuade|Tina Bursill,Richard Wherrett
+659,Alain Delon|Maurice Ronet|Marie Laforêt,René Clément
+660,Anthony Hopkins|Leslie Phillips|Kate Burton,Anthony Hopkins
+661,Paul Terry|Joanna Lumley|Pete Postlethwaite,Henry Selick
+662,Mark Wahlberg|Reese Witherspoon|William Petersen,James Foley
+663,Dave Foley|Bruce McCulloch|Kevin McDonald,Kelly Makin
+664,Cher|Chazz Palminteri|Ryan O&apos;Neal,Paul Mazursky
+665,Predrag &apos;Miki&apos; Manojlovic|Lazar Ristovski|Mirjana Jokovic,Emir Kusturica
+666,Johan Widerberg|Marika Lagercrantz|Tomas von Brömssen,Bo Widerberg
+667,Daniel Bernhardt|James Hong|Pat Morita,Alan Mehrez|Philip Tan
+668,Kanu Bannerjee|Karuna Bannerjee|Subir Banerjee,Satyajit Ray
+670,Soumitra Chatterjee|Sharmila Tagore|Alok Chakravarty,Satyajit Ray
+671,Trace Beaulieu|Michael J. Nelson|Jim Mallon,Jim Mallon
+672,Mira Sorvino|Rose Gregorio|Matthew Lillard,Helen De Michiel
+673,,
+674,,
+675,Tia Carrere|Rigg Kennedy|Lisa Dean Ryan,Catherine Cyran
+676,Donna Frotscher|Nick Baldasare|Christina Veronica,Brett Piper
+678,Billy Bob Thornton|Molly Ringwald|J.T. Walsh,George Hickenlooper
+679,Albert Finney|Matt Keeslar|Victoria Smurfit,Peter Yates
+680,,
+681,Philippe Noiret|Isabelle Huppert|Stéphane Audran,Bertrand Tavernier
+682,Samuel Fuller|Jim Jarmusch,Mika Kaurismäki
+683,Michel Bouquet|Brian Cox|Maquisard Alfonso,Claude Chabrol
+684,Talia Shire|Joe Cortese|Elizabeth Ashley,Gordon Willis
+685,Eric Roberts|Gregory Harrison|Margaret Cho,Randal Kleiser
+687,,
+688,Danny Glover|Ray Liotta|Denis Leary,Simon Wincer
+690,Corinna Harfouch|Meret Becker|August Zirner,Margarethe von Trotta
+691,Shirley MacLaine|Ricki Lake|Brendan Fraser,Richard Benjamin
+692,Mario Van Peebles|William Sadler|Barry Corbin,Norberto Barba
+693,Gila Almagor|Kaipu Cohen|Juliano Mer-Khamis,Eli Cohen
+694,,
+695,Alicia Silverstone|Kevin Dillon|Bill Nunn,Pat Verducci
+696,Amanda Plummer|Kathy Jamieson|Saskia Reeves,Michael Winterbottom
+697,Keanu Reeves|Vincent D&apos;Onofrio|Cameron Diaz,Steven Baigelman
+698,Audie England|Costas Mandylor|Eric da Silva,Zalman King
+699,Patricia Royce|Lorraine Devon Wilke|JD Souther,Barry Caillier
+700,Charlie Talbert|George C. Scott|Kathy Bates,Patrick Read Johnson
+701,Jan Decleir|Gérard Desarthe|Antje de Boeck,Stijn Coninx
+702,John Marley|Gena Rowlands|Lynn Carlin,John Cassavetes
+703,Winona Ryder|Lukas Haas|John C. Reilly,Stacy Cochran
+704,,
+705,Ben Mendelsohn|Barry Otto|Toni Collette,Mark Joffe
+706,Rhea Perlman|Fredro Starr|Carol Kane,Steve Gomer
+707,Nick Nolte|Melanie Griffith|Jennifer Connelly,Lee Tamahori
+708,,
+709,,
+710,Damon Wayans|Daniel Stern|Dan Aykroyd,Tom DeCerchio
+711,Paul Hogan|Elijah Wood|Jonathan Banks,Alan Shapiro
+712,Julia Ormond|Tim Roth|Keith Allen,Angela Pope
+713,Antonio Banderas|Jennifer Connelly|Stefania Sandrelli,Betty Kaplan
+714,Johnny Depp|Gary Farmer|Crispin Glover,Jim Jarmusch
+715,Olivier Martinez|Juliette Binoche|Pierre Arditi,Jean-Paul Rappeneau
+716,Robbie Lee|Joanne Nail|Monica Gayle,Jack Hill
+717,Javier Bardem|Aitana Sánchez-Gijón|Josep Maria Flotats,Manuel Gómez Pereira
+718,Christian Clavier|Jean Reno|Valérie Lemercier,Jean-Marie Poiré
+719,Michael Keaton|Andie MacDowell|Zack Duhame,Harold Ramis
+720,,
+721,Samir Guesmi|Khaled Ksouri|Sondos Belhassen,Frieder Schlaich|Irene von Alberti
+722,Maila Nurmi|Dolores Fuller|Paul Marco,Brett Thompson
+723,Kris Bidenko|Emma Coles|Kris McQuade,Jane Campion
+724,Robin Tunney|Fairuza Balk|Neve Campbell,Andrew Fleming
+725,Samuel L. Jackson|Jeff Goldblum|Damon Wayans,Reginald Hudlin
+726,Sharon Stone|Rob Morrow|Randy Quaid,Bruce Beresford
+727,,
+728,Eileen Atkins|Kate Beckinsale|Sheila Burrell,John Schlesinger
+729,Mark Rylance|Alice Krige|Gottfried John,Stephen Quay|Timothy Quay|Weiser Quay
+730,,John L&apos;Ecuyer
+731,,
+732,Fred Williamson|Jim Brown|Pam Grier,Larry Cohen|Fred Williamson
+733,,
+734,Jack Lemmon|Dan Aykroyd|Lily Tomlin,Harvey Miller
+735,Rupert Everett|François Hadji-Lazaro|Anna Falchi,Michele Soavi
+736,Helen Hunt|Bill Paxton|Jami Gertz,Jan de Bont
+737,,
+738,Gérard Depardieu|Géraldine Pailhas|Antoine Pialat,Maurice Pialat
+739,Veronica Ferres|Anica Dobra|Julia Stemberger,Gabriel Barylli
+741,Atsuko Tanaka|Iemasa Kayumi|Akio Ôtsuka,Mamoru Oshii
+742,,
+743,Leslie Nielsen|Nicollette Sheridan|Charles Durning,Rick Friedberg
+744,Om Puri|Pawan Malhotra|Angeline Ball,Udayan Prasad
+745,Peter Sallis|Anne Reid|Justin Fletcher,Nick Park
+746,,
+747,Tom Arnold|Jessica Lundy|Bug Hall,John Landis
+748,,
+749,Charles Laughton|Binnie Barnes|Richard Carlson,Robert Z. Leonard
+750,Peter Sellers|George C. Scott|Sterling Hayden,Stanley Kubrick
+751,,
+752,George Thrush|Marya Cohn|Ann O&apos;Brien,John O&apos;Brien
+753,,
+754,Christina Ricci|Anna Chlumsky|Polly Draper,Kevin James Dobson
+755,Errol Flynn|Dean Stockwell|Paul Lukas,Victor Saville
+756,Helena Solberg|Eric Barreto|Cynthia Adler,Helena Solberg
+757,Brigitte Lin|Maggie Cheung|Leslie Cheung,Kar-Wai Wong
+758,Behzad Khodaveisi|Fatemeh Azrah|Abbas Khavaninzadeh,Ebrahim Forouzesh
+759,Maya Lin,Freida Lee Mock
+760,Dominique Horwitz|Thomas Kretschmann|Jochen Nickel,Joseph Vilsmaier
+761,Billy Zane|Kristy Swanson|Treat Williams,Simon Wincer
+762,Demi Moore|Burt Reynolds|Armand Assante,Andrew Bergman
+763,Catherine O&apos;Hara|Jared Leto|Christina Ricci,David Keating
+764,,
+765,Robin Williams|Diane Lane|Brian Kerwin,Francis Ford Coppola
+766,Lili Taylor|Jared Harris|Martha Plimpton,Mary Harron
+767,Piper Laurie|Sissy Spacek|Walter Matthau,Charles Matthau
+768,Tom Conti|Predrag &apos;Miki&apos; Manojlovic|María Casares,Goran Paskaljevic
+769,Marlene Dietrich|Maria Riva|David Riva,Chris Hunt
+770,Arturo Cámara|Silvia Morgan|Juan Muñiz,Julio de Fleischner
+771,Papa Wemba|Bibi Krubwa|Landu Nzunzimbu Matshia,Benoît Lamy|Mweze Ngangura
+772,,
+773,Magaye Niang|Myriam Niang|Christoph Colomb,Djibril Diop Mambéty
+774,Serge Yanogo|Rosine Yanogo|Joseph Nikiema,Gaston Kaboré
+775,Jane Fonda|Brigitte Bardot|Alain Delon,Federico Fellini|Louis Malle|Roger Vadim
+776,Victoria Foyt|Matt Salinger|Frances Fisher,Victoria Foyt|Henry Jaglom
+777,Chris Cooper|Patricia Clarkson|Kris Kristofferson,Robby Henson
+778,Ewan McGregor|Ewen Bremner|Jonny Lee Miller,Danny Boyle
+779,Jeanne Tripplehorn|Dylan McDermott|John Plumpis,Scott Winant
+780,Will Smith|Bill Pullman|Jeff Goldblum,Roland Emmerich
+781,Jeremy Irons|Liv Tyler|Carlo Cecchi,Bernardo Bertolucci
+782,Robert De Niro|Wesley Snipes|Ellen Barkin,Tony Scott
+783,Demi Moore|Jason Alexander|Mary Kay Bergman,Gary Trousdale|Kirk Wise
+784,Jim Carrey|Matthew Broderick|Leslie Mann,Ben Stiller
+785,Woody Harrelson|Randy Quaid|Bill Murray,Bobby Farrelly|Peter Farrelly
+786,Arnold Schwarzenegger|Vanessa Williams|James Caan,Chuck Russell
+787,Deborah Amos|Carma Hinton|Edward Stanley,Richard Gordon|Carma Hinton
+788,,
+789,Assumpta Serna|Dominique Sanda|Héctor Alterio,María Luisa Bemberg
+790,Kristin Scott Thomas|Claudiu Bleont|Olga Tudorache,Lucian Pintilie
+791,Leopold Kozlowski,Yale Strom
+792,,
+793,,
+794,Alex Del Rosario|Gandong Cervantes|Lawrence David,Mel Chionglo
+795,Rosie Perez|Harvey Keitel|Anthony Quinn,Alexandre Rockwell
+796,Robert McLane|Curt Gareth|Bo White,Christopher Larkin
+797,Jeanne Moreau|Michel Serrault|Luc Thuillier,Laurent Heynemann
+798,Sylvester Stallone|Amy Brenneman|Viggo Mortensen,Rob Cohen
+799,Michael J. Fox|Trini Alvarado|Peter Dobson,Peter Jackson
+800,Chris Cooper|Elizabeth Peña|Stephen Mendillo,John Sayles
+801,Michelle Trachtenberg|Rosie O&apos;Donnell|Gregory Smith,Bronwen Hughes
+802,John Travolta|Kyra Sedgwick|Forest Whitaker,Jon Turteltaub
+803,Catherine Keener|Anne Heche|Amy Braverman,Nicole Holofcener
+804,Edward Burns|Jennifer Aniston|John Mahoney,Edward Burns
+805,Matthew McConaughey|Sandra Bullock|Samuel L. Jackson,Joel Schumacher
+806,Dustin Hoffman|Dennis Franz|Sean Nelson,Michael Corrente
+807,Clara Bellar|Antoine Basler|Mathias Mégard,Éric Rohmer
+808,Thora Birch|Vincent Kartheiser|Dirk Benedict,Fraser C. Heston
+809,Laurence Fishburne|Stephen Baldwin|Will Patton,Kevin Hooks
+810,Shaquille O&apos;Neal|Francis Capra|Ally Walker,Paul Michael Glaser
+812,Gary Kemp|Sadie Frost|Aleksandr Kaydanovskiy,Ildikó Enyedi
+813,Bill Murray|Matthew McConaughey|Jerry Adler,Howard Franklin
+814,Scott Caan|Lee Nashold|Kevin Michael Richardson,Mitch Marcus
+815,Eric Roberts|Lisa Thornhill|Jason Gedrick,Jaime Hellman
+816,Sonia Braga|Patrick Malahide|Ion Caramitru,Nicolas Roeg
+818,Shelley Long|Gary Cole|Tim Matheson,Arlene Sanford
+819,Maurizio Nichetti|Elena Sofia Ricci|Amanda Sandrelli,Maurizio Nichetti
+820,Simone Signoret|Georges Marchal|Charles Vanel,Luis Buñuel
+821,Jennifer Taylor|Aaron Shields|Robert Peterson,Alex Graves
+822,,
+823,,
+824,André Eisermann|Udo Samel|Jeremy Clyde,Peter Sehr
+825,Christoph M. Ohrt|Carin C. Tietze|Tim Bergmann,Rolf Silber
+826,Christiane Hörbiger|Jennifer Nitsch|Lena Stolze,Peter Weck
+827,Catherine Deneuve|John Malkovich|Luís Miguel Cintra,Manoel de Oliveira
+828,Martin Landau|Jonathan Taylor Thomas|Geneviève Bujold,Steve Barron
+829,Jerry O&apos;Connell|Megan Ward|Billy West,John Payson
+830,,
+831,Guillermo Diaz|Frederick Weller|Brendan Corbalis,Nigel Finch
+832,Mel Gibson|Gary Sinise|Rene Russo,Ron Howard
+833,,
+834,Jermaine Hopkins|Brian Hooks|Claudia Kaleem,Doug Ellin
+835,,
+836,Keanu Reeves|Morgan Freeman|Rachel Weisz,Andrew Davis
+837,Danny DeVito|Rhea Perlman|Mara Wilson,Danny DeVito
+838,Gwyneth Paltrow|James Cosmo|Greta Scacchi,Douglas McGrath
+839,Vincent Perez|Mia Kirshner|Richard Brooks,Tim Pope
+840,,
+841,Pierre Brasseur|Alida Valli|Juliette Mayniel,Georges Franju
+842,Dennis Miller|Erika Eleniak|Angie Everhart,Gilbert Adler
+843,Lawrence Gilliard Jr.|Wendell Holmes|Barbara Gonzalez,John Rubino
+844,Wenli Jiang|Xingli Niu|Shaojun Tian,Li Yin
+845,Siqin Gaowa|Chung-Hua Tou|Jingwu Ma,Ho Yim
+846,Paul Austin|Robert John Burke|Martin Donovan,Hal Hartley
+847,Lara Flynn Boyle|Danny Nucci|Peter Dobson,Marcus DeLeon
+848,Alison Elliott|Ellen Burstyn|Marcia Gay Harden,Lee David Zlotoff
+849,Kurt Russell|Steve Buscemi|Stacy Keach,John Carpenter
+850,Le Van Loc|Tony Leung Chiu-wai|Nu Yên-Khê Tran,Anh Hung Tran
+851,,
+852,Kevin Costner|Rene Russo|Don Johnson,Ron Shelton
+853,Colin Friels|Miles Davis|Helen Buday,Rolf de Heer
+854,Kinuyo Tanaka|Teiji Takahashi|Yûko Mochizuki,Keisuke Kinoshita
+855,Nathalie Baye|Joachim Serreau|Félicie Pasotti,Nicole Garcia
+856,,
+857,Dan Zhao|Yinyan Wu|Daolin Sun,Junli Zheng
+858,Marlon Brando|Al Pacino|James Caan,Francis Ford Coppola
+859,Herb Caen|Thomas J. Cahill|Ronnie Davis,Jack O&apos;Connell
+860,Til Schweiger|Katja Riemann|Joachim Król,Sönke Wortmann
+861,Jackie Chan|Michelle Yeoh|Maggie Cheung,Stanley Tong
+862,Scarlett Johansson|Aleksa Palladino|Mary Kay Place,Lisa Krueger
+864,Julie Hagerty|Tom Noonan|Wallace Shawn,Tom Noonan
+865,Iain Robertson|Joe McFadden|Steven Duffy,Gillies MacKinnon
+866,Jennifer Tilly|Gina Gershon|Joe Pantoliano,Lana Wachowski|Lilly Wachowski
+867,Tom Arnold|David Paymer|Rhea Perlman,Arthur Hiller
+868,Sam Neill|Zoe Carides|John Clarke,John Ruane
+869,Jennifer Jason Leigh|Miranda Richardson|Harry Belafonte,Robert Altman
+870,,
+871,Billy Campbell|Jennifer Grey|Tim Curry,Peter Shaner
+872,Chen Chao-jung|Kang-sheng Lee|Kuei-Mei Yang,Tsai Ming-liang
+873,Ingrid Caven|Rainer Werner Fassbinder|Annemarie Düringer,Daniel Schmid
+874,James Woods|Robert Sean Leonard|Ellen Greene,Tim Metcalfe
+875,Alexandra Paul|Youssef Abed-Alnour|Paul Gleason,Izidore K. Musallam
+876,Michelle Yeoh|Rongguang Yu|Emil Chau,Stanley Tong
+877,Lili Taylor|Bruklin Harris|Anna Grace,Jim McKay
+878,Sami Bouajila|Nozha Khouadra|Philippe Ambrosini,Karim Dridi
+879,Penelope Ann Miller|Tom Sizemore|Linda Hunt,Peter Hyams
+880,David Thewlis|Marlon Brando|Val Kilmer,John Frankenheimer|Richard Stanley
+881,Sinbad|Brock Pierce|Blake Boyd,David Mickey Evans
+882,Kyle MacLachlan|Elisabeth Shue|Dermot Mulroney,David Koepp
+884,Michael Imperioli|Mira Sorvino|Joyce Phillips,Gary Winick
+885,Whoopi Goldberg|Gérard Depardieu|Haley Joel Osment,Norman Jewison
+886,Damon Wayans|Adam Sandler|James Caan,Ernest R. Dickerson
+887,Polly Walker|Vincent Perez|Franco Nero,Nick Hamm
+888,Scott McAfee|Candace Hutson|Heather Hogan,Roy Allen Smith
+889,Ariane Schluter|Ad van Kempen,Theo van Gogh
+890,Victoria Abril|Carmen Maura|Antonio Banderas,Rafael Moleón
+891,Donald Pleasence|Paul Rudd|Marianne Hagan,Joe Chappelle
+892,Helena Bonham Carter|Richard E. Grant|Imogen Stubbs,Trevor Nunn
+893,Nick Nolte|Sheryl Lee|Tony Robinow,Keith Gordon
+894,Wolfgang Liebeneiner|Carl Esmond|Magda Schneider,Max Ophüls
+895,Nelly Alard|Henry Jaglom|Melissa Leo,Henry Jaglom
+896,Élodie Bouchez|Gaël Morel|Stéphane Rideau,André Téchiné
+897,Gary Cooper|Ingrid Bergman|Akim Tamiroff,Sam Wood
+898,Cary Grant|Katharine Hepburn|James Stewart,George Cukor
+899,Gene Kelly|Donald O&apos;Connor|Debbie Reynolds,Stanley Donen|Gene Kelly
+900,,
+901,Audrey Hepburn|Fred Astaire|Kay Thompson,Stanley Donen
+902,Audrey Hepburn|George Peppard|Patricia Neal,Blake Edwards
+903,James Stewart|Kim Novak|Barbara Bel Geddes,Alfred Hitchcock
+904,James Stewart|Grace Kelly|Wendell Corey,Alfred Hitchcock
+905,Clark Gable|Claudette Colbert|Walter Connolly,Frank Capra
+906,,
+907,Fred Astaire|Ginger Rogers|Alice Brady,Mark Sandrich
+908,,
+909,Jack Lemmon|Shirley MacLaine|Fred MacMurray,Billy Wilder
+910,Marilyn Monroe|Tony Curtis|Jack Lemmon,Billy Wilder
+911,Cary Grant|Audrey Hepburn|Walter Matthau,Stanley Donen
+912,Humphrey Bogart|Ingrid Bergman|Paul Henreid,Michael Curtiz
+913,Humphrey Bogart|Mary Astor|Gladys George,John Huston
+914,,
+915,Humphrey Bogart|Audrey Hepburn|William Holden,Billy Wilder
+916,,
+917,Shirley Temple|Richard Greene|Anita Louise,Walter Lang|William A. Seiter
+918,,
+919,,
+920,Clark Gable|Vivien Leigh|Thomas Mitchell,Victor Fleming|George Cukor|Sam Wood
+921,Peter O&apos;Toole|Mark Linn-Baker|Jessica Harper,Richard Benjamin
+922,,
+923,Orson Welles|Joseph Cotten|Dorothy Comingore,Orson Welles
+924,Keir Dullea|Gary Lockwood|William Sylvester,Stanley Kubrick
+925,Ray Milland|Marlene Dietrich|Murvyn Vye,Mitchell Leisen
+926,Bette Davis|Anne Baxter|George Sanders,Joseph L. Mankiewicz
+927,Norma Shearer|Joan Crawford|Rosalind Russell,George Cukor
+928,,
+929,,
+930,Cary Grant|Ingrid Bergman|Claude Rains,Alfred Hitchcock
+931,Ingrid Bergman|Gregory Peck|Michael Chekhov,Alfred Hitchcock
+932,,
+933,Cary Grant|Grace Kelly|Jessie Royce Landis,Alfred Hitchcock
+934,Spencer Tracy|Joan Bennett|Elizabeth Taylor,Vincente Minnelli
+935,Fred Astaire|Cyd Charisse|Oscar Levant,Vincente Minnelli
+936,Greta Garbo|Melvyn Douglas|Ina Claire,Ernst Lubitsch
+937,Gary Cooper|Audrey Hepburn|Maurice Chevalier,Billy Wilder
+938,Leslie Caron|Maurice Chevalier|Louis Jourdan,Vincente Minnelli|Charles Walters
+939,,
+940,Errol Flynn|Olivia de Havilland|Basil Rathbone,Michael Curtiz|William Keighley
+941,Tyrone Power|Linda Darnell|Basil Rathbone,Rouben Mamoulian
+942,Gene Tierney|Dana Andrews|Clifton Webb,Otto Preminger|Rouben Mamoulian
+943,Gene Tierney|Rex Harrison|George Sanders,Joseph L. Mankiewicz
+944,,
+945,Fred Astaire|Ginger Rogers|Edward Everett Horton,Mark Sandrich
+946,Carole Lombard|Jack Benny|Robert Stack,Ernst Lubitsch
+947,William Powell|Carole Lombard|Alice Brady,Gregory La Cava
+948,Elizabeth Taylor|Rock Hudson|James Dean,George Stevens
+949,James Dean|Raymond Massey|Julie Harris,Elia Kazan
+950,William Powell|Myrna Loy|Maureen O&apos;Sullivan,W.S. Van Dyke
+951,Cary Grant|Rosalind Russell|Ralph Bellamy,Howard Hawks
+952,,
+953,James Stewart|Donna Reed|Lionel Barrymore,Frank Capra
+954,James Stewart|Jean Arthur|Claude Rains,Frank Capra
+955,Katharine Hepburn|Cary Grant|Charles Ruggles,Howard Hawks
+956,Cary Grant|Irene Dunne|Beulah Bondi,George Stevens
+957,Lillian Gish|Lars Hanson|Henry B. Walthall,Victor Sjöström
+958,,
+959,Bette Davis|Leslie Howard|Frances Dee,John Cromwell
+960,Paul Muni|Anne Baxter|Claude Rains,Archie Mayo
+961,Freddie Bartholomew|Dolores Costello|C. Aubrey Smith,John Cromwell
+962,,
+963,Danny Kaye|Walter Slezak|Barbara Bates,Henry Koster
+964,,
+965,,
+966,,
+967,,
+968,Duane Jones|Judith O&apos;Dea|Karl Hardman,George A. Romero
+969,Humphrey Bogart|Katharine Hepburn|Robert Morley,John Huston
+970,,
+971,Elizabeth Taylor|Paul Newman|Burl Ives,Richard Brooks
+972,Elizabeth Taylor|Van Johnson|Walter Pidgeon,Richard Brooks
+973,Gary Cooper|Barbara Stanwyck|Edward Arnold,Frank Capra
+974,Charles Boyer|Hedy Lamarr|Sigrid Gurie,John Cromwell
+975,James Cagney|Evelyn Daw|William Frawley,Victor Schertzinger
+976,Gary Cooper|Helen Hayes|Adolphe Menjou,Frank Borzage
+977,Chester Morris|Madge Evans|Leo Carrillo,Edwin L. Marin
+979,Ian Hart|John Lynch|James Frain,Thaddeus O&apos;Sullivan
+980,Michelle Yeoh|Cynthia Rothrock|John Sham,Corey Yuen
+981,Ice Cube|Elizabeth Hurley|Thokozani Nkosi,Darrell Roodt
+982,,
+983,Bernard Hill|John Hannah|Mark Anthony,Chris Newby
+984,,
+985,Roberta Guaspari|Arnold Steinhardt|Isaac Stern,Allan Miller
+986,Jeff Daniels|Anna Paquin|Dana Delany,Carroll Ballard
+987,,
+988,,
+989,André Eisermann|Dana Vávrová|Ben Becker,Joseph Vilsmaier
+990,Jean-Claude Van Damme|Natasha Henstridge|Jean-Hugues Anglade,Ringo Lam
+991,Liam Neeson|Aidan Quinn|Julia Roberts,Neil Jordan
+992,Halle Berry|Christopher McDonald|Peter Greene,Amy Holden Jones
+993,Matthew Broderick|Patricia Arquette|Jeffrey Force,Matthew Broderick
+994,Tony Shalhoub|Stanley Tucci|Marc Anthony,Campbell Scott|Stanley Tucci
+996,Bruce Willis|Bruce Dern|William Sanderson,Walter Hill
+997,Edward James Olmos|Maria Conchita Alonso|Arie Verveen,Robert M. Young
+998,Jada Pinkett Smith|Queen Latifah|Vivica A. Fox,F. Gary Gray
+999,Teri Hatcher|Jeff Daniels|Danny Aiello,John Herzfeld
+1000,,
