@@ -69,6 +69,3 @@ if __name__ == '__main__':
             print("{}. ".format(index) + movie_id + "," + actor + "," + director + " is done.")
 
     
-
-#test1
-#test idea
