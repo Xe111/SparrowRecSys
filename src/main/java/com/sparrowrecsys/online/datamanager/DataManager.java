@@ -2,9 +2,13 @@ package com.sparrowrecsys.online.datamanager;
 
 import com.sparrowrecsys.online.util.Config;
 import com.sparrowrecsys.online.util.Utility;
+import ml.bundle.dtree.Split;
+import org.apache.spark.sql.execution.columnar.BOOLEAN;
 
 import java.io.File;
 import java.util.*;
+
+//TODO: 1. director 2. handle missing data
 
 /**
  * DataManager is an utility class, takes charge of all data loading logic.
@@ -15,12 +19,78 @@ public class DataManager {
     private static volatile DataManager instance;
     HashMap<Integer, Movie> movieMap;
     HashMap<Integer, User> userMap;
+    HashMap<Integer, Actor> actorMap;
+    HashMap<Integer, Director> directorMap;
     //genre reverse index for quick querying all movies in a genre
     HashMap<String, List<Movie>> genreReverseIndexMap;
+
+    //main for test
+    public static void main(String[] args) throws Exception{
+        String basePath="/home/xe/Documents/idea/SparrowRecSys/src/main/resources/webroot";
+        DataManager.getInstance().loadData(basePath+"/sampledata/movies.csv",
+                basePath+"/sampledata/links.csv",
+                basePath+"/sampledata/ratings.csv",
+                basePath+"/modeldata2/item2vecEmb.csv",
+                basePath+"/modeldata2/userEmb.csv",
+                "i2vEmb", "uEmb");
+        DataManager.getInstance().loadActorDirectorData(basePath+"/sampledata/actor_director.csv",
+                basePath+"/sampledata/actors.csv",
+                basePath+"/modeldata2/actorEmb.csv",
+                "actor:",
+                basePath+"/modeldata2/userActorEmb.csv",
+                "actor_user:",
+                basePath+"/sampledata/actor_ratings.csv");
+
+
+        //get first 3 movies and first 3 users and first 3 actors
+        List<Movie> movies = DataManager.getInstance().getMovies(3, "rating");
+        for (Movie movie : movies){
+            System.out.println(movie.getTitle());
+            //print actors in the movie
+            List<Integer> actorsId = movie.getActors();
+            if(actorsId.isEmpty()){
+                System.out.println("    No actors in this movie");
+                continue;
+            }
+            for (Integer actorId : actorsId){
+                Actor actor = DataManager.getInstance().getActorById(actorId);
+
+                if (null != actor){
+                    System.out.println("    Actor: " + actor.getName());
+                }
+            }
+        }
+        List<User> users = new ArrayList<>(DataManager.getInstance().userMap.values());
+        for (int i = 0; i < 3; i++){
+            System.out.println(users.get(i).getUserId());
+            System.out.println(users.get(i).getActorEmb());
+        }
+
+        List<Actor> actors = DataManager.getInstance().getActors(3, "rating");
+        for (Actor actor : actors){
+            System.out.println(actor.getName());
+            System.out.println(actor.getAverageRating());
+            System.out.println(actor.getActorId());
+            System.out.println(actor.getEmb());
+            List<Integer> moviesId = actor.getMovies();
+            if(moviesId.isEmpty()){
+                System.out.println("    No movies in this actor");
+                continue;
+            }
+            for (Integer movieId : moviesId){
+                Movie movie = DataManager.getInstance().getMovieById(movieId);
+                if (null != movie){
+                    System.out.println("    Movie: " + movie.getTitle());
+                }
+            }
+        }
+    }
 
     private DataManager(){
         this.movieMap = new HashMap<>();
         this.userMap = new HashMap<>();
+        this.actorMap = new HashMap<>();
+        this.directorMap = new HashMap<>();
         this.genreReverseIndexMap = new HashMap<>();
         instance = this;
     }
@@ -47,7 +117,114 @@ public class DataManager {
         }
 
         loadUserEmb(userEmbPath, userRedisKey);
+
     }
+
+    public void loadActorDirectorData(String actorDirectorPath,String actorIdPath,String actorEmbPath,String actorRedisKey,String actorUserEmbPath,String actorUserRedisKey,String actorRatingPath) throws Exception{
+        loadActorIdData(actorIdPath);
+        //loadDirectorIdData(directorIdPath);
+        _loadActorDirectorData(actorDirectorPath);
+        loadRatingDataActor(actorRatingPath);
+        loadActorEmb(actorEmbPath, actorRedisKey);
+        loadUserEmbActor(actorUserEmbPath, actorUserRedisKey);
+        //loadDirectorEmb(directorEmbPath, directorRedisKey);
+
+    }
+
+    private  void _loadActorDirectorData(String actorDirectorPath) throws Exception{
+        System.out.println("Loading actor director data from " + actorDirectorPath + " ...");
+        boolean skipFirstLine = true;
+        try (Scanner scanner = new Scanner(new File(actorDirectorPath))){
+            while (scanner.hasNextLine()){
+                String actorDirectorRawData = scanner.nextLine();
+                if (skipFirstLine){
+                    skipFirstLine = false;
+                    continue;
+                }
+                String[] actorDirectorData = actorDirectorRawData.split(",");
+                if (actorDirectorData.length == 3){
+                    int movieId = Integer.parseInt(actorDirectorData[0]);
+                    String[] actorNames = actorDirectorData[1].split("\\|");
+                    //String[] directorNames = actorDirectorData[2].split("\\|");
+                    Movie movie = this.movieMap.get(movieId);
+                    if (null == movie){
+                        continue;
+                    }
+                    for (String actorName:actorNames){
+                        Actor actor = getActorByName(actorName);//actor reference
+                        if (null == actor){
+                            actor = new Actor();
+                            actor.setName(actorName);
+                            actor.setActorId(this.actorMap.size() + 1);
+                            this.actorMap.put(actor.getActorId(), actor);
+                        }
+                        movie.addActor(actor.getActorId());
+                        actor.addMovie(movieId);
+                    }
+                }
+            }
+        }
+        System.out.println("Loading actor director data completed. " + this.actorMap.size() + " actors in total.");
+    }
+
+    private  void loadActorIdData(String actorIdPath) throws Exception{
+        System.out.println("Loading actor id data from " + actorIdPath + " ...");
+        boolean skipFirstLine = true;
+        try (Scanner scanner = new Scanner(new File(actorIdPath))) {
+            while (scanner.hasNextLine()) {
+                String actorRawData = scanner.nextLine();
+                if (skipFirstLine){
+                    skipFirstLine = false;
+                    continue;
+                }
+                String[] actorData = actorRawData.split(",");
+                if (actorData.length == 2){
+                    Actor actor = new Actor();
+                    actor.setActorId(Integer.parseInt(actorData[0]));
+                    actor.setName(actorData[1].trim());
+                    this.actorMap.put(actor.getActorId(), actor);
+                }
+            }
+        }
+        System.out.println("Loading actor id data completed. " + this.actorMap.size() + " actors in total.");
+    }
+
+    private void loadActorEmb(String actorEmbPath, String embKey) throws Exception{
+        if (Config.EMB_DATA_SOURCE.equals(Config.DATA_SOURCE_FILE)) {
+            System.out.println("Loading actor embedding from " + actorEmbPath + " ...");
+            int validEmbCount = 0;
+            try (Scanner scanner = new Scanner(new File(actorEmbPath))) {
+                while (scanner.hasNextLine()) {
+                    String actorRawEmbData = scanner.nextLine();
+                    String[] actorEmbData = actorRawEmbData.split(":");
+                    if (actorEmbData.length == 2) {
+                        Actor a = getActorById(Integer.parseInt(actorEmbData[0]));
+                        if (null == a) {
+                            continue;
+                        }
+                        a.setEmb(Utility.parseEmbStr(actorEmbData[1]));
+                        validEmbCount++;
+                    }
+                }
+            }
+            System.out.println("Loading actor embedding completed. " + validEmbCount + " actor embeddings in total.");
+        }else{
+            System.out.println("Loading actor embedding from Redis ...");
+            Set<String> actorEmbKeys = RedisClient.getInstance().keys(embKey + "*");
+            int validEmbCount = 0;
+            for (String actorEmbKey : actorEmbKeys){
+                String actorId = actorEmbKey.split(":")[1];
+                Actor a = getActorById(Integer.parseInt(actorId));
+                if (null == a) {
+                    continue;
+                }
+                a.setEmb(Utility.parseEmbStr(RedisClient.getInstance().get(actorEmbKey)));
+                validEmbCount++;
+            }
+            System.out.println("Loading actor embedding completed. " + validEmbCount + " actor embeddings in total.");
+        }
+    }
+
 
     //load movie data from movies.csv
     private void loadMovieData(String movieDataPath) throws Exception{
@@ -64,6 +241,9 @@ public class DataManager {
                 if (movieData.length == 3){
                     Movie movie = new Movie();
                     movie.setMovieId(Integer.parseInt(movieData[0]));
+                    if(Integer.parseInt(movieData[0])==11){
+                        System.out.println("movieId: "+movieData[0]);
+                    }
                     int releaseYear = parseReleaseYear(movieData[1].trim());
                     if (releaseYear == -1){
                         movie.setTitle(movieData[1].trim());
@@ -141,6 +321,7 @@ public class DataManager {
     }
 
     //load user embedding
+
     private void loadUserEmb(String userEmbPath, String embKey) throws Exception{
         if (Config.EMB_DATA_SOURCE.equals(Config.DATA_SOURCE_FILE)) {
             System.out.println("Loading user embedding from " + userEmbPath + " ...");
@@ -162,6 +343,29 @@ public class DataManager {
             System.out.println("Loading user embedding completed. " + validEmbCount + " user embeddings in total.");
         }
     }
+
+    private void loadUserEmbActor(String userEmbPath, String embKey) throws Exception{
+        if (Config.EMB_DATA_SOURCE.equals(Config.DATA_SOURCE_FILE)) {
+            System.out.println("Loading user embedding from " + userEmbPath + " ...");
+            int validEmbCount = 0;
+            try (Scanner scanner = new Scanner(new File(userEmbPath))) {
+                while (scanner.hasNextLine()) {
+                    String userRawEmbData = scanner.nextLine();
+                    String[] userEmbData = userRawEmbData.split(":");
+                    if (userEmbData.length == 2) {
+                        User u = getUserById(Integer.parseInt(userEmbData[0]));
+                        if (null == u) {
+                            continue;
+                        }
+                        u.setActorEmb(Utility.parseEmbStr(userEmbData[1]));
+                        validEmbCount++;
+                    }
+                }
+            }
+            System.out.println("Loading user embedding completed. " + validEmbCount + " user embeddings in total.");
+        }
+    }
+
 
     //parse release year
     private int parseReleaseYear(String rawTitle){
@@ -241,6 +445,42 @@ public class DataManager {
         System.out.println("Loading rating data completed. " + count + " ratings in total.");
     }
 
+    private void loadRatingDataActor(String actorRatingDataPath) throws Exception{
+        System.out.println("Loading rating data from " + actorRatingDataPath + " ...");
+        boolean skipFirstLine = true;
+        int count = 0;
+        try (Scanner scanner = new Scanner(new File(actorRatingDataPath))) {
+            while (scanner.hasNextLine()) {
+                String ratingRawData = scanner.nextLine();
+                if (skipFirstLine){
+                    skipFirstLine = false;
+                    continue;
+                }
+                String[] linkData = ratingRawData.split(",");
+                if (linkData.length == 4){
+                    count ++;
+                    Rating rating = new Rating();
+                    rating.setUserId(Integer.parseInt(linkData[0]));
+                    rating.setMovieId(Integer.parseInt(linkData[1]));//directly use movie id as actor id
+                    rating.setScore(Float.parseFloat(linkData[2]));
+                    rating.setTimestamp(Long.parseLong(linkData[3]));
+                    Actor actor = this.actorMap.get(rating.getMovieId());
+                    if (null != actor){
+                        actor.addRating(rating);
+                    }
+                    if (!this.userMap.containsKey(rating.getUserId())){
+                        User user = new User();
+                        user.setUserId(rating.getUserId());
+                        this.userMap.put(user.getUserId(), user);
+                    }
+                    this.userMap.get(rating.getUserId()).addRating(rating);
+                }
+            }
+        }
+
+        System.out.println("Loading rating data completed. " + count + " ratings in total.");
+    }
+
     //add movie to genre reversed index
     private void addMovie2GenreIndex(String genre, Movie movie){
         if (!this.genreReverseIndexMap.containsKey(genre)){
@@ -267,6 +507,31 @@ public class DataManager {
         return null;
     }
 
+    public List<Actor> getActorsByMovie(String movieId, int size, String sortBy){
+        if(null == movieId){
+            return null;
+        }
+        Movie movie = this.movieMap.get(Integer.parseInt(movieId));
+        if (null == movie){
+            return null;
+        }
+        List<Actor> actors = new ArrayList<>();
+        for (Integer actorId : movie.getActors()){
+            Actor actor = this.actorMap.get(actorId);
+            if (null != actor){
+                actors.add(actor);
+            }
+        }
+
+        //sort actors by sortBy method
+        actors.sort((a1, a2) -> Double.compare(a2.getAverageRating(), a1.getAverageRating()));
+
+        if (actors.size() > size){
+            return actors.subList(0, size);
+        }
+        return actors;
+    }
+
     //get top N movies order by sortBy method
     public List<Movie> getMovies(int size, String sortBy){
             List<Movie> movies = new ArrayList<>(movieMap.values());
@@ -291,4 +556,37 @@ public class DataManager {
     public User getUserById(int userId){
         return this.userMap.get(userId);
     }
+
+    //get actor object by actor id
+    public Actor getActorById(int actorId){
+        return this.actorMap.get(actorId);
+    }
+
+    //get actor object by actor name
+    public Actor getActorByName(String actorName){
+        for (Actor actor : this.actorMap.values()){
+            if (actor.getName().equals(actorName)){
+                return actor;
+            }
+        }
+        return null;
+    }
+
+    public List<Actor> getActors(int size, String SortBy) {
+        List<Actor> actors = new ArrayList<>(actorMap.values());
+        switch (SortBy) {
+            case "rating":
+                actors.sort((a1, a2) -> Double.compare(a2.getAverageRating(), a1.getAverageRating()));
+                break;
+            default:
+        }
+
+        if (actors.size() > size) {
+            return actors.subList(0, size);
+        }
+        return actors;
+    }
+
+    //get director object by director id
+
 }

@@ -26,6 +26,9 @@ public class User {
     Embedding emb;
 
     @JsonIgnore
+    Embedding actorEmb;
+
+    @JsonIgnore
     Map<String, String> userFeatures;
 
     public User(){
@@ -102,6 +105,14 @@ public class User {
 
     public void setEmb(Embedding emb) {
         this.emb = emb;
+    }
+
+    public Embedding getActorEmb() {
+        return actorEmb;
+    }
+
+    public void setActorEmb(Embedding actorEmb) {
+        this.actorEmb = actorEmb;
     }
 
     public Map<String, String> getUserFeatures() {

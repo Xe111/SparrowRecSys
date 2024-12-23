@@ -19,6 +19,8 @@ public class Movie {
     String imdbId;
     String tmdbId;
     List<String> genres;
+    List<Integer> actorsID;
+
     //how many user rate the movie
     int ratingNumber;
     //average rating score
@@ -46,8 +48,17 @@ public class Movie {
         this.genres = new ArrayList<>();
         this.ratings = new ArrayList<>();
         this.topRatings = new LinkedList<>();
+        this.actorsID = new ArrayList<>();
         this.emb = null;
         this.movieFeatures = null;
+    }
+
+    public List<Integer> getActors() {
+        return actorsID;
+    }
+
+    public void addActor(Integer actor){
+        this.actorsID.add(actor);
     }
 
     public int getMovieId() {

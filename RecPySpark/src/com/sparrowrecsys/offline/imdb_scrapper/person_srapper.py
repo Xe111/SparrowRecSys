@@ -100,7 +100,11 @@ def main():
             if 'image' in director_json:
                 image_url = director_json['image']
                 #download image
-                request.urlretrieve(image_url, director_info_path+'/'+directorId+'.jpg')
+                try:
+                    request.urlretrieve(image_url, director_info_path+'/'+directorId+'.jpg')
+                #<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1147)>
+                except:
+                    print("error downloading image for:",director)
             print("image done")
             
             

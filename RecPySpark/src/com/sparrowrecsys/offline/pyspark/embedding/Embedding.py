@@ -30,7 +30,7 @@ class UdfFunction:
         return [x[0] for x in pairs]
 
 
-def processItemSequence(spark, rawSampleDataPath):
+def processItemSequence(spark, rawSampleDataPath, IDstr="movieId"):
     # rating data
     ratingSamples = spark.read.format("csv").option("header", "true").load(rawSampleDataPath)
     # ratingSamples.show(5)
@@ -39,32 +39,32 @@ def processItemSequence(spark, rawSampleDataPath):
     userSeq = ratingSamples \
         .where(F.col("rating") >= 3.5) \
         .groupBy("userId") \
-        .agg(sortUdf(F.collect_list("movieId"), F.collect_list("timestamp")).alias('movieIds')) \
-        .withColumn("movieIdStr", array_join(F.col("movieIds"), " "))
+        .agg(sortUdf(F.collect_list(IDstr), F.collect_list("timestamp")).alias(IDstr+'s')) \
+        .withColumn(IDstr+"Str", array_join(F.col(IDstr+'s'), " "))
     # userSeq.select("userId", "movieIdStr").show(10, truncate = False)
-    return userSeq.select('movieIdStr').rdd.map(lambda x: x[0].split(' '))
+    return userSeq.select(IDstr+"Str").rdd.map(lambda x: x[0].split(' '))
 
 
-def embeddingLSH(spark, movieEmbMap):
+def embeddingLSH(spark, movieEmbMap,IDstr="movieId"):
     movieEmbSeq = []
     for key, embedding_list in movieEmbMap.items():
         embedding_list = [np.float64(embedding) for embedding in embedding_list]
         movieEmbSeq.append((key, Vectors.dense(embedding_list)))
-    movieEmbDF = spark.createDataFrame(movieEmbSeq).toDF("movieId", "emb")
+    movieEmbDF = spark.createDataFrame(movieEmbSeq).toDF(IDstr, "emb")
     bucketProjectionLSH = BucketedRandomProjectionLSH(inputCol="emb", outputCol="bucketId", bucketLength=0.1,
                                                       numHashTables=3)
     bucketModel = bucketProjectionLSH.fit(movieEmbDF)
     embBucketResult = bucketModel.transform(movieEmbDF)
-    print("movieId, emb, bucketId schema:")
+    print(IDstr,", emb, bucketId schema:")
     embBucketResult.printSchema()
-    print("movieId, emb, bucketId data result:")
+    print(IDstr,", emb, bucketId data result:")
     embBucketResult.show(10, truncate=False)
     print("Approximately searching for 5 nearest neighbors of the sample embedding:")
     sampleEmb = Vectors.dense(0.795, 0.583, 1.120, 0.850, 0.174, -0.839, -0.0633, 0.249, 0.673, -0.237)
     bucketModel.approxNearestNeighbors(movieEmbDF, sampleEmb, 5).show(truncate=False)
 
 
-def trainItem2vec(spark, samples, embLength, embOutputPath, saveToRedis, redisKeyPrefix):
+def trainItem2vec(spark, samples, embLength, embOutputPath, saveToRedis, redisKeyPrefix,IDstr="movieId"):
     word2vec = Word2Vec().setVectorSize(embLength).setWindowSize(5).setNumIterations(10)
     model = word2vec.fit(samples)
     synonyms = model.findSynonyms("158", 20)
@@ -77,7 +77,7 @@ def trainItem2vec(spark, samples, embLength, embOutputPath, saveToRedis, redisKe
         for movie_id in model.getVectors():
             vectors = " ".join([str(emb) for emb in model.getVectors()[movie_id]])
             f.write(movie_id + ":" + vectors + "\n")
-    embeddingLSH(spark, model.getVectors())
+    embeddingLSH(spark, model.getVectors(),IDstr)
     return model
 
 
@@ -163,18 +163,18 @@ def graphEmb(samples, spark, embLength, embOutputFilename, saveToRedis, redisKey
     trainItem2vec(spark, rddSamples, embLength, embOutputFilename, saveToRedis, redisKeyPrefix)
 
 
-def generateUserEmb(spark, rawSampleDataPath, model, embLength, embOutputPath, saveToRedis, redisKeyPrefix):
+def generateUserEmb(spark, rawSampleDataPath, model, embLength, embOutputPath, saveToRedis, redisKeyPrefix,IDstr="movieId"):
     ratingSamples = spark.read.format("csv").option("header", "true").load(rawSampleDataPath)
     Vectors_list = []
     for key, value in model.getVectors().items():
         Vectors_list.append((key, list(value)))
     fields = [
-        StructField('movieId', StringType(), False),
+        StructField(IDstr, StringType(), False),
         StructField('emb', ArrayType(FloatType()), False)
     ]
     schema = StructType(fields)
     Vectors_df = spark.createDataFrame(Vectors_list, schema=schema)
-    ratingSamples = ratingSamples.join(Vectors_df, on='movieId', how='inner')
+    ratingSamples = ratingSamples.join(Vectors_df, on=IDstr, how='inner')
     result = ratingSamples.select('userId', 'emb').rdd.map(lambda x: (x[0], x[1])) \
         .reduceByKey(lambda a, b: [a[i] + b[i] for i in range(len(a))]).collect()
     with open(embOutputPath, 'w') as f:
@@ -190,12 +190,49 @@ if __name__ == '__main__':
     file_path = 'file:///home/xe/Documents/idea/SparrowRecSys/src/main/resources'
     rawSampleDataPath = file_path + "/webroot/sampledata/ratings.csv"
     embLength = 10
-    samples = processItemSequence(spark, rawSampleDataPath)
-    model = trainItem2vec(spark, samples, embLength,
-                          embOutputPath=file_path[7:] + "/webroot/modeldata2/item2vecEmb.csv", saveToRedis=False,
-                          redisKeyPrefix="i2vEmb")
-    graphEmb(samples, spark, embLength, embOutputFilename=file_path[7:] + "/webroot/modeldata2/itemGraphEmb.csv",
-             saveToRedis=True, redisKeyPrefix="graphEmb")
-    generateUserEmb(spark, rawSampleDataPath, model, embLength,
-                    embOutputPath=file_path[7:] + "/webroot/modeldata2/userEmb.csv", saveToRedis=False,
-                    redisKeyPrefix="uEmb")
+
+    _user=False
+    _actor=True
+    _director=True
+    if _user:
+        samples = processItemSequence(spark, rawSampleDataPath)
+        model = trainItem2vec(spark, samples, embLength,
+                            embOutputPath=file_path[7:] + "/webroot/modeldata2/item2vecEmb.csv", saveToRedis=False,
+                            redisKeyPrefix="i2vEmb")
+        graphEmb(samples, spark, embLength, embOutputFilename=file_path[7:] + "/webroot/modeldata2/itemGraphEmb.csv",
+                saveToRedis=True, redisKeyPrefix="graphEmb")
+        generateUserEmb(spark, rawSampleDataPath, model, embLength,
+                        embOutputPath=file_path[7:] + "/webroot/modeldata2/userEmb.csv", saveToRedis=False,
+                        redisKeyPrefix="uEmb")
+
+    # generate actor and director embedding
+    if _actor:
+        rawSampleDataPath_actor = file_path + "/webroot/sampledata/actor_ratings.csv"
+    
+        samples_actor = processItemSequence(spark, rawSampleDataPath_actor, IDstr="actorId")
+    
+    
+        model_actor = trainItem2vec(spark, samples_actor, embLength,
+                                embOutputPath=file_path[7:] + "/webroot/modeldata2/actorEmb.csv", saveToRedis=False,
+                                redisKeyPrefix="actorEmb",IDstr="actorId")
+    
+    
+    
+        graphEmb(samples_actor, spark, embLength, embOutputFilename=file_path[7:] + "/webroot/modeldata2/actorGraphEmb.csv",
+                saveToRedis=True, redisKeyPrefix="actorGraphEmb")
+        generateUserEmb(spark, rawSampleDataPath_actor, model_actor, embLength,
+                    embOutputPath=file_path[7:] + "/webroot/modeldata2/userActorEmb.csv", saveToRedis=False,
+                    redisKeyPrefix="uActorEmb",IDstr="actorId")
+    
+
+    if _director:
+        rawSampleDataPath_director = file_path + "/webroot/sampledata/director_ratings.csv"
+        samples_director = processItemSequence(spark, rawSampleDataPath_director, IDstr="directorId")
+        model_director = trainItem2vec(spark, samples_director, embLength,
+                                      embOutputPath=file_path[7:] + "/webroot/modeldata2/directorEmb.csv", saveToRedis=False,
+                                      redisKeyPrefix="directorEmb",IDstr="directorId")
+        graphEmb(samples_director, spark, embLength, embOutputFilename=file_path[7:] + "/webroot/modeldata2/directorGraphEmb.csv",
+                saveToRedis=True, redisKeyPrefix="directorGraphEmb")
+        generateUserEmb(spark, rawSampleDataPath_director, model_director, embLength,
+                    embOutputPath=file_path[7:] + "/webroot/modeldata2/userDirectorEmb.csv", saveToRedis=False,
+                    redisKeyPrefix="uDirectorEmb",IDstr="directorId")
