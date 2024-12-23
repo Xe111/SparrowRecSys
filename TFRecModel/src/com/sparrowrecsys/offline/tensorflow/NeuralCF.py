@@ -99,7 +99,7 @@ for prediction, goodRating in zip(predictions[:12], list(test_dataset)[0][1][:12
 
 tf.keras.models.save_model(
     model,
-    "file:///Users/zhewang/Workspace/SparrowRecSys/src/main/resources/webroot/modeldata/neuralcf/002",
+    "file:///home/xe/Documents/idea/SparrowRecSys/src/main/resources/webroot/modeldata/neuralcf/002",
     overwrite=True,
     include_optimizer=True,
     save_format=None,

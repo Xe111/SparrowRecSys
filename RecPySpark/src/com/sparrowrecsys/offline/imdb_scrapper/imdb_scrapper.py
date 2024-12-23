@@ -7,7 +7,6 @@ def get_actor_director_dict__by_id(imdb_id):
     imdb=IMDB()
     res=imdb.get_by_id('tt'+imdb_id)
     json_res=json.loads(res)
-
     # check if json.actor or json.director is None
     return json_res.get("actor", []), json_res.get("director", [])
     
@@ -31,6 +30,8 @@ if __name__ == '__main__':
     data_path = "/home/xe/Documents/idea/SparrowRecSys/src/main/resources/webroot/sampledata/"
     link_path = data_path + "links.csv"
     movie_path = data_path + "movies.csv"
+
+    
 
     actor_director_path = data_path + "actor_director.csv"
 
