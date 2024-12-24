@@ -20,6 +20,7 @@ public class Movie {
     String tmdbId;
     List<String> genres;
     List<Integer> actorsID;
+    List<Integer> directorsID;
 
     //how many user rate the movie
     int ratingNumber;
@@ -49,6 +50,7 @@ public class Movie {
         this.ratings = new ArrayList<>();
         this.topRatings = new LinkedList<>();
         this.actorsID = new ArrayList<>();
+        this.directorsID = new ArrayList<>();
         this.emb = null;
         this.movieFeatures = null;
     }
@@ -59,6 +61,14 @@ public class Movie {
 
     public void addActor(Integer actor){
         this.actorsID.add(actor);
+    }
+
+    public List<Integer> getDirectors() {
+        return directorsID;
+    }
+
+    public void addDirector(Integer directorId) {
+        this.directorsID.add(directorId);
     }
 
     public int getMovieId() {

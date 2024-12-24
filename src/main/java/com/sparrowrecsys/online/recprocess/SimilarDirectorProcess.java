@@ -1,23 +1,23 @@
 package com.sparrowrecsys.online.recprocess;
 
 import com.sparrowrecsys.online.datamanager.DataManager;
-import com.sparrowrecsys.online.datamanager.Actor;
+import com.sparrowrecsys.online.datamanager.Director;
 
 import java.util.*;
 
 /**
- * Recommendation process of similar actors
+ * Recommendation process of similar directors
  */
 
-public class SimilarActorProcess {
+public class SimilarDirectorProcess {
 
     /**
-     * get recommendation actor list
+     * get recommendation director list
      *
-     * @param actorId input actor id
-     * @param size    size of similar items
-     * @param model   model used for calculating similarity
-     * @return list of similar actors
+     * @param directorId input director id
+     * @param size       size of similar items
+     * @param model      model used for calculating similarity
+     * @return list of similar directors
      */
 
     public static void main(String[] args) {
@@ -48,25 +48,23 @@ public class SimilarActorProcess {
             System.out.println("Failed to load data");
             return;
         }
-
-        List<Actor> recList = getRecList(10, 1677, "emb");
+        List<Director> recList = getRecList(5, 10, "emb");
         if (recList.size() == 0) {
             System.out.println("No recommendation found");
         }
-        System.out.println("recList.size() = " + recList.size());
-        System.out.println("Recommendation list for actor "+DataManager.getInstance().getActorById(1).getName()+":");
-        for (Actor actor : recList) {
-           // System.out.println("    "+actor.getActorId() + " " + actor.getName());
+        System.out.println("Recommendation list for director "+DataManager.getInstance().getDirectorById(1).getName()+":");
+        for (Director director : recList) {
+            System.out.println("    "+director.getDirectorId() + " " + director.getName());
         }
     }
 
-    public static List<Actor> getRecList(int actorId, int size, String model) {
-        Actor actor = DataManager.getInstance().getActorById(actorId);
-        if (null == actor) {
+    public static List<Director> getRecList(int directorId, int size, String model) {
+        Director director = DataManager.getInstance().getDirectorById(directorId);
+        if (null == director) {
             return new ArrayList<>();
         }
-        List<Actor> candidates = candidateGenerator(actor);
-        List<Actor> rankedList = ranker(actor, candidates, model);
+        List<Director> candidates = candidateGenerator(director);
+        List<Director> rankedList = ranker(director, candidates, model);
 
         if (rankedList.size() > size) {
             return rankedList.subList(0, size);
@@ -76,44 +74,44 @@ public class SimilarActorProcess {
     }
 
     /**
-     * generate candidates for similar actors recommendation
+     * generate candidates for similar directors recommendation
      *
-     * @param actor input actor object
-     * @return actor candidates
+     * @param director input director object
+     * @return director candidates
      */
-    public static List<Actor> candidateGenerator(Actor actor) {
-        HashMap<Integer, Actor> candidateMap = new HashMap<>();
-        List<Actor> candidates = DataManager.getInstance().getActors(2000, "rating");
-        for (Actor candidate : candidates) {
-            candidateMap.put(candidate.getActorId(), candidate);
+    public static List<Director> candidateGenerator(Director director) {
+        HashMap<Integer, Director> candidateMap = new HashMap<>();
+        List<Director> candidates = DataManager.getInstance().getDirectors(2000, "rating");
+        for (Director candidate : candidates) {
+            candidateMap.put(candidate.getDirectorId(), candidate);
         }
-        candidateMap.remove(actor.getActorId());
+        candidateMap.remove(director.getDirectorId());
         return new ArrayList<>(candidateMap.values());
     }
 
     /**
-     * ranker for similar actors recommendation
+     * ranker for similar directors recommendation
      *
-     * @param actor      input actor object
-     * @param candidates candidate actors
+     * @param director   input director object
+     * @param candidates candidate directors
      * @param model      model used for calculating similarity
-     * @return ranked actor list
+     * @return ranked director list
      */
-    public static List<Actor> ranker(Actor actor, List<Actor> candidates, String model) {
-        HashMap<Actor, Double> candidateScoreMap = new HashMap<>();
-        for (Actor candidate : candidates) {
+    public static List<Director> ranker(Director director, List<Director> candidates, String model) {
+        HashMap<Director, Double> candidateScoreMap = new HashMap<>();
+        for (Director candidate : candidates) {
             double similarity;
             switch (model) {
                 case "emb":
-                    similarity = calculateEmbSimilarScore(actor, candidate);
+                    similarity = calculateEmbSimilarScore(director, candidate);
                     break;
                 default:
-                    similarity = calculateEmbSimilarScore(actor, candidate);
+                    similarity = calculateEmbSimilarScore(director, candidate);
                     break;
             }
             candidateScoreMap.put(candidate, similarity);
         }
-        List<Actor> rankedList = new ArrayList<>(candidateScoreMap.keySet());
+        List<Director> rankedList = new ArrayList<>(candidateScoreMap.keySet());
         rankedList.sort((o1, o2) -> {
             double score1 = candidateScoreMap.get(o1);
             double score2 = candidateScoreMap.get(o2);
@@ -123,21 +121,17 @@ public class SimilarActorProcess {
     }
 
     /**
-     * calculate similarity score between two actors
+     * calculate similarity score between two directors
      *
-     * @param actor    input actor
-     * @param candidate candidate actor
+     * @param director  input director
+     * @param candidate candidate director
      * @return similarity score
      */
-    public static double calculateEmbSimilarScore(Actor actor, Actor candidate) {
-        if (null == actor || null == candidate) {
+    public static double calculateEmbSimilarScore(Director director, Director candidate) {
+        if (null == director || null == candidate) {
             return -1;
         }
-        if(candidate.getEmb() == null){
-            return -1;
-        }
-        return actor.getEmb().calculateSimilarity(candidate.getEmb());
+        return director.getEmb().calculateSimilarity(candidate.getEmb());
     }
 
 }
-

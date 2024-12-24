@@ -33,3 +33,6 @@ RecPySpark.iml
 # scraped data
 src/main/resources/webroot/actors/
 src/main/resources/webroot/directors/
+
+# vscode
+.vscode/

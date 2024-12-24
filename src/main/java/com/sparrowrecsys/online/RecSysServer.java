@@ -46,12 +46,39 @@ public class RecSysServer {
         URI webRootUri = URI.create(webRootLocation.toURI().toASCIIString().replaceFirst("/index.html$","/"));
         System.out.printf("Web Root URI: %s%n", webRootUri.getPath());
 
+        //define basePath
+        String basePath = webRootUri.getPath();
+
         //load all the data to DataManager
+        /* 
         DataManager.getInstance().loadData(webRootUri.getPath() + "sampledata/movies.csv",
                 webRootUri.getPath() + "sampledata/links.csv",webRootUri.getPath() + "sampledata/ratings.csv",
                 webRootUri.getPath() + "modeldata/item2vecEmb.csv",
                 webRootUri.getPath() + "modeldata/userEmb.csv",
                 "i2vEmb", "uEmb");
+        */
+        DataManager.getInstance().loadData(basePath + "/sampledata/movies.csv",
+                    basePath + "/sampledata/links.csv", basePath + "/sampledata/ratings.csv",
+                    basePath + "/modeldata2/item2vecEmb.csv",
+                    basePath + "/modeldata2/userEmb.csv",
+                    "i2vEmb", "uEmb");
+            // 加载演员和导演数据
+            DataManager.getInstance().loadActorDirectorData(basePath + "/sampledata/actor_director.csv",
+                    basePath + "/sampledata/actors.csv",
+                    basePath + "/modeldata2/actorEmb.csv",
+                    "actor:",
+                    basePath + "/modeldata2/userActorEmb.csv",
+                    "actor_user:",
+                    basePath + "/sampledata/actor_ratings.csv",
+                    basePath + "/sampledata/directors.csv",
+                    basePath + "/modeldata2/directorEmb.csv",
+                    "director:",
+                    basePath + "/modeldata2/userDirectorEmb.csv",
+                    "director_user:",
+                    basePath + "/sampledata/director_ratings.csv");
+            
+
+        //TODO:load actor and director data
 
         //create server context
         ServletContextHandler context = new ServletContextHandler();
@@ -65,8 +92,12 @@ public class RecSysServer {
         context.addServlet(new ServletHolder(new MovieService()), "/getmovie");
         context.addServlet(new ServletHolder(new UserService()), "/getuser");
         context.addServlet(new ServletHolder(new SimilarMovieService()), "/getsimilarmovie");
+        context.addServlet(new ServletHolder(new SimilarActorService()), "/getsimilaractor");
+        context.addServlet(new ServletHolder(new SimilarDirectorService()), "/getsimilardirector");
         context.addServlet(new ServletHolder(new RecommendationService()), "/getrecommendation");
         context.addServlet(new ServletHolder(new RecForYouService()), "/getrecforyou");
+        context.addServlet(new ServletHolder(new ActorService()), "/getactor");
+        context.addServlet(new ServletHolder(new DirectorService()), "/getdirector");
 
         //set url handler
         server.setHandler(context);

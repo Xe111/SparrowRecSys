@@ -29,6 +29,9 @@ public class User {
     Embedding actorEmb;
 
     @JsonIgnore
+    Embedding directorEmb;
+
+    @JsonIgnore
     Map<String, String> userFeatures;
 
     public User(){
@@ -113,6 +116,14 @@ public class User {
 
     public void setActorEmb(Embedding actorEmb) {
         this.actorEmb = actorEmb;
+    }
+
+    public Embedding getDirectorEmb() {
+        return directorEmb;
+    }
+
+    public void setDirectorEmb(Embedding directorEmb) {
+        this.directorEmb = directorEmb;
     }
 
     public Map<String, String> getUserFeatures() {
