@@ -1,1659 +1,1659 @@
-actorId,actorName
-0,Hubert Koundé
-1,Til Schweiger
-2,Christian Bale
-3,Jon Voight
-4,Jon Polito
-5,Linda Hamilton
-6,Gary Farmer
-7,Regina Torné
-8,O-Lan Jones
-9,Emmanuelle Béart
-10,Tina Bursill
-11,Jack Thompson
-12,Jean-Claude Van Damme
-13,Predrag 'Miki' Manojlovic
-14,Helen Buday
-15,Richard Harris
-16,Carlos López
-17,Peter Sallis
-18,Matt Salinger
-19,Timothy Busfield
-20,Bill Murray
-21,Costas Mandylor
-22,Campbell Scott
-23,Paul Rhys
-24,Rena Owen
-25,Tina Majorino
-26,J. Trevor Edmond
-27,Sean Patrick Flanery
-28,Art Clokey
-29,Maggie Smith
-30,Ryan O'Neal
-31,Alok Chakravarty
-32,Basil Rathbone
-33,Edward Arnold
-34,Stephen Lang
-35,Drake Bell
-36,Chris Tucker
-37,Art Malik
-38,Maria Riva
-39,Mary Kay Bergman
-40,Claudette Colbert
-41,Sophia Loren
-42,Chris Cooper
-43,Elias Koteas
-44,Fisher Stevens
-45,Robert McLane
-46,Ray Milland
-47,Steven Seagal
-48,Rustam Branaman
-49,Bruce Greenwood
-50,Penelope Ann Miller
-51,Joe Morton
-52,Dal McKennon
-53,Mark Christopher Lawrence
-54,Antonio Banderas
-55,Elizabeth Taylor
-56,Austin O'Brien
-57,Julie Walters
-58,Hal Scardino
-59,Pat Morita
-60,Kim Novak
-61,Lisa Eichhorn
-62,Craig Mack
-63,Steve Buscemi
-64,Richard Gere
-65,Gottfried John
-66,Alison Crosbie
-67,Luc Thuillier
-68,Peter MacNicol
-69,Danny Kaye
-70,Robert Duvall
-71,Clark Johnson
-72,Franco Scaldati
-73,Brendan Corbalis
-74,John Lynch
-75,Martin Sheen
-76,Helen Hayes
-77,Benjamin Hendrickson
-78,Matthew Broderick
-79,Kris McQuade
-80,Julia Stemberger
-81,Jami Gertz
-82,Rosie O'Donnell
-83,Jennifer Lopez
-84,Dan Zhao
-85,Dennis Franz
-86,Christopher Olscamp
-87,Matt Craven
-88,Don Johnson
-89,Sean Penn
-90,Melissa Leo
-91,Tobias Arnold
-92,Wilson Dunster
-93,Jerzy Binczycki
-94,Tom Hanks
-95,Luisito Martí
-96,Wendy Crewson
-97,Andrew McCarthy
-98,Lawrence David
-99,Mia Kirshner
-100,Jonathan Fuller
-101,Tyrone Power
-102,David Strathairn
-103,Bruce McCulloch
-104,Claudiu Bleont
-105,Lai Wang
-106,Piro Milkani
-107,Nico
-108,Tatsuya Fuji
-109,Elizabeth Ashley
-110,Jonathan Pryce
-111,Rose McGowan
-112,John Savage
-113,Ann-Margret
-114,Peter Coyote
-115,Ad van Kempen
-116,Diane Lane
-117,Claudio Brook
-118,Jing Ning
-119,John Marley
-120,Gabriel Byrne
-121,Larenz Tate
-122,Elizabeth Hurley
-123,Jon Tenney
-124,Juliette Mayniel
-125,Marie Laforêt
-126,Stacey Dash
-127,Phoebe Brand
-128,Michael O'Keefe
-129,Lloyd Bridges
-130,William Holden
-131,Adam Sandler
-132,Donna Reed
-133,Libby Langdon
-134,Jason James Richter
-135,Tony Goldwyn
-136,Rob Schneider
-137,Linus Roache
-138,Tilda Swinton
-139,Sheena Easton
-140,Renée Zellweger
-141,Sandra Bernhard
-142,Aoi Nakajima
-143,Ming-Na Wen
-144,The Lady Bunny
-145,Marcello Mastroianni
-146,Michael T. Weiss
-147,Alberta Watson
-148,Marianne Hagan
-149,Carl Esmond
-150,Kay Thompson
-151,Ralph Fiennes
-152,Jacob Tierney
-153,Ray Liotta
-154,Matt Frewer
-155,Laurence Fishburne
-156,Gang Wu
-157,Akio Ôtsuka
-158,Andrea Eckert
-159,Viggo Mortensen
-160,Mel Gibson
-161,Brian Benben
-162,Raymond Massey
-163,Ruocheng Ying
-164,Ralph Bellamy
-165,Sandra Bullock
-166,Julie Bowen
-167,Kevin Spacey
-168,Richard Greene
-169,Joe Cortese
-170,Teiji Takahashi
-171,Gary Oldman
-172,Helen Hunt
-173,Tim Roth
-174,Luisina Brando
-175,George Kennedy
-176,George Clooney
-177,Karan Ashley
-178,Jack Nicholson
-179,John Sham
-180,Morgan Fairchild
-181,Laura Dern
-182,Angie Everhart
-183,Christopher Lloyd
-184,Mary-Kate Olsen
-185,Cindy Crawford
-186,Jan Decleir
-187,Elizabeth Peña
-188,Anne Heche
-189,Walter Pidgeon
-190,Christopher Eccleston
-191,Molly Ringwald
-192,Sam Neill
-193,Kathy Bates
-194,Tupac Shakur
-195,Anna Falchi
-196,Eric Lloyd
-197,Nancy Travis
-198,Simon Callow
-199,Champa
-200,Billy Zane
-201,Iain Robertson
-202,Charles Crumb
-203,Wolfgang Liebeneiner
-204,Billy Blanks
-205,Chris Grigg
-206,Gabriel Olds
-207,Robert Downey Jr.
-208,Lars Hanson
-209,Rusty Cundieff
-210,Jingwu Ma
-211,Walter Slezak
-212,Jack Lemmon
-213,Eleanor Bron
-214,Jack Benny
-215,Angeline Ball
-216,Don McKellar
-217,Dennis Quaid
-218,Ice Cube
-219,Kevin McDonald
-220,Miranda Richardson
-221,Jonathan Taylor Thomas
-222,William Atherton
-223,Leslie Mann
-224,RaéVen Kelly
-225,Jennifer MacDonald
-226,Barbara Stanwyck
-227,Kelly Rowan
-228,Antje de Boeck
-229,John Malkovich
-230,David Caruso
-231,Audie England
-232,Michael Wincott
-233,Fatemeh Azrah
-234,Joe Torry
-235,Geneviève Bujold
-236,Heather Hogan
-237,Kiefer Sutherland
-238,Suzy Amis
-239,Jessica Tandy
-240,Cynthia Stevenson
-241,Donald Sutherland
-242,Brittany Ashton Holmes
-243,Carol Kane
-244,Lumi Cavazos
-245,Michael Beach
-246,Shaojun Tian
-247,Guinevere Turner
-248,Jesse Corti
-249,Allen Payne
-250,Emilio Estevez
-251,Bridgette Wilson-Sampras
-252,James Fleet
-253,Sam Shepard
-254,James Earl Jones
-255,Mohsen Kafili
-256,Carole Lombard
-257,Helen Slater
-258,Annie Corley
-259,Van Johnson
-260,Olga Tudorache
-261,Brian Hooks
-262,Joe Pantoliano
-263,Leslie Nielsen
-264,Bill Pullman
-265,Jerry Adler
-266,Cuauhtemoc Rivas
-267,Kirstie Alley
-268,Julie Warner
-269,Gila Almagor
-270,Kris Kristofferson
-271,Brigitte Lin
-272,Charles Rocket
-273,Paul Lukas
-274,Thora Hird
-275,Colm Feore
-276,Phil Harris
-277,Peter Gallagher
-278,Josiane Balasko
-279,James Cromwell
-280,Magaye Niang
-281,Antoine Basler
-282,Rosie Perez
-283,Jesse Bradford
-284,Mary Stuart Masterson
-285,Vivica A. Fox
-286,Stuart Wilson
-287,Liam Cunningham
-288,Jessie Royce Landis
-289,Akira Takayama
-290,Xander Berkeley
-291,Tia Carrere
-292,Harry Belafonte
-293,Samir Guesmi
-294,Angela Bassett
-295,Maria Grazia Cucinotta
-296,Ethan Hawke
-297,Juana Barrios
-298,Sigourney Weaver
-299,Johan Widerberg
-300,Massimo Troisi
-301,Sylvester Stallone
-302,Anne Baxter
-303,Elena Sofia Ricci
-304,Julie Harris
-305,Ben Kingsley
-306,Maureen O'Sullivan
-307,Mathias Mégard
-308,John Travolta
-309,Jason Gedrick
-310,Rochelle Davis
-311,Edward Norton
-312,Gene Hackman
-313,Annette Bening
-314,Tyrin Turner
-315,Robin Wright
-316,George Sanders
-317,Sondos Belhassen
-318,Charles Vanel
-319,Wallace Wood
-320,Chester Morris
-321,Michel Bouquet
-322,Deborah Collard
-323,Jayne Brook
-324,Joseph Mazzello
-325,Blake Boyd
-326,Angel Aviles
-327,Jeremy Irons
-328,Leslie Caron
-329,Michael Ironside
-330,Eddy Mitchell
-331,Julianne Phillips
-332,Thomas Gibson
-333,Tony Leung Chiu-wai
-334,Maggie Castle
-335,Catherine O'Hara
-336,Bob Gunton
-337,Sammi Davis
-338,Trace Beaulieu
-339,Teri Hatcher
-340,James Garner
-341,Danny Cunningham
-342,Clint Eastwood
-343,Terence Stamp
-344,Keir Dullea
-345,George Cole
-346,Craig Chester
-347,Jared Harris
-348,Brian Kerwin
-349,John Polson
-350,Michelle Pfeiffer
-351,David Riva
-352,Al Franken
-353,Mustapha Adouani
-354,Gigio Morra
-355,Tim Bergmann
-356,Malcolm McDowell
-357,Robert Crumb
-358,Ann O'Brien
-359,Julie Delpy
-360,Scott Bakula
-361,Richard Dreyfuss
-362,Lawrence Gilliard Jr.
-363,Elizabeth Berkley
-364,Sadie Frost
-365,Susan Sarandon
-366,Christopher McDonald
-367,Tom Noonan
-368,Raúl Carbonell
-369,Yûki Kudô
-370,Ben Becker
-371,Maila Nurmi
-372,Jonny Lee Miller
-373,Alison Elliott
-374,John Turturro
-375,Avi Hoffman
-376,Tina Aumont
-377,Dylan Walsh
-378,Joss Ackland
-379,Gina Gershon
-380,Timothy Hutton
-381,Edward Herrmann
-382,Robert Ryan
-383,Lukas Haas
-384,Caroline Barclay
-385,Emil Chau
-386,Richard Briers
-387,Edward James Olmos
-388,Joe Don Baker
-389,Juan Muñiz
-390,Scarlett Johansson
-391,Kevin Bacon
-392,Anne Bancroft
-393,Jane March
-394,Melody Kay
-395,Damon Wayans
-396,Takeshi Kaneshiro
-397,Veronica Ferres
-398,Isabella Rossellini
-399,Josh Charles
-400,Natalie Portman
-401,Hugh O'Conor
-402,Brian O'Halloran
-403,Lori Petty
-404,Abbas Khavaninzadeh
-405,Wesley Snipes
-406,Debra Winger
-407,Pete Postlethwaite
-408,Diedrich Bader
-409,Susan Fleetwood
-410,Theresa Randle
-411,Leslie Cheung
-412,Anne Vernon
-413,Cameron Bancroft
-414,Lily Tomlin
-415,Shannen Doherty
-416,Ned Beatty
-417,Bug Hall
-418,Martin Neufeld
-419,Armin Mueller-Stahl
-420,Om Puri
-421,Bruce Willis
-422,Nozha Khouadra
-423,Judge Reinhold
-424,Meg Tilly
-425,Melanie Lynskey
-426,Kate Nelligan
-427,Christine Taylor
-428,Madge Evans
-429,Alexandra Paul
-430,Sigrid Gurie
-431,Bo White
-432,John Mahoney
-433,Gil Bellows
-434,Robert Knott
-435,Katya Ladan
-436,Bozhao Wang
-437,Walter Matthau
-438,Seidy Lopez
-439,Taylor Nichols
-440,Dirk Benedict
-441,Virginia Madsen
-442,Mary Elizabeth Mastrantonio
-443,Jude Law
-444,Marc Anthony
-445,Donald Pleasence
-446,Barry Corbin
-447,Lawrence Dane
-448,Kris Bidenko
-449,Sean Pertwee
-450,Peter Outerbridge
-451,Litefoot
-452,Miranda Rhyne
-453,Amanda Root
-454,Salma Hayek
-455,Willem Dafoe
-456,Johnny Yong Bosch
-457,William Powell
-458,Michael Douglas
-459,Nina Hoss
-460,Peter Fonda
-461,Nejia Ouerghi
-462,Daniel Day-Lewis
-463,Linda Darnell
-464,Sam Waterston
-465,Tom Hulce
-466,Aaron Shields
-467,Clive Owen
-468,Madam Alex
-469,Luís Miguel Cintra
-470,Chad Stahelski
-471,Mia Sara
-472,Bokeem Woodbine
-473,Dolores Costello
-474,T. Wendy McMillan
-475,Freddie Bartholomew
-476,Sandie Lavelle
-477,Jim Varney
-478,Kelly Hunter
-479,Rex Harrison
-480,Anita Louise
-481,Alejandra Podesta
-482,Anita Mui
-483,Dan Gunther
-484,Joe Pesci
-485,Temuera Morrison
-486,Masatoshi Nagase
-487,Raul Julia
-488,Azzedine Alaïa
-489,Steve Alden
-490,Priscilla Presley
-491,Dean Stockwell
-492,Michael Rooker
-493,Dean Norris
-494,George Thrush
-495,Silvia Morgan
-496,Doug Bradley
-497,Lee Nashold
-498,Lloyd Adams
-499,Gong Li
-500,Ellen Burstyn
-501,Magda Szubanski
-502,George Stephanopoulos
-503,Kên Higelin
-504,Kelly Lynch
-505,Le Van Loc
-506,Michael Lerner
-507,Jessica Lundy
-508,Christian Clavier
-509,Kevin Kline
-510,Renato Carpentieri
-511,Maggie Cheung
-512,Joan Chen
-513,Gary Kemp
-514,Sergio Castellitto
-515,Ion Caramitru
-516,Christopher Lambert
-517,Gloria Clokey
-518,Adriana Caselotti
-519,Pierre Arditi
-520,Caroleen Feeney
-521,Ruth Marshall
-522,Robbie Lee
-523,Lucille La Verne
-524,Agnès Soral
-525,Deborah Kara Unger
-526,Gene Ross
-527,Dearbhla Molloy
-528,Yolanda Vazquez
-529,Jim Carrey
-530,Janusz Gajos
-531,V.S. Brodie
-532,Margaret Whitton
-533,Victoria Foyt
-534,Maurice Ronet
-535,Lorraine Bracco
-536,Laura San Giacomo
-537,Sandra Oh
-538,Chevy Chase
-539,Powers Boothe
-540,Anna Grace
-541,Keenen Ivory Wayans
-542,Ulrich Tukur
-543,Wendell Corey
-544,Fred Williamson
-545,Ingrid Caven
-546,James Dean
-547,Billy Connolly
-548,Elizabeth McGovern
-549,Irene Dunne
-550,Christy Turlington
-551,Cybill Shepherd
-552,You Ge
-553,Frank Langella
-554,Rock Hudson
-555,Fanny Ardant
-556,Charles Ruggles
-557,James Stewart
-558,Sean Nelson
-559,Peter Ketnath
-560,Anton Rattinger
-561,Matt Dillon
-562,George Gaynes
-563,Bob Hoskins
-564,Clark Gable
-565,Henry Czerny
-566,Leslie Phillips
-567,Whittni Wright
-568,Pang Eun-jin
-569,Rory Cochrane
-570,Alicia Silverstone
-571,Leon
-572,Valentina Vargas
-573,Lillian Gish
-574,Sally Field
-575,Ian McNeice
-576,Greta Scacchi
-577,John Cusack
-578,Tiziana Lodato
-579,Julianne Moore
-580,Luke Wilson
-581,Fredro Starr
-582,Vittorio Mezzogiorno
-583,Michel Piccoli
-584,Yancy Butler
-585,Dennis Hopper
-586,Federico Luppi
-587,Thomas Mitchell
-588,Thomas Ian Nicholas
-589,Charles Durning
-590,Vincent D'Onofrio
-591,Myrna Loy
-592,Soumitra Chatterjee
-593,Héctor Alterio
-594,Sarah Jessica Parker
-595,Jeff Anderson
-596,Christine Cavanaugh
-597,Michael Keaton
-598,Emmanuelle Seigner
-599,Charles Gitonga Maina
-600,Ellen Greene
-601,Joe Flaherty
-602,Géraldine Pailhas
-603,William Baldwin
-604,Jeroen Krabbé
-605,Tommy Lee Jones
-606,Tom McGowan
-607,Jim Brown
-608,Nanni Moretti
-609,Henry B. Walthall
-610,Danny Nucci
-611,Delroy Lindo
-612,Alan Rickman
-613,Nastassja Kinski
-614,Michael York
-615,Amy Brenneman
-616,Jacob Vargas
-617,Gene Tierney
-618,Dorothy Comingore
-619,Elizabeth Perkins
-620,Giancarlo Esposito
-621,Andy Garcia
-622,Wallace Shawn
-623,Eric Bryson
-624,Kate Capshaw
-625,Murvyn Vye
-626,Dominique Horwitz
-627,Robert John Burke
-628,Arnold Steinhardt
-629,Julian Sands
-630,Sihung Lung
-631,William Petersen
-632,Gregory Smith
-633,Madonna
-634,Alessandra Martines
-635,Janeane Garofalo
-636,William H. Macy
-637,Michael J. Fox
-638,Eric Barreto
-639,Leopold Kozlowski
-640,Chris Elliott
-641,Monica Gayle
-642,Barbara Gonzalez
-643,William Gates
-644,Ewan McGregor
-645,Lionel Barrymore
-646,Marika Lagercrantz
-647,Rachel Weisz
-648,Wang Yu-wen
-649,Françoise Yip
-650,Crispin Glover
-651,Lena Stolze
-652,Stockard Channing
-653,Pam Grier
-654,Mary Steenburgen
-655,Bruce Ramsay
-656,Paul Muni
-657,David Arquette
-658,John Leguizamo
-659,Franco Nero
-660,Charles Dance
-661,Charlotte Eve Blythe
-662,Charlie Talbert
-663,Mirjana Jokovic
-664,Robert Wuhl
-665,Jim Belushi
-666,Philippe Ambrosini
-667,Sheila Burrell
-668,Joseph Nikiema
-669,Paul Austin
-670,Jeff Bridges
-671,Stephen Mendillo
-672,Melanie Griffith
-673,Jermaine Hopkins
-674,Amy Braverman
-675,Xingli Niu
-676,Matthew Modine
-677,Udo Samel
-678,Greta Garbo
-679,Candace Hutson
-680,Ben Mendelsohn
-681,Tom Conti
-682,Marlon Wayans
-683,Eileen Atkins
-684,Nu Yên-Khê Tran
-685,Ted Levine
-686,Uma Thurman
-687,Ritch Brinkley
-688,Michel Boujenah
-689,Nino Castelnuovo
-690,Nick Stahl
-691,Gary Sinise
-692,Juliette Lewis
-693,Haing S. Ngor
-694,Heather Langenkamp
-695,Guillermo Diaz
-696,Patrick Malahide
-697,Richard Attenborough
-698,Humphrey Bogart
-699,Edward Burns
-700,Maria Conchita Alonso
-701,Alain Delon
-702,Mark Rylance
-703,Martin Raymond
-704,Jessica Harper
-705,Mary-Louise Parker
-706,Verónica Forqué
-707,Zack Duhame
-708,Magda Schneider
-709,Isa Baschwitz
-710,Christiane Hörbiger
-711,Aaron Schwartz
-712,Courtney Chase
-713,Pauline Collins
-714,Harvey Keitel
-715,Albert Finney
-716,Juliette Binoche
-717,Michael Stock
-718,Florence Darel
-719,Crissy Rock
-720,Docs Keepin Time
-721,Emma Thompson
-722,Jennifer Aniston
-723,Michael Boatman
-724,Erik Goertz
-725,Tom Berenger
-726,Scott Weinger
-727,Jay O. Sanders
-728,James Remar
-729,William McNamara
-730,Scott Glenn
-731,Tim Daly
-732,Javier Bardem
-733,Stefan Glowacz
-734,Samuel Fuller
-735,Michel Serrault
-736,Terry Kinney
-737,Paul Marco
-738,Ina Claire
-739,Meg Ryan
-740,Liam Neeson
-741,Saul Stein
-742,Parker Posey
-743,Christina Ricci
-744,Joachim Król
-745,Roberta Maxwell
-746,Peter Jacobson
-747,Tom Bell
-748,Isabelle Adjani
-749,Rainer Werner Fassbinder
-750,Christopher Reid
-751,Eric Stoltz
-752,Everett McGill
-753,Elina Löwensohn
-754,Richard Carlson
-755,Lydie Denier
-756,François Hadji-Lazaro
-757,Marlene Dietrich
-758,Ewen Bremner
-759,August Zirner
-760,Curt Gareth
-761,Russell Crowe
-762,Annemarie Düringer
-763,Christina Veronica
-764,Nancy Allen
-765,Julie Mauduech
-766,Dolores Fuller
-767,Danny Aiello
-768,Heather Medway
-769,Robin Williams
-770,Ben Stiller
-771,Robert Carlyle
-772,Nick Nolte
-773,Gabriel Casseus
-774,David Schwimmer
-775,Ghalya Lacroix
-776,Paul Hogan
-777,Roddy Piper
-778,Michelle Yeoh
-779,Katharine Hepburn
-780,Bam Bam Bigelow
-781,Gérard Desarthe
-782,Patricia Arquette
-783,Jean-Paul Belmondo
-784,Faye Dunaway
-785,Jennifer Beals
-786,Mae Whitman
-787,Rupert Everett
-788,Maquisard Alfonso
-789,Victor Ertmanis
-790,Jada Pinkett Smith
-791,William Sylvester
-792,Stephen Baldwin
-793,Annabella Sciorra
-794,Paige O'Hara
-795,Michael Imperioli
-796,John Candy
-797,Jennifer Rubin
-798,Rigg Kennedy
-799,Drew Barrymore
-800,Matthew McConaughey
-801,Giorgio Armani
-802,Kimberly Williams-Paisley
-803,Piper Laurie
-804,Katrin Cartlidge
-805,Steven Waddington
-806,Mark Anthony
-807,Mario Machado
-808,Tom Wilkinson
-809,Nick Upton
-810,Mario Van Peebles
-811,Olivia d'Abo
-812,Frances McDormand
-813,Siqin Gaowa
-814,Keith Carradine
-815,Cyd Charisse
-816,Sami Bouajila
-817,Keith Allen
-818,Dan Aykroyd
-819,Jeffrey Force
-820,Christopher Bowen
-821,Mick Lally
-822,Sinbad
-823,Pamela Adlon
-824,Dana Vávrová
-825,Rabiah Ben-Abdullah
-826,Kevin Costner
-827,Jackie Chan
-828,Yinyan Wu
-829,Geraldine O'Rawe
-830,Billy Crystal
-831,Jon Favreau
-832,Colin Friels
-833,Lillo Brancato
-834,Mike Myers
-835,Errol Flynn
-836,Joachim Serreau
-837,Richy Müller
-838,Paul Calderon
-839,Marita Marschall
-840,Romane Bohringer
-841,Bibi Krubwa
-842,Sophie Marceau
-843,David Edwards
-844,Fred MacMurray
-845,Colm Meaney
-846,Hilary Swank
-847,Aleksa Palladino
-848,James Cagney
-849,Brad Pitt
-850,Chelsea Field
-851,Ollie Johnston
-852,Queen Latifah
-853,Spencer Tracy
-854,Gregory Hines
-855,Joan Plowright
-856,Nathalie Baye
-857,Chen Chao-jung
-858,Robert Klein
-859,Barbara Crampton
-860,John McDonough
-861,Dieter Wardetzky
-862,Rene Russo
-863,Kinuyo Tanaka
-864,Selim Boughedir
-865,Patricia Royce
-866,Quentin Crisp
-867,Oliver Milburn
-868,Hiep Thi Le
-869,Mathilda May
-870,Minnie Driver
-871,Kenneth Branagh
-872,Greg Kinnear
-873,Sean Bean
-874,Nick Broomfield
-875,Val Kilmer
-876,Xiaorui Zhao
-877,Rongguang Yu
-878,Geena Davis
-879,Patrick Goyette
-880,Saïd Taghmaoui
-881,Jerry O'Connell
-882,Steve Martin
-883,Gaël Morel
-884,David Thewlis
-885,Christopher Martin
-886,Cary Grant
-887,Stephen Dillane
-888,Papa Wemba
-889,Nathan Lane
-890,Joyce Phillips
-891,Gary Cooper
-892,Jack Black
-893,Leslie Hope
-894,Darren McGavin
-895,Julia Roberts
-896,Peter Greene
-897,Kanu Bannerjee
-898,Anna Thomson
-899,Judi Dench
-900,Mel Harris
-901,Valeria Golino
-902,Leslie Howard
-903,Robert Stack
-904,Frank Passingham
-905,Claude Rains
-906,Sean Astin
-907,Gene Kelly
-908,Mary McDonnell
-909,Isaiah Washington
-910,Scott Caan
-911,Christian Rub
-912,Graham Greene
-913,Nic Ratner
-914,Mike Barbour
-915,Robby Benson
-916,Hind Sabri
-917,Eddie Murphy
-918,Raymond J. Barry
-919,James Spader
-920,Mary Astor
-921,Kerry Fox
-922,Jean-Hugues Anglade
-923,Binnie Barnes
-924,Polly Draper
-925,Xiaoxiao Wang
-926,Ross Malinger
-927,Christina Vidal
-928,Kate Winslet
-929,Madeleine Stowe
-930,Blythe Danner
-931,John Hannah
-932,Bridget Fonda
-933,Lothaire Bluteau
-934,Kristy Swanson
-935,James Cosmo
-936,Leo Carrillo
-937,Henry Jaglom
-938,Rick Aviles
-939,Marco Hofschneider
-940,James Andronica
-941,John C. Reilly
-942,Tony Todd
-943,Samantha Mathis
-944,Jennifer Taylor
-945,C. Aubrey Smith
-946,Stefano Dionisi
-947,Marthe Villalonga
-948,Mimi Rogers
-949,Simone Signoret
-950,Kirsten Dunst
-951,Ellen Barkin
-952,Sherilyn Fenn
-953,Ariane Schluter
-954,Dana Andrews
-955,Aleksandr Kaydanovskiy
-956,Paul Newman
-957,Bonnie Hunt
-958,Baotian Li
-959,Sylvia Roemer
-960,Alice Krige
-961,Anne Archer
-962,Frances Dee
-963,Isa Danieli
-964,William Sanderson
-965,Paolo Villaggio
-966,Reese Witherspoon
-967,Woody Allen
-968,Phil Hartman
-969,Josep Maria Flotats
-970,Alida Valli
-971,Rosalind Russell
-972,Erich Anderson
-973,Roger Rees
-974,Rachael Crawford
-975,Naomi Watts
-976,Wendell Holmes
-977,Pawan Malhotra
-978,Valerie Mahaffey
-979,Al Pacino
-980,Phylicia Rashad
-981,Rafal Synówka
-982,Robin Givens
-983,Carmen Maura
-984,Anjelica Huston
-985,Shawn Wayans
-986,George C. Scott
-987,Joaquin Phoenix
-988,J.T. Walsh
-989,William Hurt
-990,Mel Brooks
-991,Natasha Richardson
-992,Albert Brooks
-993,Fairuza Balk
-994,Ned Dowd
-995,Jerry Barone
-996,Peter Riegert
-997,Ulrich Mühe
-998,Brian Cox
-999,Helena Solberg
-1000,André Eisermann
-1001,Stellan Skarsgård
-1002,Peter Dobson
-1003,Kevin Michael Richardson
-1004,Audrey Hepburn
-1005,Cynthia Rothrock
-1006,James Carville
-1007,Arthur Agee
-1008,Spike Lee
-1009,Corbin Bernsen
-1010,Eiko Matsuda
-1011,Tim Curry
-1012,Felicitas Grimm-Luck
-1013,Norma Shearer
-1014,Lisa Dean Ryan
-1015,James Rebhorn
-1016,Nicollette Sheridan
-1017,Cher
-1018,Rosemary Harris
-1019,Burl Ives
-1020,Herb Caen
-1021,Tim Allen
-1022,Michael Richards
-1023,Danny Elfman
-1024,Lena Headey
-1025,Mel Blanc
-1026,Oleg Menshikov
-1027,Lou Diamond Phillips
-1028,Ralph Waite
-1029,Jean Arthur
-1030,Sab Shimono
-1031,Subir Banerjee
-1032,Vincent Cassel
-1033,Chris Eigeman
-1034,Trini Alvarado
-1035,Cuba Gooding Jr.
-1036,Jonathan Banks
-1037,Isaac Stern
-1038,Iris Berben
-1039,Nicholas Turturro
-1040,Eric Roberts
-1041,Joaquim de Almeida
-1042,Bill Hunter
-1043,Craig Sheffer
-1044,James Woods
-1045,Jason Scott Lee
-1046,Sabine Azéma
-1047,Christopher Plummer
-1048,Lena Olin
-1049,Pamela Blair
-1050,Macaulay Culkin
-1051,Mia Farrow
-1052,Richard Romanus
-1053,Linda Hunt
-1054,Billy West
-1055,Nicolas Cage
-1056,Carlo Cecchi
-1057,Jf Davis
-1058,Cynda Williams
-1059,Katja Riemann
-1060,Gwyneth Paltrow
-1061,Jeffrey Combs
-1062,Glenn Close
-1063,Francis Capra
-1064,Esai Morales
-1065,Kristin Scott Thomas
-1066,Joanna Lumley
-1067,Haley Joel Osment
-1068,Karen Sillas
-1069,Cary-Hiroyuki Tagawa
-1070,Robin Tunney
-1071,Sarah Peirse
-1072,Tom Cruise
-1073,Catherine Keener
-1074,Eva Gabor
-1075,Jacqueline McKenzie
-1076,Ted Danson
-1077,Matthew Lillard
-1078,Daolin Sun
-1079,Kyra Sedgwick
-1080,Justin Fletcher
-1081,Wenli Jiang
-1082,Johnny Morina
-1083,Pauly Shore
-1084,Tom Guiry
-1085,Joseph Cotten
-1086,Tom Arnold
-1087,Shirley Temple
-1088,Cameron Diaz
-1089,Debbie Reynolds
-1090,Andie MacDowell
-1091,Robin Shou
-1092,Ronnie Davis
-1093,Jeremy London
-1094,Julia Ormond
-1095,Jodie Foster
-1096,Tony Shalhoub
-1097,Lynn Whitfield
-1098,Regina King
-1099,Bette Davis
-1100,Stefania Sandrelli
-1101,Marisa Tomei
-1102,Zbigniew Zamachowski
-1103,Aida Mohammadkhani
-1104,James Gammon
-1105,Michael Chekhov
-1106,Jason Alexander
-1107,Jean Sorel
-1108,Joey Travolta
-1109,Christine Lahti
-1110,Dianne Wiest
-1111,Diane Keaton
-1112,Mira Sorvino
-1113,Liesel Matthews
-1114,Afrika Bambaataa
-1115,George Tabori
-1116,Michael Gunther
-1117,Evelyn Daw
-1118,Madeline Kahn
-1119,Mark Wahlberg
-1120,Martin Donovan
-1121,Hedy Lamarr
-1122,Jean Reno
-1123,Sean Connery
-1124,Amanda Plummer
-1125,Anne Reid
-1126,Pascale Bussières
-1127,Jennifer Saunders
-1128,Martin Short
-1129,Tara Fitzgerald
-1130,Lindsay Crouse
-1131,Marilyn Monroe
-1132,Rubén Blades
-1133,Jeff Goldblum
-1134,Chris O'Donnell
-1135,Jessica Hamilton
-1136,Noah Emmerich
-1137,Antony Sher
-1138,Lara Flynn Boyle
-1139,Janet Jackson
-1140,Peter O'Toole
-1141,Keith David
-1142,Ingeborga Dapkunaite
-1143,Aidan Quinn
-1144,Arnold Schwarzenegger
-1145,Valérie Lemercier
-1146,Hetta Charnley
-1147,Kim Cattrall
-1148,Sela Ward
-1149,Ingrid Bergman
-1150,Daryl Hannah
-1151,Lauren Holly
-1152,Myriam Niang
-1153,Mark Hosler
-1154,Gregory Harrison
-1155,Orson Welles
-1156,Meret Becker
-1157,Anthony Higgins
-1158,Al Freeman Jr.
-1159,Wendy Hughes
-1160,Brenda Fricker
-1161,Christoph M. Ohrt
-1162,Rick Moranis
-1163,Georgina Cates
-1164,Carma Hinton
-1165,Vivien Leigh
-1166,Richard Norton
-1167,Andy Dick
-1168,John Matshikiza
-1169,Suzzanne Douglas
-1170,Robert Englund
-1171,Jon Robin Baitz
-1172,Duane Martin
-1173,Darlanne Fluegel
-1174,Chung-Hua Tou
-1175,Brad Renfro
-1176,James Gandolfini
-1177,Leon Schuster
-1178,Dominique Sanda
-1179,Anica Dobra
-1180,Félicie Pasotti
-1181,Olivia de Havilland
-1182,Alice Brady
-1183,Ian McKellen
-1184,Denzel Washington
-1185,Steven Weber
-1186,Rick Johnson
-1187,Patrick Bauchau
-1188,Lisa Thornhill
-1189,Richard E. Grant
-1190,Lorraine Devon Wilke
-1191,Christian Päffgen
-1192,Daniel Pollock
-1193,Dennis Goldson
-1194,Lesley Sharp
-1195,David Morse
-1196,Jeremy Clyde
-1197,Jean Yanne
-1198,Lloyd Dunn
-1199,Lane Smith
-1200,Charles Boyer
-1201,Daniel McVicar
-1202,Christian Slater
-1203,Anthony LaPaglia
-1204,Forest Whitaker
-1205,Johnathon Schaech
-1206,Maurice Chevalier
-1207,Luke Perry
-1208,Assumpta Serna
-1209,Julian Fellowes
-1210,Elijah Wood
-1211,Isabelle Huppert
-1212,Kang-sheng Lee
-1213,Morgan Freeman
-1214,Meryl Streep
-1215,Polly Walker
-1216,Jane Curtin
-1217,Maggie Cogan
-1218,Linden Ashby
-1219,Alfre Woodard
-1220,John Hurt
-1221,James Hong
-1222,Donald O'Connor
-1223,Nia Long
-1224,Marilyn Ghigliotti
-1225,María Casares
-1226,Mary Kay Place
-1227,Alan Alda
-1228,Tomas von Brömssen
-1229,Michael J. Nelson
-1230,Eddie Griffin
-1231,Joseph Gordon-Levitt
-1232,Martin Umbach
-1233,Sterling Hayden
-1234,Lisa Boyle
-1235,June Kyoto Lu
-1236,Christopher Walken
-1237,Behzad Khodaveisi
-1238,Ice-T
-1239,Patrick McGoohan
-1240,Ian Hart
-1241,Jamie Lee Curtis
-1242,Lou Reed
-1243,John Goodman
-1244,Brandon Lee
-1245,Sean Young
-1246,Natasha Henstridge
-1247,Clarence Williams III
-1248,Saskia Reeves
-1249,Antonio Neiwiller
-1250,Rob Morrow
-1251,Yi Ding
-1252,Vusi Kunene
-1253,John Lone
-1254,Georges Marchal
-1255,Jason Priestley
-1256,Thierry Lhermitte
-1257,Jeff Daniels
-1258,Vanessa Williams
-1259,Bruce Dern
-1260,Roy Dupuis
-1261,Mare Winningham
-1262,Patsy Kensit
-1263,Gladys George
-1264,Vincent Kartheiser
-1265,Emma Gates
-1266,Basia Frydman
-1267,Stephen Chang
-1268,Danny DeVito
-1269,Marlon Brando
-1270,Sheryl Lee
-1271,Barbara Bates
-1272,Armand Assante
-1273,Eric Thal
-1274,Charles Laughton
-1275,Shaquille O'Neal
-1276,Kyle MacLachlan
-1277,Viktor Mikhailov
-1278,Ludwig Briand
-1279,Alex Del Rosario
-1280,Farrah Fawcett
-1281,Burt Reynolds
-1282,John Clarke
-1283,Dickie Jones
-1284,Maya Lin
-1285,Matt McCoy
-1286,Matt LeBlanc
-1287,Whoopi Goldberg
-1288,Keanu Reeves
-1289,Peter Weller
-1290,Frances Fisher
-1291,Heydon Prowse
-1292,Patrick Timsit
-1293,Sterling Holloway
-1294,Clara Bellar
-1295,Melvyn Douglas
-1296,Jorge Perugorría
-1297,Erika Eleniak
-1298,Isaac Mizrahi
-1299,Michael Rapaport
-1300,Brittany Murphy
-1301,Joe McFadden
-1302,Iemasa Kayumi
-1303,Treat Williams
-1304,Paul Gleason
-1305,Jean-Louis Millette
-1306,Eric Bogosian
-1307,Jennifer Nitsch
-1308,Chu-Ryun Kim
-1309,Brigitte Bardot
-1310,Marzena Trybala
-1311,Billy Campbell
-1312,Hwang Sin-hye
-1313,Hugo Weaving
-1314,Martin Lawrence
-1315,Kanin Howell
-1316,Phoebe Cates
-1317,James Caan
-1318,Maurizio Nichetti
-1319,Moira Kelly
-1320,Miles Davis
-1321,Jean-Louis Trintignant
-1322,Philippe Noiret
-1323,Thomas J. Cahill
-1324,Tony Curtis
-1325,Scott McAfee
-1326,Chris Sarandon
-1327,Chad McQueen
-1328,Gérard Depardieu
-1329,Fabrice Luchini
-1330,Claudette Carracedo
-1331,Imogen Stubbs
-1332,Samuel L. Jackson
-1333,Heather Graham
-1334,Michele Placido
-1335,Marco Leonardi
-1336,Woody Harrelson
-1337,Alec Baldwin
-1338,Michelle Forbes
-1339,Jane Fonda
-1340,Sue Price
-1341,Zoe Carides
-1342,Talia Shire
-1343,Mark Linn-Baker
-1344,Max Cullen
-1345,Kevin Dillon
-1346,Beverly D'Angelo
-1347,Cynthia Adler
-1348,Peter Reznick
-1349,Gary Lockwood
-1350,Martha Plimpton
-1351,Dennis Farina
-1352,Jaye Davidson
-1353,Brendan Fraser
-1354,Maurice Dean Wint
-1355,Amanda Sandrelli
-1356,Hugh Grant
-1357,James Andrews
-1358,Samuel Gould
-1359,Juliano Mer-Khamis
-1360,Steve Guttenberg
-1361,Holly Hunter
-1362,Gary Busey
-1363,Julie Carmen
-1364,Christopher Reeve
-1365,Tom Sizemore
-1366,Jesper Salén
-1367,Vladimir Cruz
-1368,Lance Henriksen
-1369,Victoria Smurfit
-1370,Dermot Mulroney
-1371,Kadeem Hardison
-1372,Dom DeLuise
-1373,Katina Commings
-1374,Roseanne Barr
-1375,Yûko Mochizuki
-1376,Stacy Keach
-1377,Josh Hamilton
-1378,Charlotte Gainsbourg
-1379,Landu Nzunzimbu Matshia
-1380,Steffen Schroeder
-1381,Sharmila Tagore
-1382,Thora Birch
-1383,David Patrick Kelly
-1384,Deborah Amos
-1385,Kim Basinger
-1386,Alain Chabat
-1387,Thokozani Nkosi
-1388,Kathy Jamieson
-1389,Caridad Ravelo
-1390,Tushka Bergen
-1391,Aitana Sánchez-Gijón
-1392,Mirta Ibarra
-1393,Julie Hagerty
-1394,Neve Campbell
-1395,Eric da Silva
-1396,John Lithgow
-1397,James Frain
-1398,Jack Palance
-1399,Fereshteh Sadre Orafaiy
-1400,Stanley Tucci
-1401,Mary Beth Aylesworth
-1402,Ron Silver
-1403,Mathieu Kassovitz
-1404,U Aung Ko
-1405,Tim Matheson
-1406,Guy Pearce
-1407,Luke Edwards
-1408,Dave Foley
-1409,Sonia Braga
-1410,Edward Everett Horton
-1411,Halle Berry
-1412,Craig Fairbrass
-1413,Jennifer Tilly
-1414,Louis Jourdan
-1415,Clifton Webb
-1416,Bernard Hill
-1417,Arturo Cámara
-1418,Jason Lee
-1419,Jeanne Moreau
-1420,Larry B. Scott
-1421,William Shatner
-1422,Marilyn Sokol
-1423,Tim Robbins
-1424,Robert Sean Leonard
-1425,Robert De Niro
-1426,Louise Smith
-1427,Barry Otto
-1428,Nikita Mikhalkov
-1429,Tony Robinow
-1430,Jennifer Grey
-1431,Steven Berkoff
-1432,Patricia Clarkson
-1433,James Brolin
-1434,Kaipu Cohen
-1435,Fengyi Zhang
-1436,Nathan Yapp
-1437,Aline Kominsky-Crumb
-1438,Anna Chlumsky
-1439,Peter Sellers
-1440,Jürgen Prochnow
-1441,Gena Rowlands
-1442,Linda Larkin
-1443,Élodie Bouchez
-1444,Ginger Rogers
-1445,Ciarán Hinds
-1446,Juliet Landau
-1447,Mara Wilson
-1448,Harry Stockwell
-1449,Barbara Bel Geddes
-1450,Mohan Agashe
-1451,Dr. Dre
-1452,Demi Moore
-1453,Rhea Perlman
-1454,Shar-Ron Corley
-1455,Paul Rudd
-1456,Elisabeth Shue
-1457,Lili Taylor
-1458,Gregory Peck
-1459,Carla Gugino
-1460,Ernest Borgnine
-1461,Eileen Colgan
-1462,Karl Hardman
-1463,Paul Henreid
-1464,Joan Crawford
-1465,Stephen Dorff
-1466,Alyssa Milano
-1467,Sissy Spacek
-1468,Frédérique Feder
-1469,Kathy Larson
-1470,Vincent Perez
-1471,Clive Russell
-1472,Patricia Neal
-1473,Gary Cole
-1474,William Sadler
-1475,Bill Nunn
-1476,Gabrielle Anwar
-1477,Ed Harris
-1478,Jim Broadbent
-1479,Joan Bennett
-1480,Mamaengaroa Kerr-Bell
-1481,Michael Gambon
-1482,Richard Brooks
-1483,Duane Jones
-1484,Frank Whaley
-1485,Cathy Moriarty
-1486,Frank Thomas
-1487,Cyril Collard
-1488,Patrick Stewart
-1489,Pierre Brasseur
-1490,Anthony Quinn
-1491,Kate Beckinsale
-1492,Omar Epps
-1493,Christoph Colomb
-1494,Anne Parillaud
-1495,Edward Stanley
-1496,Kim Greist
-1497,Martin Landau
-1498,Sergey Dreyden
-1499,Lazar Ristovski
-1500,Jeremy Northam
-1501,Michelle Trachtenberg
-1502,Kuei-Mei Yang
-1503,Kurt Russell
-1504,Eddie Bowz
-1505,Lynn Carlin
-1506,Karuna Bannerjee
-1507,Frederick Weller
-1508,Steven Duffy
-1509,Rose Gregorio
-1510,Adam Ant
-1511,Nicole Kidman
-1512,Art Carney
-1513,Dolph Lundgren
-1514,Paul Terry
-1515,Anthony Hopkins
-1516,Saul Rubinek
-1517,Catherine Deneuve
-1518,Dennis Haysbert
-1519,Walter Connolly
-1520,Michael Madsen
-1521,John Larroquette
-1522,Harrison Ford
-1523,James Duval
-1524,Nick Baldasare
-1525,Khaled Ksouri
-1526,Victoria Abril
-1527,Daniel Bernhardt
-1528,Heather Beckel
-1529,David Paymer
-1530,Kevin J. O'Connor
-1531,Atsuko Tanaka
-1532,Grace Kelly
-1533,Marcia Gay Harden
-1534,Billy Bob Thornton
-1535,Jochen Nickel
-1536,Kathleen Turner
-1537,Dustin Hoffman
-1538,Dylan McDermott
-1539,Nelly Alard
-1540,Youssef Abed-Alnour
-1541,Sharon Stone
-1542,Vladimir Vega
-1543,Dana Delany
-1544,Derek Keurvorst
-1545,Anthony DeSando
-1546,Stéphane Audran
-1547,Judith O'Dea
-1548,John Haycraft
-1549,Patrick Bergin
-1550,Judy Davis
-1551,Shirley MacLaine
-1552,Megan Ward
-1553,Daniel Stern
-1554,Ann Turkel
-1555,Ricki Lake
-1556,Embeth Davidtz
-1557,Michael Maloney
-1558,Serge Yanogo
-1559,Jared Leto
-1560,Rutger Hauer
-1561,Jim Jarmusch
-1562,Ryan Slater
-1563,Caroline Goodall
-1564,John Plumpis
-1565,Tina Cote
-1566,Roberta Guaspari
-1567,Robert Redford
-1568,Travis Tedford
-1569,Ally Walker
-1570,Randy Quaid
-1571,Owen Wilson
-1572,Jeremy Davies
-1573,Patrick Swayze
-1574,Charlie Sheen
-1575,Omar Townsend
-1576,Ron Perlman
-1577,Will Smith
-1578,Laura Linney
-1579,Thomas Kretschmann
-1580,William Frawley
-1581,Kelsey Grammer
-1582,Antoine Pialat
-1583,Edward Furlong
-1584,Cary Elwes
-1585,Brad Sullivan
-1586,Jessica Lange
-1587,Arie Verveen
-1588,Elsa Zylberstein
-1589,Denis Leary
-1590,Donna Frotscher
-1591,Bruklin Harris
-1592,Jeni Courtney
-1593,Tôru Nakamura
-1594,Richard Lewis
-1595,Danny Glover
-1596,Kate Burton
-1597,Marya Cohn
-1598,Olivier Martinez
-1599,Susie Bright
-1600,Liv Tyler
-1601,Joe Mantegna
-1602,Margaret Cho
-1603,Gandong Cervantes
-1604,Jim Mallon
-1605,Bill Paxton
-1606,Joanne Nail
-1607,Rosine Yanogo
-1608,Emma Coles
-1609,Adolphe Menjou
-1610,Anna Paquin
-1611,Corinna Harfouch
-1612,Helena Bonham Carter
-1613,Irène Jacob
-1614,Chazz Palminteri
-1615,Courteney Cox
-1616,F. Murray Abraham
-1617,Jimmy Smits
-1618,John Ashton
-1619,Brock Pierce
-1620,Fred Astaire
-1621,Steve Cardenas
-1622,Don Rickles
-1623,Daniel Auteuil
-1624,Beulah Bondi
-1625,Kate Maberly
-1626,Winona Ryder
-1627,Robert Peterson
-1628,Jennifer Connelly
-1629,Paul Reiser
-1630,Shelley Long
-1631,Will Patton
-1632,Matt Keeslar
-1633,Akim Tamiroff
-1634,Ben Niu
-1635,Dina Meyer
-1636,George Peppard
-1637,Bruce Davison
-1638,Oscar Levant
-1639,Carin C. Tietze
-1640,Viveca Lindfors
-1641,Toni Collette
-1642,Jeanne Tripplehorn
-1643,Gemma Jones
-1644,Stéphane Rideau
-1645,Leonardo DiCaprio
-1646,Johnny Depp
-1647,Aeryk Egan
-1648,Nina Xining Zuo
-1649,Jennifer Jason Leigh
-1650,Rebecca De Mornay
-1651,Dennis Miller
-1652,JD Souther
-1653,James Russo
-1654,Robert Morley
-1655,Enrico Lo Verso
-1656,Warren Beatty
-1657,Claudia Kaleem
+actorId,actorName,birthDate,jobTitle
+0,Hubert Koundé,1970-12-30,Actor|Director|Writer
+1,Til Schweiger,1963-12-19,Actor|Producer|Director
+2,Christian Bale,,
+3,Jon Voight,,
+4,Jon Polito,1950-12-29,Actor
+5,Linda Hamilton,1956-09-26,Actress|Soundtrack
+6,Gary Farmer,1953-06-12,Actor|Director|Additional Crew
+7,Regina Torné,1945-10-02,Actress|Director
+8,O-Lan Jones,,
+9,Emmanuelle Béart,1963-08-14,Actress|Director|Writer
+10,Tina Bursill,,
+11,Jack Thompson,1940-08-31,Actor|Producer|Additional Crew
+12,Jean-Claude Van Damme,,
+13,Predrag 'Miki' Manojlovic,1950-04-05,Actor|Director|Script and Continuity Department
+14,Helen Buday,,Actress
+15,Richard Harris,1930-10-01,Actor|Producer|Director
+16,Carlos López,1988-09-12,Director|Writer|Producer
+17,Peter Sallis,1921-02-01,Actor|Producer|Writer
+18,Matt Salinger,1960-02-13,Actor|Producer
+19,Timothy Busfield,,
+20,Bill Murray,1950-09-21,Actor|Writer|Producer
+21,Costas Mandylor,1965-09-03,Actor
+22,Campbell Scott,1961-07-19,Actor|Producer|Director
+23,Paul Rhys,1963-12-19,Actor
+24,Rena Owen,,Actress|Producer|Writer
+25,Tina Majorino,,
+26,J. Trevor Edmond,1969-09-28,Actor
+27,Sean Patrick Flanery,,
+28,Art Clokey,1919-10-11,Actor|Music Department|Composer
+29,Maggie Smith,1934-12-28,Actress|Soundtrack
+30,Ryan O'Neal,,
+31,Alok Chakravarty,1950-06-16,Actor|Music Department|Additional Crew
+32,Basil Rathbone,1892-06-13,Actor|Writer|Additional Crew
+33,Edward Arnold,1890-02-18,Actor|Soundtrack
+34,Stephen Lang,,
+35,Drake Bell,1986-06-27,Actor|Music Department|Producer
+36,Chris Tucker,1971-08-31,Actor|Writer|Producer
+37,Art Malik,1952-11-13,Actor|Producer
+38,Maria Riva,1924-12-13,Actress|Producer|Soundtrack
+39,Mary Kay Bergman,1961-06-05,Actress|Producer|Sound Department
+40,Claudette Colbert,1903-09-13,Actress|Soundtrack
+41,Sophia Loren,1934-09-20,Actress|Soundtrack
+42,Chris Cooper,,
+43,Elias Koteas,1961-03-11,Actor|Producer
+44,Fisher Stevens,1963-11-27,Actor|Producer|Director
+45,Robert McLane,1928-07-13,Actor
+46,Ray Milland,1907-01-03,Actor|Director|Producer
+47,Steven Seagal,1952-04-10,Actor|Producer|Writer
+48,Rustam Branaman,,Writer|Producer|Director
+49,Bruce Greenwood,1956-08-12,Actor|Producer|Soundtrack
+50,Penelope Ann Miller,1964-01-13,Actress|Soundtrack
+51,Joe Morton,1947-10-18,Actor|Producer|Director
+52,Dal McKennon,1919-07-19,Actor|Additional Crew|Music Department
+53,Mark Christopher Lawrence,,
+54,Antonio Banderas,1960-08-10,Actor|Producer|Writer
+55,Elizabeth Taylor,1932-02-27,Actress|Producer|Soundtrack
+56,Austin O'Brien,1981-05-11,Actor|Producer
+57,Julie Walters,1950-02-22,Actress|Soundtrack
+58,Hal Scardino,1984-12-25,Actor|Producer
+59,Pat Morita,1932-06-28,Actor|Writer|Producer
+60,Kim Novak,1933-02-13,Actress|Costume and Wardrobe Department|Soundtrack
+61,Lisa Eichhorn,1952-02-04,Actress|Writer|Producer
+62,Craig Mack,1971-09-03,Actor|Composer|Soundtrack
+63,Steve Buscemi,1957-12-13,Actor|Producer|Director
+64,Richard Gere,1949-08-31,Actor|Producer|Music Department
+65,Gottfried John,1942-08-29,Actor|Soundtrack
+66,Alison Crosbie,,Production Manager|Second Unit Director or Assistant Director|Producer
+67,Luc Thuillier,,
+68,Peter MacNicol,1954-04-10,Actor|Director|Writer
+69,Danny Kaye,,
+70,Robert Duvall,1931-01-05,Actor|Producer|Director
+71,Clark Johnson,,Actor|Director|Producer
+72,Franco Scaldati,,
+73,Brendan Corbalis,,
+74,John Lynch,1961-12-26,Actor|Writer|Second Unit Director or Assistant Director
+75,Martin Sheen,1940-08-03,Actor|Producer|Director
+76,Helen Hayes,,
+77,Benjamin Hendrickson,1950-08-26,Actor
+78,Matthew Broderick,1962-03-21,Actor|Director|Producer
+79,Kris McQuade,,Actress|Music Department|Soundtrack
+80,Julia Stemberger,,
+81,Jami Gertz,1965-10-28,Actress|Producer|Executive
+82,Rosie O'Donnell,1962-03-21,Writer|Producer|Actress
+83,Jennifer Lopez,1969-07-24,Music Artist|Producer|Actress
+84,Dan Zhao,,
+85,Dennis Franz,,
+86,Christopher Olscamp,1946-09-19,Actor|Soundtrack
+87,Matt Craven,,
+88,Don Johnson,,
+89,Sean Penn,1960-08-17,Actor|Producer|Director
+90,Melissa Leo,1960-09-14,Actress|Producer
+91,Tobias Arnold,,
+92,Wilson Dunster,,Actor|Second Unit Director or Assistant Director
+93,Jerzy Binczycki,1937-09-06,Actor
+94,Tom Hanks,,
+95,Luisito Martí,,
+96,Wendy Crewson,1956-05-09,Actress|Producer
+97,Andrew McCarthy,1962-11-29,Actor|Director|Producer
+98,Lawrence David,1966-11-02,Actor|Director|Producer
+99,Mia Kirshner,1975-01-25,Actress
+100,Jonathan Fuller,,Actor
+101,Tyrone Power,1914-05-05,Actor|Producer|Soundtrack
+102,David Strathairn,1949-01-26,Actor|Producer|Additional Crew
+103,Bruce McCulloch,1961-05-12,Actor|Writer|Director
+104,Claudiu Bleont,1959-08-17,Actor
+105,Lai Wang,1927-02-12,Actress
+106,Piro Milkani,1939-01-05,Director|Cinematographer|Writer
+107,Nico,2004-12-09,Actress
+108,Tatsuya Fuji,1941-08-27,Actor|Producer
+109,Elizabeth Ashley,1988-12-11,Actress|Director|Writer
+110,Jonathan Pryce,1947-06-01,Actor|Producer|Soundtrack
+111,Rose McGowan,1973-09-05,Actress|Producer|Director
+112,John Savage,,Actor|Producer|Composer
+113,Ann-Margret,1941-04-28,Actress|Soundtrack
+114,Peter Coyote,1941-10-10,Actor|Producer|Writer
+115,Ad van Kempen,1964-03-14,Additional Crew
+116,Diane Lane,,
+117,Claudio Brook,1927-08-28,Actor|Soundtrack
+118,Jing Ning,1972-04-27,Actress|Soundtrack
+119,John Marley,1907-10-17,Actor
+120,Gabriel Byrne,,
+121,Larenz Tate,1975-09-08,Actor|Producer|Director
+122,Elizabeth Hurley,1965-06-10,Actress|Producer
+123,Jon Tenney,1961-12-16,Actor|Director|Camera and Electrical Department
+124,Juliette Mayniel,1936-01-22,Actress
+125,Marie Laforêt,1939-10-05,Actress|Music Department|Soundtrack
+126,Stacey Dash,1967-01-20,Actress|Producer
+127,Phoebe Brand,1907-11-27,Actress|Additional Crew
+128,Michael O'Keefe,1955-04-24,Actor|Director|Soundtrack
+129,Lloyd Bridges,1913-01-15,Actor|Director|Soundtrack
+130,William Holden,,
+131,Adam Sandler,1966-09-09,Actor|Producer|Writer
+132,Donna Reed,1921-01-27,Actress|Soundtrack
+133,Libby Langdon,,Actress|Producer
+134,Jason James Richter,1980-01-29,Actor|Producer|Director
+135,Tony Goldwyn,,
+136,Rob Schneider,,
+137,Linus Roache,1964-02-01,Actor|Composer|Soundtrack
+138,Tilda Swinton,1960-11-05,Actress|Producer|Writer
+139,Sheena Easton,,
+140,Renée Zellweger,1969-04-25,Actress|Producer|Writer
+141,Sandra Bernhard,,
+142,Aoi Nakajima,1929-01-01,Actor|Stunts|Transportation Department
+143,Ming-Na Wen,,
+144,The Lady Bunny,1962-08-14,Actress|Writer|Make-Up Department
+145,Marcello Mastroianni,,
+146,Michael T. Weiss,,
+147,Alberta Watson,1955-03-06,Actress|Soundtrack
+148,Marianne Hagan,1966-12-08,Actress
+149,Carl Esmond,1902-06-14,Actor|Soundtrack
+150,Kay Thompson,1909-11-09,Actress|Writer|Music Department
+151,Ralph Fiennes,1962-12-22,Actor|Producer|Director
+152,Jacob Tierney,,
+153,Ray Liotta,1954-12-18,Actor|Producer|Soundtrack
+154,Matt Frewer,1958-01-04,Actor|Writer|Producer
+155,Laurence Fishburne,1961-07-30,Actor|Producer|Director
+156,Gang Wu,,
+157,Akio Ôtsuka,1959-11-24,Actor|Soundtrack
+158,Andrea Eckert,,Actor|Additional Crew|Producer
+159,Viggo Mortensen,1958-10-20,Actor|Producer|Composer
+160,Mel Gibson,1956-01-03,Actor|Producer|Director
+161,Brian Benben,,
+162,Raymond Massey,1896-08-30,Actor|Writer|Producer
+163,Ruocheng Ying,1929-06-21,Actor
+164,Ralph Bellamy,1904-06-17,Actor|Soundtrack
+165,Sandra Bullock,1964-07-26,Producer|Actress|Music Department
+166,Julie Bowen,1970-03-03,Actress|Producer|Director
+167,Kevin Spacey,1959-07-26,Actor|Producer|Writer
+168,Richard Greene,,
+169,Joe Cortese,1948-02-22,Actor|Producer|Writer
+170,Teiji Takahashi,1926-10-20,Actor
+171,Gary Oldman,1958-03-21,Actor|Producer|Director
+172,Helen Hunt,1963-06-15,Actress|Producer|Director
+173,Tim Roth,,
+174,Luisina Brando,1945-12-10,Actress
+175,George Kennedy,1925-02-18,Actor|Additional Crew|Soundtrack
+176,George Clooney,1961-05-06,Actor|Producer|Director
+177,Karan Ashley,,
+178,Jack Nicholson,1937-04-22,Actor|Producer|Writer
+179,John Sham,,Actor|Producer|Additional Crew
+180,Morgan Fairchild,,
+181,Laura Dern,1967-02-10,Actress|Producer|Writer
+182,Angie Everhart,1969-09-07,Actress|Producer
+183,Christopher Lloyd,,
+184,Mary-Kate Olsen,1986-06-13,Actress|Producer|Music Department
+185,Cindy Crawford,1966-02-20,Actress|Producer|Soundtrack
+186,Jan Decleir,1946-02-14,Actor|Art Department
+187,Elizabeth Peña,,
+188,Anne Heche,1969-05-25,Actress|Producer|Writer
+189,Walter Pidgeon,1897-09-23,Actor|Soundtrack
+190,Christopher Eccleston,1964-02-16,Actor
+191,Molly Ringwald,,
+192,Sam Neill,1947-09-14,Actor|Producer|Director
+193,Kathy Bates,1948-06-28,Actress|Director|Producer
+194,Tupac Shakur,,
+195,Anna Falchi,1972-04-22,Actress|Producer|Executive
+196,Eric Lloyd,1986-05-19,Actor|Sound Department|Editor
+197,Nancy Travis,1961-09-21,Actress|Producer|Soundtrack
+198,Simon Callow,1949-06-13,Actor|Writer|Director
+199,Champa,1968-01-23,Actress|Producer
+200,Billy Zane,1966-02-24,Actor|Producer|Director
+201,Iain Robertson,1933-02-08,Actor
+202,Charles Crumb,1942-03-13,
+203,Wolfgang Liebeneiner,1905-10-06,Director|Actor|Writer
+204,Billy Blanks,,
+205,Chris Grigg,,Actor|Writer|Additional Crew
+206,Gabriel Olds,1972-03-24,Actor
+207,Robert Downey Jr.,1965-04-04,Actor|Producer|Writer
+208,Lars Hanson,1886-07-26,Actor|Soundtrack
+209,Rusty Cundieff,1960-12-13,Director|Actor|Writer
+210,Jingwu Ma,1974-04-03,Actor|Producer|Director
+211,Walter Slezak,1902-05-03,Actor|Writer|Soundtrack
+212,Jack Lemmon,1925-02-08,Actor|Producer|Director
+213,Eleanor Bron,1938-03-14,Actress|Writer|Additional Crew
+214,Jack Benny,,
+215,Angeline Ball,1969-06-28,Actress|Additional Crew|Music Department
+216,Don McKellar,1963-08-17,Actor|Director|Writer
+217,Dennis Quaid,,
+218,Ice Cube,,
+219,Kevin McDonald,1961-05-16,Actor|Writer|Producer
+220,Miranda Richardson,,
+221,Jonathan Taylor Thomas,1981-09-08,Actor|Director|Soundtrack
+222,William Atherton,,Actor|Producer|Soundtrack
+223,Leslie Mann,1972-03-26,Actress
+224,RaéVen Kelly,,
+225,Jennifer MacDonald,,Actress
+226,Barbara Stanwyck,1907-07-16,Actress|Soundtrack
+227,Kelly Rowan,,
+228,Antje de Boeck,1964-10-16,Actress|Writer
+229,John Malkovich,1953-12-09,Actor|Producer|Writer
+230,David Caruso,1956-01-07,Actor|Producer
+231,Audie England,,
+232,Michael Wincott,1958-01-21,Actor
+233,Fatemeh Azrah,,
+234,Joe Torry,1965-09-28,Actor|Writer|Producer
+235,Geneviève Bujold,,
+236,Heather Hogan,1985-10-10,Actress|Soundtrack
+237,Kiefer Sutherland,1966-12-21,Actor|Producer|Additional Crew
+238,Suzy Amis,,
+239,Jessica Tandy,1909-06-07,Actress|Soundtrack
+240,Cynthia Stevenson,1962-08-02,Actress|Soundtrack
+241,Donald Sutherland,1935-07-17,Actor|Producer|Writer
+242,Brittany Ashton Holmes,1989-02-27,Actress|Soundtrack
+243,Carol Kane,1952-06-18,Actress|Producer|Soundtrack
+244,Lumi Cavazos,1968-12-21,Actress
+245,Michael Beach,1963-10-30,Actor|Producer
+246,Shaojun Tian,,
+247,Guinevere Turner,1968-05-23,Actress|Writer|Director
+248,Jesse Corti,1955-07-03,Actor|Sound Department|Producer
+249,Allen Payne,1968-07-07,Actor
+250,Emilio Estevez,,
+251,Bridgette Wilson-Sampras,1973-09-25,Actress|Producer|Soundtrack
+252,James Fleet,1952-03-11,Actor|Soundtrack
+253,Sam Shepard,1943-11-05,Actor|Writer|Director
+254,James Earl Jones,1931-01-17,Actor|Soundtrack
+255,Mohsen Kafili,,
+256,Carole Lombard,1908-10-06,Actress|Soundtrack
+257,Helen Slater,,
+258,Annie Corley,,Actress
+259,Van Johnson,,
+260,Olga Tudorache,,
+261,Brian Hooks,,Actor|Producer|Director
+262,Joe Pantoliano,,
+263,Leslie Nielsen,1926-02-11,Actor|Producer|Writer
+264,Bill Pullman,1953-12-17,Actor|Director|Producer
+265,Jerry Adler,1929-02-04,Additional Crew|Actor|Director
+266,Cuauhtemoc Rivas,,
+267,Kirstie Alley,1951-01-12,Actress|Producer|Writer
+268,Julie Warner,1965-02-09,Actress|Director|Producer
+269,Gila Almagor,1939-07-22,Actress|Writer|Producer
+270,Kris Kristofferson,1936-06-22,Music Artist|Actor|Composer
+271,Brigitte Lin,1954-11-03,Actress
+272,Charles Rocket,1949-08-28,Actor|Soundtrack
+273,Paul Lukas,1895-05-26,Actor|Soundtrack
+274,Thora Hird,1911-05-28,Actress
+275,Colm Feore,1958-08-22,Actor|Writer
+276,Phil Harris,1904-06-24,Actor|Music Department|Soundtrack
+277,Peter Gallagher,1955-08-19,Actor|Writer|Soundtrack
+278,Josiane Balasko,1950-04-15,Actress|Writer|Director
+279,James Cromwell,1940-01-27,Actor|Producer|Soundtrack
+280,Magaye Niang,,
+281,Antoine Basler,,Composer|Music Department|Actor
+282,Rosie Perez,,
+283,Jesse Bradford,1979-05-28,Actor|Producer|Director
+284,Mary Stuart Masterson,1966-06-28,Actress|Producer|Director
+285,Vivica A. Fox,1964-07-30,Actress|Producer|Director
+286,Stuart Wilson,1946-12-25,Actor|Soundtrack
+287,Liam Cunningham,,
+288,Jessie Royce Landis,,
+289,Akira Takayama,,
+290,Xander Berkeley,1955-12-16,Actor|Producer|Make-Up Department
+291,Tia Carrere,,Actress|Soundtrack|Producer
+292,Harry Belafonte,,
+293,Samir Guesmi,1967-10-07,Actor|Writer|Director
+294,Angela Bassett,1958-08-16,Actress|Producer|Director
+295,Maria Grazia Cucinotta,1968-07-27,Actress|Producer|Director
+296,Ethan Hawke,1970-11-06,Actor|Producer|Writer
+297,Juana Barrios,,
+298,Sigourney Weaver,1949-10-08,Actress|Producer|Soundtrack
+299,Johan Widerberg,1974-03-16,Actor|Writer
+300,Massimo Troisi,,
+301,Sylvester Stallone,,
+302,Anne Baxter,1923-05-07,Actress|Soundtrack
+303,Elena Sofia Ricci,1962-03-29,Actress|Director|Writer
+304,Julie Harris,1925-12-02,Actress|Soundtrack
+305,Ben Kingsley,1943-12-31,Actor|Producer|Additional Crew
+306,Maureen O'Sullivan,1911-05-17,Actress|Soundtrack
+307,Mathias Mégard,,
+308,John Travolta,,
+309,Jason Gedrick,1965-02-07,Actor|Director|Writer
+310,Rochelle Davis,,
+311,Edward Norton,,
+312,Gene Hackman,1930-01-30,Actor|Producer|Stunts
+313,Annette Bening,1958-05-29,Actress|Producer|Soundtrack
+314,Tyrin Turner,1972-07-17,Actor|Producer|Writer
+315,Robin Wright,,
+316,George Sanders,1906-07-03,Actor|Writer|Soundtrack
+317,Sondos Belhassen,,
+318,Charles Vanel,,
+319,Wallace Wood,,Actor|Additional Crew
+320,Chester Morris,,
+321,Michel Bouquet,1925-11-06,Actor
+322,Deborah Collard,,Actor|Producer|Writer
+323,Jayne Brook,,Actress|Director|Writer
+324,Joseph Mazzello,1983-09-21,Actor|Director|Writer
+325,Blake Boyd,,
+326,Angel Aviles,,Actress
+327,Jeremy Irons,1948-09-19,Actor|Producer|Director
+328,Leslie Caron,1931-07-01,Actress|Additional Crew|Soundtrack
+329,Michael Ironside,,
+330,Eddy Mitchell,,
+331,Julianne Phillips,1960-05-06,Actress
+332,Thomas Gibson,,Actor|Director|Writer
+333,Tony Leung Chiu-wai,1962-06-27,Actor|Music Department|Producer
+334,Maggie Castle,,
+335,Catherine O'Hara,,
+336,Bob Gunton,1945-11-15,Actor|Soundtrack
+337,Sammi Davis,1964-06-21,Actress|Camera and Electrical Department|Producer
+338,Trace Beaulieu,1958-11-06,Writer|Actor|Art Department
+339,Teri Hatcher,1964-12-08,Actress|Writer|Director
+340,James Garner,1928-04-07,Actor|Producer|Director
+341,Danny Cunningham,,
+342,Clint Eastwood,1930-05-31,Actor|Producer|Director
+343,Terence Stamp,1938-07-22,Actor|Director|Writer
+344,Keir Dullea,1936-05-30,Actor|Soundtrack
+345,George Cole,,
+346,Craig Chester,,
+347,Jared Harris,,Actor|Director|Additional Crew
+348,Brian Kerwin,,
+349,John Polson,1965-09-06,Producer|Director|Actor
+350,Michelle Pfeiffer,1958-04-29,Actress|Producer|Soundtrack
+351,David Riva,,
+352,Al Franken,,
+353,Mustapha Adouani,,
+354,Gigio Morra,,
+355,Tim Bergmann,1972-03-02,Actor
+356,Malcolm McDowell,1943-06-13,Actor|Producer|Writer
+357,Robert Crumb,1943-08-30,Writer|Art Department|Additional Crew
+358,Ann O'Brien,,
+359,Julie Delpy,,
+360,Scott Bakula,1954-10-09,Actor|Producer|Director
+361,Richard Dreyfuss,1947-10-29,Actor|Producer|Writer
+362,Lawrence Gilliard Jr.,1971-09-22,Actor|Writer
+363,Elizabeth Berkley,,
+364,Sadie Frost,1965-06-19,Actress|Producer|Director
+365,Susan Sarandon,1946-10-04,Actress|Producer|Additional Crew
+366,Christopher McDonald,,Actor|Producer|Director
+367,Tom Noonan,1951-04-12,Actor|Writer|Director
+368,Raúl Carbonell,,Actress|Director|Writer
+369,Yûki Kudô,1971-01-17,Actress|Producer|Soundtrack
+370,Ben Becker,,
+371,Maila Nurmi,,
+372,Jonny Lee Miller,1972-11-15,Actor|Director|Producer
+373,Alison Elliott,1970-05-19,Actress|Soundtrack
+374,John Turturro,1957-02-28,Actor|Writer|Producer
+375,Avi Hoffman,1958-03-03,Actor|Additional Crew|Producer
+376,Tina Aumont,1946-02-14,Actress
+377,Dylan Walsh,1963-11-17,Actor|Costume and Wardrobe Department|Writer
+378,Joss Ackland,,
+379,Gina Gershon,1962-06-10,Actress|Producer|Writer
+380,Timothy Hutton,1960-08-16,Actor|Producer|Director
+381,Edward Herrmann,1943-07-21,Actor|Additional Crew|Soundtrack
+382,Robert Ryan,1909-11-11,Actor|Soundtrack
+383,Lukas Haas,1976-04-16,Actor|Music Department|Soundtrack
+384,Caroline Barclay,1966-10-04,Actress
+385,Emil Chau,1960-12-22,Music Department|Actor|Soundtrack
+386,Richard Briers,1934-01-14,Actor|Soundtrack
+387,Edward James Olmos,1947-02-24,Actor|Producer|Director
+388,Joe Don Baker,1936-02-12,Actor|Additional Crew|Production Manager
+389,Juan Muñiz,,
+390,Scarlett Johansson,,
+391,Kevin Bacon,1958-07-08,Actor|Producer|Director
+392,Anne Bancroft,1931-09-17,Actress|Director|Writer
+393,Jane March,,
+394,Melody Kay,1979-08-28,Actress|Make-Up Artist|Editor
+395,Damon Wayans,,
+396,Takeshi Kaneshiro,1973-10-11,Actor|Music Department|Additional Crew
+397,Veronica Ferres,,
+398,Isabella Rossellini,1952-06-18,Actress|Director|Writer
+399,Josh Charles,1971-09-15,Actor|Director|Additional Crew
+400,Natalie Portman,1981-06-09,Actress|Producer|Director
+401,Hugh O'Conor,1975-04-19,Actor|Writer|Director
+402,Brian O'Halloran,1969-12-20,Actor|Producer|Additional Crew
+403,Lori Petty,1963-10-14,Actress|Writer|Producer
+404,Abbas Khavaninzadeh,,
+405,Wesley Snipes,1962-07-31,Actor|Producer|Stunts
+406,Debra Winger,1955-05-16,Actress|Producer|Additional Crew
+407,Pete Postlethwaite,1946-02-07,Actor|Producer
+408,Diedrich Bader,,
+409,Susan Fleetwood,1944-09-21,Actress
+410,Theresa Randle,1964-12-27,Actress|Soundtrack
+411,Leslie Cheung,1956-09-12,Actor|Music Department|Writer
+412,Anne Vernon,1924-01-09,Actress
+413,Cameron Bancroft,1967-05-17,Actor|Stunts
+414,Lily Tomlin,1939-09-01,Actress|Producer|Writer
+415,Shannen Doherty,1971-04-12,Actress|Producer|Director
+416,Ned Beatty,,
+417,Bug Hall,1985-02-04,Actor|Producer|Writer
+418,Martin Neufeld,,
+419,Armin Mueller-Stahl,,
+420,Om Puri,1950-10-18,Actor|Additional Crew|Music Department
+421,Bruce Willis,1955-03-19,Actor|Producer|Writer
+422,Nozha Khouadra,,
+423,Judge Reinhold,,Actor|Producer|Director
+424,Meg Tilly,1960-02-14,Actress|Writer
+425,Melanie Lynskey,,
+426,Kate Nelligan,1950-03-16,Actress
+427,Christine Taylor,1971-07-30,Actress|Producer|Writer
+428,Madge Evans,,
+429,Alexandra Paul,,
+430,Sigrid Gurie,1911-05-18,Actress|Soundtrack
+431,Bo White,,
+432,John Mahoney,,
+433,Gil Bellows,1967-06-28,Actor|Producer|Director
+434,Robert Knott,,Actor|Writer|Producer
+435,Katya Ladan,,
+436,Bozhao Wang,,Actor|Producer
+437,Walter Matthau,1920-10-01,Actor|Director|Producer
+438,Seidy Lopez,,Actress|Director|Producer
+439,Taylor Nichols,1959-03-03,Actor|Producer|Director
+440,Dirk Benedict,,
+441,Virginia Madsen,1961-09-11,Actress|Producer|Additional Crew
+442,Mary Elizabeth Mastrantonio,,
+443,Jude Law,,
+444,Marc Anthony,,Actor
+445,Donald Pleasence,1919-10-05,Actor|Writer|Director
+446,Barry Corbin,,
+447,Lawrence Dane,1937-04-03,Actor|Writer|Producer
+448,Kris Bidenko,,
+449,Sean Pertwee,,
+450,Peter Outerbridge,1966-06-30,Actor|Additional Crew|Soundtrack
+451,Litefoot,,
+452,Miranda Rhyne,,
+453,Amanda Root,,Actress|Additional Crew|Soundtrack
+454,Salma Hayek,1966-09-02,Actress|Producer|Director
+455,Willem Dafoe,1955-07-22,Actor|Producer|Writer
+456,Johnny Yong Bosch,1976-01-06,Actor|Sound Department|Director
+457,William Powell,1892-07-29,Actor|Soundtrack
+458,Michael Douglas,,
+459,Nina Hoss,1975-07-07,Actress|Soundtrack
+460,Peter Fonda,,
+461,Nejia Ouerghi,,
+462,Daniel Day-Lewis,1957-04-29,Actor|Writer|Music Department
+463,Linda Darnell,1924-10-16,Actress|Soundtrack
+464,Sam Waterston,1940-11-15,Actor|Producer|Director
+465,Tom Hulce,1953-12-06,Actor|Producer|Sound Department
+466,Aaron Shields,,
+467,Clive Owen,1964-10-03,Actor|Producer|Soundtrack
+468,Madam Alex,,
+469,Luís Miguel Cintra,1949-04-29,Actor|Writer|Additional Crew
+470,Chad Stahelski,1968-09-20,Stunts|Producer|Actor
+471,Mia Sara,1967-06-19,Actress|Soundtrack
+472,Bokeem Woodbine,1973-04-13,Actor|Producer|Soundtrack
+473,Dolores Costello,1903-09-17,Actress|Soundtrack
+474,T. Wendy McMillan,,
+475,Freddie Bartholomew,1924-03-28,Producer|Actor|Director
+476,Sandie Lavelle,1954-06-25,Actress|Second Unit Director or Assistant Director|Director
+477,Jim Varney,,
+478,Kelly Hunter,,Actress|Soundtrack
+479,Rex Harrison,,
+480,Anita Louise,,
+481,Alejandra Podesta,,
+482,Anita Mui,,
+483,Dan Gunther,,Actor|Producer
+484,Joe Pesci,,
+485,Temuera Morrison,,
+486,Masatoshi Nagase,1966-07-15,Actor|Director|Writer
+487,Raul Julia,1940-03-09,Actor|Soundtrack
+488,Azzedine Alaïa,,
+489,Steve Alden,1921-12-26,Writer|Actor|Producer
+490,Priscilla Presley,1945-05-24,Actress|Producer|Writer
+491,Dean Stockwell,,
+492,Michael Rooker,,
+493,Dean Norris,,
+494,George Thrush,,Actor|Additional Crew
+495,Silvia Morgan,1923-10-02,Actress
+496,Doug Bradley,,
+497,Lee Nashold,,
+498,Lloyd Adams,,Stunts|Actor
+499,Gong Li,1965-12-31,Actress|Producer|Additional Crew
+500,Ellen Burstyn,1932-12-07,Actress|Producer|Director
+501,Magda Szubanski,1961-04-12,Actress|Writer|Producer
+502,George Stephanopoulos,1961-02-10,Producer|Actor|Writer
+503,Kên Higelin,,
+504,Kelly Lynch,1959-01-31,Actress
+505,Le Van Loc,1983-08-31,Actor|Producer
+506,Michael Lerner,,
+507,Jessica Lundy,,Actress|Writer
+508,Christian Clavier,1952-05-06,Actor|Writer|Producer
+509,Kevin Kline,1947-10-24,Actor|Director|Producer
+510,Renato Carpentieri,1943-04-02,Actor
+511,Maggie Cheung,1964-09-20,Actress|Soundtrack
+512,Joan Chen,,
+513,Gary Kemp,,
+514,Sergio Castellitto,,
+515,Ion Caramitru,1942-03-09,Actor
+516,Christopher Lambert,1957-03-29,Actor|Producer|Writer
+517,Gloria Clokey,,
+518,Adriana Caselotti,,
+519,Pierre Arditi,1944-12-01,Actor|Additional Crew|Soundtrack
+520,Caroleen Feeney,1962-12-30,Actress|Producer
+521,Ruth Marshall,,Actress|Additional Crew
+522,Robbie Lee,1954-09-01,Actress
+523,Lucille La Verne,1872-11-07,Actress
+524,Agnès Soral,1960-06-08,Actress|Director|Producer
+525,Deborah Kara Unger,1966-05-12,Actress|Producer|Additional Crew
+526,Gene Ross,1930-10-24,Actor|Writer
+527,Dearbhla Molloy,,Actress
+528,Yolanda Vazquez,,
+529,Jim Carrey,1962-01-17,Actor|Writer|Producer
+530,Janusz Gajos,1939-09-23,Actor|Director
+531,V.S. Brodie,,Actress|Production Manager|Art Department
+532,Margaret Whitton,1949-11-30,Actress|Producer|Director
+533,Victoria Foyt,1958-04-07,Actress|Writer|Director
+534,Maurice Ronet,1927-04-13,Actor|Writer|Director
+535,Lorraine Bracco,,
+536,Laura San Giacomo,1961-11-14,Actress|Soundtrack
+537,Sandra Oh,1971-07-20,Actress|Producer|Writer
+538,Chevy Chase,,
+539,Powers Boothe,,
+540,Anna Grace,,Actress|Producer|Soundtrack
+541,Keenen Ivory Wayans,1958-06-08,Writer|Producer|Actor
+542,Ulrich Tukur,1957-07-29,Actor|Writer|Soundtrack
+543,Wendell Corey,1914-03-20,Actor|Soundtrack
+544,Fred Williamson,,
+545,Ingrid Caven,1938-08-03,Actress|Production Manager|Additional Crew
+546,James Dean,1931-02-08,Actor|Additional Crew
+547,Billy Connolly,1942-11-24,Actor|Writer|Composer
+548,Elizabeth McGovern,1961-07-18,Actress|Producer|Writer
+549,Irene Dunne,,
+550,Christy Turlington,1969-01-02,Producer|Actress|Director
+551,Cybill Shepherd,,
+552,You Ge,1957-04-19,Actor
+553,Frank Langella,,
+554,Rock Hudson,,
+555,Fanny Ardant,1949-03-22,Actress|Director|Writer
+556,Charles Ruggles,1886-02-08,Actor|Soundtrack
+557,James Stewart,1908-05-20,Actor|Director|Producer
+558,Sean Nelson,1980-05-09,Actor|Producer|Second Unit Director or Assistant Director
+559,Peter Ketnath,,Actor|Producer|Writer
+560,Anton Rattinger,1888-03-28,Actor|Additional Crew
+561,Matt Dillon,1964-02-18,Actor|Director|Producer
+562,George Gaynes,1917-05-16,Actor|Director|Soundtrack
+563,Bob Hoskins,,
+564,Clark Gable,1901-02-01,Actor|Producer|Soundtrack
+565,Henry Czerny,1959-02-08,Actor
+566,Leslie Phillips,1924-04-20,Actor|Producer|Director
+567,Whittni Wright,,Actress|Soundtrack
+568,Pang Eun-jin,1965-08-05,Actress|Director|Writer
+569,Rory Cochrane,,Actor|Soundtrack
+570,Alicia Silverstone,1976-10-04,Actress|Producer|Soundtrack
+571,Leon,,
+572,Valentina Vargas,1964-12-31,Actress
+573,Lillian Gish,1893-10-14,Actress|Writer|Director
+574,Sally Field,1946-11-06,Actress|Producer|Director
+575,Ian McNeice,,
+576,Greta Scacchi,1960-02-18,Actress
+577,John Cusack,1966-06-28,Actor|Producer|Writer
+578,Tiziana Lodato,,
+579,Julianne Moore,1960-12-03,Actress|Producer|Soundtrack
+580,Luke Wilson,1971-09-21,Actor|Producer|Director
+581,Fredro Starr,1971-04-18,Actor|Producer|Composer
+582,Vittorio Mezzogiorno,1941-12-16,Actor
+583,Michel Piccoli,,
+584,Yancy Butler,1970-07-02,Actress|Producer
+585,Dennis Hopper,,
+586,Federico Luppi,1934-02-23,Actor|Director
+587,Thomas Mitchell,1892-07-11,Actor|Writer|Additional Crew
+588,Thomas Ian Nicholas,1980-07-10,Actor|Producer|Director
+589,Charles Durning,1923-02-28,Actor|Additional Crew|Soundtrack
+590,Vincent D'Onofrio,,
+591,Myrna Loy,1905-08-02,Actress|Soundtrack
+592,Soumitra Chatterjee,1935-01-19,Actor|Writer|Additional Crew
+593,Héctor Alterio,1929-09-21,Actor|Soundtrack
+594,Sarah Jessica Parker,1965-03-25,Actress|Producer|Additional Crew
+595,Jeff Anderson,1970-04-21,Actor|Director|Writer
+596,Christine Cavanaugh,,
+597,Michael Keaton,,
+598,Emmanuelle Seigner,1966-06-22,Actress|Writer|Soundtrack
+599,Charles Gitonga Maina,,Actor
+600,Ellen Greene,1951-02-22,Actress|Music Department|Soundtrack
+601,Joe Flaherty,1941-06-21,Actor|Writer|Producer
+602,Géraldine Pailhas,1971-01-08,Actress|Soundtrack
+603,William Baldwin,,
+604,Jeroen Krabbé,1944-12-05,Actor|Director|Producer
+605,Tommy Lee Jones,1946-09-15,Actor|Director|Writer
+606,Tom McGowan,1959-07-26,Actor|Producer|Soundtrack
+607,Jim Brown,,
+608,Nanni Moretti,1953-08-19,Producer|Writer|Director
+609,Henry B. Walthall,1878-03-16,Actor|Second Unit Director or Assistant Director
+610,Danny Nucci,1968-09-15,Actor|Director|Writer
+611,Delroy Lindo,1952-11-18,Actor|Producer|Soundtrack
+612,Alan Rickman,1946-02-21,Actor|Writer|Director
+613,Nastassja Kinski,1961-01-24,Actress|Producer|Soundtrack
+614,Michael York,1942-03-27,Actor|Producer|Additional Crew
+615,Amy Brenneman,1964-06-22,Actress|Producer|Writer
+616,Jacob Vargas,1971-08-18,Actor|Producer
+617,Gene Tierney,1920-11-19,Actress|Soundtrack
+618,Dorothy Comingore,1913-08-24,Actress|Soundtrack
+619,Elizabeth Perkins,1960-11-18,Actress|Producer
+620,Giancarlo Esposito,1958-04-26,Music Department|Actor|Producer
+621,Andy Garcia,1956-04-12,Actor|Producer|Director
+622,Wallace Shawn,1943-11-12,Actor|Writer|Producer
+623,Eric Bryson,,Stunts|Actor|Second Unit Director or Assistant Director
+624,Kate Capshaw,1953-11-03,Actress|Producer|Art Director
+625,Murvyn Vye,,
+626,Dominique Horwitz,1957-04-23,Actor|Director|Writer
+627,Robert John Burke,1960-09-12,Actor
+628,Arnold Steinhardt,,
+629,Julian Sands,,
+630,Sihung Lung,1930-01-01,Actor
+631,William Petersen,1953-02-21,Producer|Actor|Sound Department
+632,Gregory Smith,1983-07-06,Actor|Director|Producer
+633,Madonna,1958-08-16,Music Artist|Actress|Composer
+634,Alessandra Martines,1963-09-19,Actress
+635,Janeane Garofalo,1964-09-28,Actress|Writer|Producer
+636,William H. Macy,1950-03-13,Actor|Writer|Producer
+637,Michael J. Fox,1961-06-09,Actor|Producer|Additional Crew
+638,Eric Barreto,1976-07-17,Actor|Producer|Soundtrack
+639,Leopold Kozlowski,1918-11-26,Music Department|Composer|Actor
+640,Chris Elliott,1960-05-31,Actor|Writer|Producer
+641,Monica Gayle,,Actress
+642,Barbara Gonzalez,,
+643,William Gates,1971-12-28,Actor|Writer
+644,Ewan McGregor,1971-03-31,Actor|Producer|Writer
+645,Lionel Barrymore,,
+646,Marika Lagercrantz,1954-07-12,Actress
+647,Rachel Weisz,1970-03-07,Actress|Producer|Director
+648,Wang Yu-wen,1971-07-29,Actress
+649,Françoise Yip,1972-09-04,Actress
+650,Crispin Glover,,Actor|Director|Writer
+651,Lena Stolze,1956-08-08,Actress
+652,Stockard Channing,1944-02-13,Actress|Soundtrack
+653,Pam Grier,1949-05-26,Actress|Writer|Soundtrack
+654,Mary Steenburgen,1953-02-08,Actress|Producer|Music Department
+655,Bruce Ramsay,1966-12-31,Actor|Producer|Writer
+656,Paul Muni,1895-09-22,Actor|Soundtrack
+657,David Arquette,1971-09-08,Producer|Actor|Director
+658,John Leguizamo,1960-07-22,Actor|Producer|Writer
+659,Franco Nero,1941-11-23,Actor|Producer|Writer
+660,Charles Dance,1946-10-10,Actor|Producer|Director
+661,Charlotte Eve Blythe,,
+662,Charlie Talbert,,
+663,Mirjana Jokovic,1967-11-24,Actress
+664,Robert Wuhl,1951-10-09,Actor|Writer|Producer
+665,Jim Belushi,1954-06-15,Actor|Music Department|Producer
+666,Philippe Ambrosini,,Actor
+667,Sheila Burrell,1922-05-09,Actress
+668,Joseph Nikiema,,
+669,Paul Austin,,
+670,Jeff Bridges,1949-12-04,Actor|Producer|Art Department
+671,Stephen Mendillo,1942-10-09,Actor|Stunts
+672,Melanie Griffith,1957-08-09,Actress|Producer
+673,Jermaine Hopkins,,
+674,Amy Braverman,1946-02-01,Actor|Director|Additional Crew
+675,Xingli Niu,1922-03-21,Director|Cinematographer|Writer
+676,Matthew Modine,1959-03-22,Actor|Producer|Director
+677,Udo Samel,1953-06-25,Actor
+678,Greta Garbo,,
+679,Candace Hutson,1980-05-03,Actress|Soundtrack
+680,Ben Mendelsohn,,
+681,Tom Conti,1941-11-22,Actor|Soundtrack
+682,Marlon Wayans,1972-07-23,Actor|Writer|Producer
+683,Eileen Atkins,,
+684,Nu Yên-Khê Tran,,
+685,Ted Levine,1957-05-29,Actor|Soundtrack
+686,Uma Thurman,1970-04-29,Actress|Producer|Writer
+687,Ritch Brinkley,1944-03-18,Actor|Soundtrack
+688,Michel Boujenah,1952-11-02,Actor|Writer|Director
+689,Nino Castelnuovo,1936-10-28,Actor|Additional Crew
+690,Nick Stahl,1979-12-05,Actor|Producer|Second Unit Director or Assistant Director
+691,Gary Sinise,1955-03-17,Actor|Producer|Director
+692,Juliette Lewis,,
+693,Haing S. Ngor,1940-03-22,Actor
+694,Heather Langenkamp,1964-07-17,Actress|Writer|Producer
+695,Guillermo Diaz,1971-03-22,Actor|Producer|Director
+696,Patrick Malahide,1945-03-24,Actor|Writer|Producer
+697,Richard Attenborough,1923-08-29,Actor|Producer|Director
+698,Humphrey Bogart,1899-12-25,Actor|Producer|Additional Crew
+699,Edward Burns,1968-01-29,Writer|Actor|Producer
+700,Maria Conchita Alonso,1957-06-29,Actress|Producer|Composer
+701,Alain Delon,1935-11-08,Actor|Producer|Writer
+702,Mark Rylance,1960-01-18,Actor|Producer|Additional Crew
+703,Martin Raymond,,
+704,Jessica Harper,,
+705,Mary-Louise Parker,1964-08-02,Actress|Additional Crew|Soundtrack
+706,Verónica Forqué,1955-12-01,Actress|Additional Crew|Soundtrack
+707,Zack Duhame,1987-04-15,Stunts|Actor|Producer
+708,Magda Schneider,1909-05-17,Actress|Soundtrack
+709,Isa Baschwitz,,
+710,Christiane Hörbiger,1938-10-13,Actress|Soundtrack
+711,Aaron Schwartz,,
+712,Courtney Chase,1988-03-24,Actress
+713,Pauline Collins,1940-09-03,Actress|Soundtrack
+714,Harvey Keitel,1939-05-13,Actor|Producer|Soundtrack
+715,Albert Finney,1936-05-09,Actor|Producer|Director
+716,Juliette Binoche,1964-03-09,Actress|Art Department|Additional Crew
+717,Michael Stock,,
+718,Florence Darel,,Actress|Music Department|Soundtrack
+719,Crissy Rock,1958-09-23,Actress|Writer
+720,Docs Keepin Time,,
+721,Emma Thompson,1959-04-15,Actress|Writer|Producer
+722,Jennifer Aniston,1969-02-11,Actress|Producer|Director
+723,Michael Boatman,,
+724,Erik Goertz,,
+725,Tom Berenger,,
+726,Scott Weinger,1975-10-05,Actor|Producer|Writer
+727,Jay O. Sanders,1953-04-16,Actor|Additional Crew
+728,James Remar,,
+729,William McNamara,,
+730,Scott Glenn,,
+731,Tim Daly,1956-06-01,Actor|Producer|Director
+732,Javier Bardem,1969-03-01,Actor|Producer|Music Department
+733,Stefan Glowacz,1965-03-22,Actor|Director
+734,Samuel Fuller,1912-08-12,Writer|Director|Actor
+735,Michel Serrault,1928-01-24,Actor|Writer|Producer
+736,Terry Kinney,,
+737,Paul Marco,,Actor
+738,Ina Claire,1893-10-15,Actress
+739,Meg Ryan,,
+740,Liam Neeson,1952-06-07,Actor|Producer|Soundtrack
+741,Saul Stein,,Actor|Producer|Additional Crew
+742,Parker Posey,1968-11-08,Actress|Producer|Writer
+743,Christina Ricci,,
+744,Joachim Król,1957-06-17,Actor
+745,Roberta Maxwell,1941-06-17,Actress
+746,Peter Jacobson,1965-03-24,Actor|Producer|Soundtrack
+747,Tom Bell,,
+748,Isabelle Adjani,,
+749,Rainer Werner Fassbinder,1945-05-31,Writer|Director|Actor
+750,Christopher Reid,1964-04-05,Music Artist|Actor|Music Department
+751,Eric Stoltz,,
+752,Everett McGill,1945-10-21,Actor|Soundtrack
+753,Elina Löwensohn,1966-07-11,Actress|Producer|Director
+754,Richard Carlson,1912-04-29,Actor|Director|Writer
+755,Lydie Denier,1964-04-15,Actress|Producer|Director
+756,François Hadji-Lazaro,1956-06-22,Actor|Composer|Music Department
+757,Marlene Dietrich,,
+758,Ewen Bremner,1972-01-23,Actor|Producer|Composer
+759,August Zirner,,
+760,Curt Gareth,,
+761,Russell Crowe,1964-04-07,Actor|Producer|Director
+762,Annemarie Düringer,1925-11-26,Actress
+763,Christina Veronica,,Actress|Composer|Additional Crew
+764,Nancy Allen,1950-06-24,Actress
+765,Julie Mauduech,,
+766,Dolores Fuller,1923-03-10,Actress|Writer|Composer
+767,Danny Aiello,,
+768,Heather Medway,1967-05-22,Actress|Producer
+769,Robin Williams,1951-07-21,Actor|Writer|Producer
+770,Ben Stiller,,
+771,Robert Carlyle,,
+772,Nick Nolte,,
+773,Gabriel Casseus,1972-04-28,Actor|Director|Writer
+774,David Schwimmer,1966-11-02,Actor|Director|Producer
+775,Ghalya Lacroix,,
+776,Paul Hogan,1939-10-08,Actor|Writer|Producer
+777,Roddy Piper,,
+778,Michelle Yeoh,1962-08-06,Actress|Producer|Writer
+779,Katharine Hepburn,1907-05-12,Actress|Writer|Soundtrack
+780,Bam Bam Bigelow,,
+781,Gérard Desarthe,,
+782,Patricia Arquette,1968-04-08,Actress|Producer|Director
+783,Jean-Paul Belmondo,1933-04-09,Actor|Producer|Stunts
+784,Faye Dunaway,,
+785,Jennifer Beals,1963-12-19,Actress|Producer|Camera and Electrical Department
+786,Mae Whitman,,
+787,Rupert Everett,1959-05-29,Actor|Producer|Writer
+788,Maquisard Alfonso,,
+789,Victor Ertmanis,,Director|Writer|Second Unit Director or Assistant Director
+790,Jada Pinkett Smith,1971-09-18,Producer|Actress|Writer
+791,William Sylvester,1922-01-31,Actor
+792,Stephen Baldwin,1966-05-12,Actor|Producer|Director
+793,Annabella Sciorra,1960-03-29,Actress|Producer
+794,Paige O'Hara,1956-05-10,Actress|Soundtrack
+795,Michael Imperioli,1966-03-26,Actor|Writer|Producer
+796,John Candy,1950-10-31,Actor|Writer|Music Department
+797,Jennifer Rubin,1962-04-03,Actress|Producer
+798,Rigg Kennedy,1915-09-14,Actor
+799,Drew Barrymore,1975-02-22,Producer|Actress|Director
+800,Matthew McConaughey,1969-11-04,Actor|Producer|Director
+801,Giorgio Armani,1934-07-11,Costume and Wardrobe Department|Costume Designer|Producer
+802,Kimberly Williams-Paisley,1971-09-14,Actress|Producer|Director
+803,Piper Laurie,1932-01-22,Actress|Director|Soundtrack
+804,Katrin Cartlidge,1961-05-15,Actress
+805,Steven Waddington,1968-11-28,Actor|Writer|Director
+806,Mark Anthony,1961-10-26,Actor|Producer|Director
+807,Mario Machado,1935-04-22,Actor
+808,Tom Wilkinson,1948-02-05,Actor|Soundtrack
+809,Nick Upton,,Talent Agent
+810,Mario Van Peebles,,
+811,Olivia d'Abo,,
+812,Frances McDormand,1957-06-23,Actress|Producer|Soundtrack
+813,Siqin Gaowa,,Actress
+814,Keith Carradine,1949-08-08,Actor|Music Department|Producer
+815,Cyd Charisse,1922-03-08,Actress|Soundtrack
+816,Sami Bouajila,1966-05-26,Actor|Soundtrack
+817,Keith Allen,1953-09-02,Actor|Director|Writer
+818,Dan Aykroyd,1952-07-01,Writer|Actor|Producer
+819,Jeffrey Force,,Editor|Editorial Department|Producer
+820,Christopher Bowen,,Actor
+821,Mick Lally,,Actor
+822,Sinbad,1956-11-10,Actor|Writer|Producer
+823,Pamela Adlon,1966-07-09,Actress|Producer|Writer
+824,Dana Vávrová,1967-08-09,Actress|Director|Writer
+825,Rabiah Ben-Abdullah,,
+826,Kevin Costner,1955-01-18,Actor|Producer|Writer
+827,Jackie Chan,1954-04-07,Producer|Actor|Stunts
+828,Yinyan Wu,,
+829,Geraldine O'Rawe,,Actress|Writer|Producer
+830,Billy Crystal,1948-03-14,Actor|Writer|Producer
+831,Jon Favreau,1966-10-19,Producer|Actor|Writer
+832,Colin Friels,1952-09-25,Actor
+833,Lillo Brancato,1976-03-30,Actor|Producer
+834,Mike Myers,1963-05-25,Actor|Writer|Producer
+835,Errol Flynn,1909-06-20,Actor|Writer|Producer
+836,Joachim Serreau,,
+837,Richy Müller,1955-09-26,Actor|Soundtrack
+838,Paul Calderon,1952-01-25,Actor|Producer|Director
+839,Marita Marschall,1958-04-08,Actress
+840,Romane Bohringer,1973-08-14,Actress|Director|Writer
+841,Bibi Krubwa,,
+842,Sophie Marceau,1966-11-17,Actress|Director|Writer
+843,David Edwards,,
+844,Fred MacMurray,1908-08-30,Actor|Producer|Soundtrack
+845,Colm Meaney,1953-05-30,Actor|Producer|Soundtrack
+846,Hilary Swank,1974-07-30,Actress|Producer|Soundtrack
+847,Aleksa Palladino,1980-09-21,Actress|Composer|Soundtrack
+848,James Cagney,1899-07-17,Actor|Director|Producer
+849,Brad Pitt,,
+850,Chelsea Field,,
+851,Ollie Johnston,,
+852,Queen Latifah,1970-03-18,Actress|Producer|Music Department
+853,Spencer Tracy,1900-04-05,Actor|Soundtrack
+854,Gregory Hines,1946-02-14,Actor|Additional Crew|Director
+855,Joan Plowright,1929-10-28,Actress|Soundtrack
+856,Nathalie Baye,1948-07-06,Actress|Writer|Soundtrack
+857,Chen Chao-jung,1968-11-01,Actor
+858,Robert Klein,1942-02-08,Actor|Writer|Producer
+859,Barbara Crampton,,
+860,John McDonough,,Composer|Actor
+861,Dieter Wardetzky,,
+862,Rene Russo,1954-02-17,Actress|Producer
+863,Kinuyo Tanaka,1910-11-28,Actress|Director|Soundtrack
+864,Selim Boughedir,,
+865,Patricia Royce,1985-04-17,Actress|Producer|Costume Designer
+866,Quentin Crisp,,
+867,Oliver Milburn,,
+868,Hiep Thi Le,1971-02-18,Actress|Soundtrack
+869,Mathilda May,,
+870,Minnie Driver,,
+871,Kenneth Branagh,,
+872,Greg Kinnear,1963-06-17,Actor|Producer|Writer
+873,Sean Bean,1959-04-17,Actor|Producer|Animation Department
+874,Nick Broomfield,1948-01-30,Director|Producer|Writer
+875,Val Kilmer,1959-12-31,Actor|Producer|Director
+876,Xiaorui Zhao,,
+877,Rongguang Yu,,Actor|Director|Producer
+878,Geena Davis,1956-01-21,Producer|Actress|Writer
+879,Patrick Goyette,,Actor|Director|Writer
+880,Saïd Taghmaoui,1973-07-19,Actor
+881,Jerry O'Connell,1974-02-17,Actor|Producer|Director
+882,Steve Martin,,
+883,Gaël Morel,1972-09-25,Director|Writer|Actor
+884,David Thewlis,1963-03-20,Actor|Writer|Director
+885,Christopher Martin,1971-09-08,Actor|Writer|Producer
+886,Cary Grant,,
+887,Stephen Dillane,1957-03-27,Actor|Soundtrack
+888,Papa Wemba,,
+889,Nathan Lane,1956-02-03,Actor|Producer|Soundtrack
+890,Joyce Phillips,1950-04-29,Producer|Director|Writer
+891,Gary Cooper,1901-05-07,Actor|Stunts|Producer
+892,Jack Black,,
+893,Leslie Hope,,Actress|Director|Producer
+894,Darren McGavin,1922-05-07,Actor|Director|Producer
+895,Julia Roberts,1967-10-28,Actress|Producer|Soundtrack
+896,Peter Greene,1965-10-08,Actor|Producer
+897,Kanu Bannerjee,,
+898,Anna Thomson,,
+899,Judi Dench,1934-12-09,Actress|Music Department|Director
+900,Mel Harris,1956-07-12,Actress|Director|Writer
+901,Valeria Golino,1965-10-22,Actress|Producer|Director
+902,Leslie Howard,,
+903,Robert Stack,,
+904,Frank Passingham,,
+905,Claude Rains,,
+906,Sean Astin,1971-02-25,Actor|Producer|Director
+907,Gene Kelly,1912-08-23,Actor|Additional Crew|Director
+908,Mary McDonnell,,
+909,Isaiah Washington,1963-08-03,Actor|Producer|Director
+910,Scott Caan,1976-08-23,Actor|Writer|Producer
+911,Christian Rub,1886-04-13,Actor|Additional Crew|Soundtrack
+912,Graham Greene,1952-06-22,Actor|Writer|Additional Crew
+913,Nic Ratner,,
+914,Mike Barbour,,
+915,Robby Benson,1956-01-21,Actor|Director|Soundtrack
+916,Hind Sabri,,
+917,Eddie Murphy,1961-04-03,Actor|Writer|Producer
+918,Raymond J. Barry,,
+919,James Spader,,
+920,Mary Astor,1906-05-03,Actress|Soundtrack
+921,Kerry Fox,1966-07-30,Actress|Writer|Director
+922,Jean-Hugues Anglade,,
+923,Binnie Barnes,1903-03-25,Actress|Producer|Soundtrack
+924,Polly Draper,1955-06-15,Actress|Writer|Producer
+925,Xiaoxiao Wang,,Actor
+926,Ross Malinger,,
+927,Christina Vidal,1981-11-18,Actress|Producer|Soundtrack
+928,Kate Winslet,,
+929,Madeleine Stowe,,
+930,Blythe Danner,,
+931,John Hannah,1962-04-23,Actor|Producer
+932,Bridget Fonda,,
+933,Lothaire Bluteau,,Actor|Writer|Soundtrack
+934,Kristy Swanson,,
+935,James Cosmo,1948-05-24,Actor|Producer|Soundtrack
+936,Leo Carrillo,1881-08-06,Actor|Soundtrack
+937,Henry Jaglom,1938-01-26,Writer|Director|Actor
+938,Rick Aviles,1952-10-14,Actor|Soundtrack
+939,Marco Hofschneider,1969-10-18,Actor|Camera and Electrical Department
+940,James Andronica,,
+941,John C. Reilly,1965-05-24,Actor|Writer|Producer
+942,Tony Todd,,
+943,Samantha Mathis,1970-05-12,Actress|Executive|Soundtrack
+944,Jennifer Taylor,,Actress|Writer|Producer
+945,C. Aubrey Smith,1863-07-21,Actor|Soundtrack
+946,Stefano Dionisi,1966-10-01,Actor|Soundtrack
+947,Marthe Villalonga,,
+948,Mimi Rogers,1956-01-27,Actress|Producer|Soundtrack
+949,Simone Signoret,1921-03-25,Actress
+950,Kirsten Dunst,,
+951,Ellen Barkin,1954-04-16,Actress|Producer
+952,Sherilyn Fenn,,
+953,Ariane Schluter,,
+954,Dana Andrews,1909-01-01,Actor|Soundtrack
+955,Aleksandr Kaydanovskiy,1946-07-23,Actor|Director|Writer
+956,Paul Newman,1925-01-26,Actor|Producer|Director
+957,Bonnie Hunt,1961-09-22,Producer|Writer|Actress
+958,Baotian Li,1946-11-28,Actor
+959,Sylvia Roemer,,Actress
+960,Alice Krige,,
+961,Anne Archer,,
+962,Frances Dee,1909-11-26,Actress|Soundtrack
+963,Isa Danieli,1937-03-13,Actress|Second Unit Director or Assistant Director|Additional Crew
+964,William Sanderson,1944-01-10,Actor
+965,Paolo Villaggio,,
+966,Reese Witherspoon,1976-03-22,Producer|Actress|Executive
+967,Woody Allen,1935-11-30,Writer|Director|Actor
+968,Phil Hartman,,
+969,Josep Maria Flotats,,
+970,Alida Valli,,
+971,Rosalind Russell,,
+972,Erich Anderson,1956-10-24,Actor|Writer
+973,Roger Rees,1944-05-05,Actor|Director|Soundtrack
+974,Rachael Crawford,,Actress
+975,Naomi Watts,,
+976,Wendell Holmes,1914-08-17,Actor|Soundtrack
+977,Pawan Malhotra,1958-07-02,Actor|Costume and Wardrobe Department|Production Manager
+978,Valerie Mahaffey,,
+979,Al Pacino,,
+980,Phylicia Rashad,1948-06-19,Actress|Producer|Soundtrack
+981,Rafal Synówka,,
+982,Robin Givens,1964-11-27,Actress|Director|Producer
+983,Carmen Maura,,
+984,Anjelica Huston,1951-07-08,Actress|Producer|Director
+985,Shawn Wayans,1971-01-19,Actor|Writer|Music Department
+986,George C. Scott,1927-10-18,Actor|Director|Producer
+987,Joaquin Phoenix,1974-10-28,Actor|Producer|Director
+988,J.T. Walsh,1943-09-28,Actor
+989,William Hurt,1950-03-20,Actor|Producer
+990,Mel Brooks,1926-06-28,Actor|Writer|Producer
+991,Natasha Richardson,,
+992,Albert Brooks,1947-07-22,Actor|Writer|Music Department
+993,Fairuza Balk,,
+994,Ned Dowd,1950-05-26,Producer|Additional Crew|Second Unit Director or Assistant Director
+995,Jerry Barone,,Actress|Music Department|Writer
+996,Peter Riegert,1947-04-11,Actor|Director|Writer
+997,Ulrich Mühe,,
+998,Brian Cox,1946-06-01,Actor|Producer|Director
+999,Helena Solberg,1986-05-21,Actress|Producer|Director
+1000,André Eisermann,1967-10-28,Actor
+1001,Stellan Skarsgård,,
+1002,Peter Dobson,1964-07-19,Actor|Producer|Director
+1003,Kevin Michael Richardson,,
+1004,Audrey Hepburn,1929-05-04,Actress|Soundtrack
+1005,Cynthia Rothrock,,
+1006,James Carville,1944-10-25,Actor|Producer
+1007,Arthur Agee,1972-11-22,Actor|Writer|Producer
+1008,Spike Lee,1957-03-20,Director|Producer|Writer
+1009,Corbin Bernsen,,
+1010,Eiko Matsuda,1952-05-18,Actress
+1011,Tim Curry,,
+1012,Felicitas Grimm-Luck,,
+1013,Norma Shearer,,
+1014,Lisa Dean Ryan,1972-04-30,Actress|Soundtrack
+1015,James Rebhorn,1948-09-01,Actor
+1016,Nicollette Sheridan,,
+1017,Cher,,
+1018,Rosemary Harris,,
+1019,Burl Ives,,
+1020,Herb Caen,1972-03-21,Actor
+1021,Tim Allen,1953-06-13,Actor|Producer|Additional Crew
+1022,Michael Richards,1949-07-24,Actor|Writer|Producer
+1023,Danny Elfman,,
+1024,Lena Headey,,
+1025,Mel Blanc,,
+1026,Oleg Menshikov,1960-11-08,Actor|Director|Soundtrack
+1027,Lou Diamond Phillips,1962-02-17,Actor|Director|Writer
+1028,Ralph Waite,1928-06-22,Actor|Director|Producer
+1029,Jean Arthur,1900-10-17,Actress|Soundtrack
+1030,Sab Shimono,,
+1031,Subir Banerjee,,
+1032,Vincent Cassel,1966-11-23,Actor|Producer|Director
+1033,Chris Eigeman,1965-03-01,Actor|Director|Writer
+1034,Trini Alvarado,,
+1035,Cuba Gooding Jr.,,
+1036,Jonathan Banks,,
+1037,Isaac Stern,,
+1038,Iris Berben,1950-08-12,Actress|Soundtrack
+1039,Nicholas Turturro,1962-01-29,Actor|Producer|Writer
+1040,Eric Roberts,1956-04-18,Actor|Producer|Soundtrack
+1041,Joaquim de Almeida,1957-03-15,Actor|Editorial Department|Producer
+1042,Bill Hunter,1940-02-27,Actor|Stunts|Additional Crew
+1043,Craig Sheffer,1960-04-23,Actor|Producer|Director
+1044,James Woods,1947-04-18,Actor|Producer|Director
+1045,Jason Scott Lee,1966-11-19,Actor
+1046,Sabine Azéma,1949-09-20,Actress|Director|Writer
+1047,Christopher Plummer,1929-12-13,Actor|Producer|Music Department
+1048,Lena Olin,,
+1049,Pamela Blair,,Actress|Producer|Additional Crew
+1050,Macaulay Culkin,,
+1051,Mia Farrow,1945-02-09,Actress|Soundtrack
+1052,Richard Romanus,1943-02-28,Actor|Writer|Producer
+1053,Linda Hunt,1945-04-02,Actress|Soundtrack
+1054,Billy West,1952-04-16,Actor|Music Department|Writer
+1055,Nicolas Cage,,
+1056,Carlo Cecchi,,
+1057,Jf Davis,,Actor|Producer|Additional Crew
+1058,Cynda Williams,1966-05-17,Actress|Producer|Writer
+1059,Katja Riemann,1963-11-01,Actress|Director|Writer
+1060,Gwyneth Paltrow,1972-09-27,Actress|Producer|Director
+1061,Jeffrey Combs,1954-09-09,Actor|Additional Crew|Soundtrack
+1062,Glenn Close,,
+1063,Francis Capra,1983-04-27,Actor
+1064,Esai Morales,1962-10-01,Actor|Producer|Director
+1065,Kristin Scott Thomas,1960-05-24,Actress|Director|Writer
+1066,Joanna Lumley,1946-05-01,Actress|Producer|Director
+1067,Haley Joel Osment,1988-04-10,Actor|Producer|Soundtrack
+1068,Karen Sillas,1963-06-05,Actress
+1069,Cary-Hiroyuki Tagawa,,
+1070,Robin Tunney,,
+1071,Sarah Peirse,,Actress|Additional Crew
+1072,Tom Cruise,,
+1073,Catherine Keener,1959-03-26,Actress|Producer|Casting Department
+1074,Eva Gabor,1919-02-11,Actress|Soundtrack
+1075,Jacqueline McKenzie,1967-10-24,Actress|Writer|Soundtrack
+1076,Ted Danson,1947-12-29,Actor|Producer|Writer
+1077,Matthew Lillard,1970-01-24,Actor|Producer|Director
+1078,Daolin Sun,,
+1079,Kyra Sedgwick,1965-08-19,Actress|Producer|Director
+1080,Justin Fletcher,1970-06-15,Actor|Special Effects|Music Department
+1081,Wenli Jiang,1969-06-20,Actress|Producer|Director
+1082,Johnny Morina,,Actor
+1083,Pauly Shore,1968-02-01,Actor|Writer|Producer
+1084,Tom Guiry,1981-10-12,Actor
+1085,Joseph Cotten,1905-05-15,Actor|Writer|Soundtrack
+1086,Tom Arnold,1959-03-06,Actor|Producer|Writer
+1087,Shirley Temple,1928-04-23,Actress|Writer|Additional Crew
+1088,Cameron Diaz,,
+1089,Debbie Reynolds,1932-04-01,Actress|Producer|Writer
+1090,Andie MacDowell,1958-04-21,Actress|Producer|Writer
+1091,Robin Shou,1960-07-17,Actor|Director|Writer
+1092,Ronnie Davis,,Actor
+1093,Jeremy London,1972-11-07,Actor|Director|Producer
+1094,Julia Ormond,1965-01-04,Actress|Producer
+1095,Jodie Foster,,
+1096,Tony Shalhoub,,
+1097,Lynn Whitfield,1953-02-15,Actress|Producer
+1098,Regina King,1971-01-15,Actress|Director|Producer
+1099,Bette Davis,1908-04-05,Actress|Make-Up Department|Producer
+1100,Stefania Sandrelli,,
+1101,Marisa Tomei,,
+1102,Zbigniew Zamachowski,1961-07-17,Actor|Composer|Music Department
+1103,Aida Mohammadkhani,,
+1104,James Gammon,,
+1105,Michael Chekhov,,
+1106,Jason Alexander,1959-09-23,Actor|Writer|Producer
+1107,Jean Sorel,1934-09-25,Actor
+1108,Joey Travolta,1950-10-14,Actor|Producer|Director
+1109,Christine Lahti,1950-04-04,Actress|Director|Soundtrack
+1110,Dianne Wiest,1946-03-28,Actress|Soundtrack
+1111,Diane Keaton,,
+1112,Mira Sorvino,1967-09-28,Actress|Producer|Soundtrack
+1113,Liesel Matthews,1984-03-14,Actress|Soundtrack
+1114,Afrika Bambaataa,1957-04-17,Actor|Composer|Music Department
+1115,George Tabori,1988-09-05,Writer|Producer|Director
+1116,Michael Gunther,,Director|Stunt Coordinator|Producer
+1117,Evelyn Daw,,
+1118,Madeline Kahn,1942-09-29,Actress|Soundtrack
+1119,Mark Wahlberg,1971-06-05,Producer|Actor|Composer
+1120,Martin Donovan,,Actor|Director|Writer
+1121,Hedy Lamarr,1914-11-09,Actress|Producer|Additional Crew
+1122,Jean Reno,1948-07-30,Actor
+1123,Sean Connery,1930-08-25,Actor|Producer|Director
+1124,Amanda Plummer,1957-03-23,Actress|Writer
+1125,Anne Reid,1935-05-28,Actress|Soundtrack
+1126,Pascale Bussières,1968-06-27,Actress|Writer|Soundtrack
+1127,Jennifer Saunders,,
+1128,Martin Short,,
+1129,Tara Fitzgerald,1967-09-18,Actress|Director|Music Department
+1130,Lindsay Crouse,1948-05-12,Actress|Additional Crew|Soundtrack
+1131,Marilyn Monroe,1926-06-01,Actress|Writer|Soundtrack
+1132,Rubén Blades,,
+1133,Jeff Goldblum,1952-10-22,Actor|Producer|Writer
+1134,Chris O'Donnell,1970-06-26,Actor|Producer|Director
+1135,Jessica Hamilton,,
+1136,Noah Emmerich,,
+1137,Antony Sher,,
+1138,Lara Flynn Boyle,1970-03-24,Actress|Producer|Soundtrack
+1139,Janet Jackson,1966-05-16,Music Artist|Actress|Composer
+1140,Peter O'Toole,1932-08-02,Actor|Producer|Director
+1141,Keith David,,
+1142,Ingeborga Dapkunaite,1963-01-20,Actress|Soundtrack
+1143,Aidan Quinn,1959-03-08,Actor|Producer|Director
+1144,Arnold Schwarzenegger,,
+1145,Valérie Lemercier,1964-03-09,Actress|Director|Writer
+1146,Hetta Charnley,,
+1147,Kim Cattrall,1956-08-21,Actress|Producer|Soundtrack
+1148,Sela Ward,,
+1149,Ingrid Bergman,1915-08-29,Actress|Producer|Soundtrack
+1150,Daryl Hannah,1960-12-03,Actress|Producer|Director
+1151,Lauren Holly,1963-10-28,Actress|Producer|Writer
+1152,Myriam Niang,,
+1153,Mark Hosler,1930-04-09,Producer|Writer|Actor
+1154,Gregory Harrison,,
+1155,Orson Welles,1915-05-06,Actor|Writer|Director
+1156,Meret Becker,1969-01-15,Actress|Composer|Soundtrack
+1157,Anthony Higgins,1961-12-09,Actor|Writer|Producer
+1158,Al Freeman Jr.,1931-03-21,Actor|Director|Writer
+1159,Wendy Hughes,,
+1160,Brenda Fricker,1945-02-17,Actress
+1161,Christoph M. Ohrt,1960-03-30,Actor
+1162,Rick Moranis,1953-04-18,Actor|Writer|Producer
+1163,Georgina Cates,,
+1164,Carma Hinton,,
+1165,Vivien Leigh,1913-11-05,Actress|Writer|Soundtrack
+1166,Richard Norton,1950-01-06,Actor|Stunts|Producer
+1167,Andy Dick,1965-12-21,Actor|Writer|Producer
+1168,John Matshikiza,1954-11-26,Actor|Director|Producer
+1169,Suzzanne Douglas,,
+1170,Robert Englund,1947-06-06,Actor|Additional Crew|Director
+1171,Jon Robin Baitz,,
+1172,Duane Martin,1965-08-11,Actor|Producer|Writer
+1173,Darlanne Fluegel,1953-11-25,Actress|Producer|Casting Director
+1174,Chung-Hua Tou,1962-10-10,Actor
+1175,Brad Renfro,1982-07-25,Actor|Writer|Producer
+1176,James Gandolfini,,
+1177,Leon Schuster,1951-05-21,Actor|Writer|Producer
+1178,Dominique Sanda,1951-03-11,Actress
+1179,Anica Dobra,1963-06-03,Actress|Soundtrack
+1180,Félicie Pasotti,,
+1181,Olivia de Havilland,1916-07-01,Actress|Soundtrack
+1182,Alice Brady,1892-11-02,Actress|Soundtrack
+1183,Ian McKellen,1939-05-25,Actor|Writer|Producer
+1184,Denzel Washington,1954-12-28,Actor|Producer|Director
+1185,Steven Weber,1961-03-04,Actor|Producer|Writer
+1186,Rick Johnson,1961-01-21,Actor|Additional Crew|Director
+1187,Patrick Bauchau,,Actor|Writer|Producer
+1188,Lisa Thornhill,1966-09-30,Actress
+1189,Richard E. Grant,1957-05-05,Actor|Director|Writer
+1190,Lorraine Devon Wilke,,Actress|Writer|Soundtrack
+1191,Christian Päffgen,,
+1192,Daniel Pollock,1968-08-24,Actor
+1193,Dennis Goldson,,
+1194,Lesley Sharp,1960-04-03,Actress|Director|Soundtrack
+1195,David Morse,,
+1196,Jeremy Clyde,1941-03-22,Actor|Director|Music Department
+1197,Jean Yanne,1933-07-18,Actor|Writer|Producer
+1198,Lloyd Dunn,,
+1199,Lane Smith,1936-04-29,Actor|Soundtrack
+1200,Charles Boyer,,
+1201,Daniel McVicar,,
+1202,Christian Slater,1969-08-18,Actor|Producer|Director
+1203,Anthony LaPaglia,1959-01-31,Actor|Producer|Writer
+1204,Forest Whitaker,,
+1205,Johnathon Schaech,,
+1206,Maurice Chevalier,1888-09-12,Actor|Writer|Music Department
+1207,Luke Perry,,
+1208,Assumpta Serna,1957-09-16,Actress|Producer|Director
+1209,Julian Fellowes,1949-08-17,Writer|Actor|Producer
+1210,Elijah Wood,1981-01-28,Actor|Producer|Director
+1211,Isabelle Huppert,,
+1212,Kang-sheng Lee,,Actor|Director|Writer
+1213,Morgan Freeman,1937-06-01,Actor|Producer|Director
+1214,Meryl Streep,1949-06-22,Actress|Writer|Producer
+1215,Polly Walker,1966-05-19,Actress|Soundtrack
+1216,Jane Curtin,1947-09-06,Actress|Soundtrack
+1217,Maggie Cogan,,Actress|Music Department
+1218,Linden Ashby,1960-05-23,Actor|Director
+1219,Alfre Woodard,1952-11-08,Actress|Producer|Additional Crew
+1220,John Hurt,1940-01-22,Actor|Soundtrack
+1221,James Hong,1929-02-22,Actor|Producer|Writer
+1222,Donald O'Connor,1925-08-28,Actor|Director|Producer
+1223,Nia Long,,
+1224,Marilyn Ghigliotti,1961-08-10,Actress|Make-Up Department|Producer
+1225,María Casares,1922-11-21,Actress|Additional Crew
+1226,Mary Kay Place,1947-09-23,Actress|Director|Writer
+1227,Alan Alda,,
+1228,Tomas von Brömssen,1943-05-08,Actor|Writer|Soundtrack
+1229,Michael J. Nelson,,
+1230,Eddie Griffin,,
+1231,Joseph Gordon-Levitt,,
+1232,Martin Umbach,1956-03-16,Actor|Additional Crew|Sound Department
+1233,Sterling Hayden,1916-03-26,Actor|Writer|Soundtrack
+1234,Lisa Boyle,1964-08-06,Actress|Camera and Electrical Department
+1235,June Kyoto Lu,1932-03-10,Actress|Additional Crew
+1236,Christopher Walken,1943-03-31,Actor|Producer|Additional Crew
+1237,Behzad Khodaveisi,,Actor|Director|Writer
+1238,Ice-T,1958-02-16,Actor|Producer|Composer
+1239,Patrick McGoohan,1928-03-19,Actor|Producer|Director
+1240,Ian Hart,,
+1241,Jamie Lee Curtis,1958-11-22,Actress|Producer|Director
+1242,Lou Reed,1942-03-02,Music Artist|Actor|Composer
+1243,John Goodman,1952-06-20,Actor|Producer|Soundtrack
+1244,Brandon Lee,1965-02-01,Actor|Additional Crew
+1245,Sean Young,1959-11-20,Actress|Additional Crew|Director
+1246,Natasha Henstridge,1974-08-15,Actress|Producer|Soundtrack
+1247,Clarence Williams III,,
+1248,Saskia Reeves,1961-08-16,Actress|Soundtrack
+1249,Antonio Neiwiller,,
+1250,Rob Morrow,1962-09-21,Actor|Director|Producer
+1251,Yi Ding,,
+1252,Vusi Kunene,,Actor
+1253,John Lone,1952-10-13,Actor|Director|Soundtrack
+1254,Georges Marchal,1920-01-10,Actor
+1255,Jason Priestley,1969-08-28,Actor|Producer|Director
+1256,Thierry Lhermitte,1952-11-24,Actor|Writer|Producer
+1257,Jeff Daniels,1955-02-19,Actor|Producer|Writer
+1258,Vanessa Williams,,
+1259,Bruce Dern,,
+1260,Roy Dupuis,1963-04-21,Actor|Producer|Director
+1261,Mare Winningham,1959-05-16,Actress|Soundtrack
+1262,Patsy Kensit,1968-03-04,Actress|Composer|Soundtrack
+1263,Gladys George,1900-09-13,Actress|Soundtrack
+1264,Vincent Kartheiser,,
+1265,Emma Gates,1978-05-19,Actress
+1266,Basia Frydman,,
+1267,Stephen Chang,,
+1268,Danny DeVito,1944-11-17,Actor|Producer|Director
+1269,Marlon Brando,1924-04-03,Actor|Director|Writer
+1270,Sheryl Lee,,
+1271,Barbara Bates,1925-08-06,Actress|Soundtrack
+1272,Armand Assante,1949-10-04,Actor|Producer|Music Department
+1273,Eric Thal,,Actor
+1274,Charles Laughton,1899-07-01,Actor|Writer|Producer
+1275,Shaquille O'Neal,1972-03-06,Actor|Producer|Writer
+1276,Kyle MacLachlan,,
+1277,Viktor Mikhailov,,
+1278,Ludwig Briand,,
+1279,Alex Del Rosario,1952-10-07,Actress
+1280,Farrah Fawcett,1947-02-02,Actress|Producer|Additional Crew
+1281,Burt Reynolds,,
+1282,John Clarke,1931-04-14,Actor
+1283,Dickie Jones,1927-02-25,Actor|Stunts|Soundtrack
+1284,Maya Lin,,Actress|Producer
+1285,Matt McCoy,1956-05-20,Actor|Producer|Additional Crew
+1286,Matt LeBlanc,1967-07-25,Actor|Producer|Soundtrack
+1287,Whoopi Goldberg,1955-11-13,Actress|Producer|Writer
+1288,Keanu Reeves,,
+1289,Peter Weller,1947-06-24,Actor|Director|Writer
+1290,Frances Fisher,1952-05-11,Actress|Camera and Electrical Department
+1291,Heydon Prowse,1924-05-12,Actor
+1292,Patrick Timsit,1988-11-19,
+1293,Sterling Holloway,1905-01-14,Actor|Additional Crew|Soundtrack
+1294,Clara Bellar,,
+1295,Melvyn Douglas,1901-04-05,Actor|Soundtrack
+1296,Jorge Perugorría,1965-08-13,Actor|Director|Producer
+1297,Erika Eleniak,1969-09-29,Actress
+1298,Isaac Mizrahi,1961-10-14,Producer|Actor|Production Manager
+1299,Michael Rapaport,1970-03-20,Actor|Director|Producer
+1300,Brittany Murphy,1977-11-10,Actress|Producer|Soundtrack
+1301,Joe McFadden,1975-10-09,Actor|Soundtrack
+1302,Iemasa Kayumi,,
+1303,Treat Williams,1951-12-01,Actor|Director|Producer
+1304,Paul Gleason,1939-05-04,Actor|Producer
+1305,Jean-Louis Millette,1935-01-04,Actor|Writer
+1306,Eric Bogosian,1953-04-24,Actor|Writer|Additional Crew
+1307,Jennifer Nitsch,1979-12-10,Actress|Writer
+1308,Chu-Ryun Kim,,
+1309,Brigitte Bardot,1934-09-28,Actress|Music Department|Producer
+1310,Marzena Trybala,1950-11-16,Actress
+1311,Billy Campbell,,
+1312,Hwang Sin-hye,1963-12-15,Actress
+1313,Hugo Weaving,1960-04-04,Actor|Producer|Soundtrack
+1314,Martin Lawrence,,
+1315,Kanin Howell,,
+1316,Phoebe Cates,1963-07-16,Actress|Soundtrack
+1317,James Caan,1940-03-26,Actor|Director|Stunts
+1318,Maurizio Nichetti,1948-05-08,Actor|Writer|Director
+1319,Moira Kelly,1968-03-06,Actress|Director
+1320,Miles Davis,1926-05-25,Music Artist|Music Department|Composer
+1321,Jean-Louis Trintignant,1930-12-11,Actor|Writer|Director
+1322,Philippe Noiret,1930-10-01,Actor|Additional Crew|Writer
+1323,Thomas J. Cahill,,
+1324,Tony Curtis,,
+1325,Scott McAfee,1981-09-29,Actor|Soundtrack
+1326,Chris Sarandon,1942-07-24,Actor|Soundtrack|Producer
+1327,Chad McQueen,1960-12-28,Actor|Producer|Additional Crew
+1328,Gérard Depardieu,,
+1329,Fabrice Luchini,1951-11-01,Actor|Writer|Producer
+1330,Claudette Carracedo,,
+1331,Imogen Stubbs,,
+1332,Samuel L. Jackson,,
+1333,Heather Graham,1970-01-29,Actress|Producer|Director
+1334,Michele Placido,1946-05-19,Actor|Writer|Director
+1335,Marco Leonardi,1971-11-14,Actor|Soundtrack
+1336,Woody Harrelson,1961-07-23,Actor|Producer|Director
+1337,Alec Baldwin,1958-04-03,Actor|Producer|Music Department
+1338,Michelle Forbes,1965-01-08,Actress
+1339,Jane Fonda,,
+1340,Sue Price,,
+1341,Zoe Carides,1962-02-19,Actress|Writer|Director
+1342,Talia Shire,,
+1343,Mark Linn-Baker,1954-06-17,Actor|Director|Producer
+1344,Max Cullen,1940-04-29,Actor|Writer
+1345,Kevin Dillon,1965-08-19,Actor|Producer|Soundtrack
+1346,Beverly D'Angelo,1951-11-15,Actress|Producer|Soundtrack
+1347,Cynthia Adler,,
+1348,Peter Reznick,,Actor
+1349,Gary Lockwood,1937-02-21,Actor|Soundtrack
+1350,Martha Plimpton,1970-11-16,Actress|Writer|Producer
+1351,Dennis Farina,,
+1352,Jaye Davidson,1968-03-21,Actor
+1353,Brendan Fraser,1968-12-03,Actor|Producer|Art Department
+1354,Maurice Dean Wint,,Actor|Additional Crew|Soundtrack
+1355,Amanda Sandrelli,,
+1356,Hugh Grant,1960-09-09,Actor|Soundtrack
+1357,James Andrews,,
+1358,Samuel Gould,,
+1359,Juliano Mer-Khamis,1958-05-29,Actor|Director|Writer
+1360,Steve Guttenberg,1958-08-24,Actor|Producer|Director
+1361,Holly Hunter,1958-03-20,Actress|Producer|Additional Crew
+1362,Gary Busey,1944-06-29,Actor|Producer|Composer
+1363,Julie Carmen,,Actress|Director|Producer
+1364,Christopher Reeve,1952-09-25,Actor|Producer|Additional Crew
+1365,Tom Sizemore,1961-11-29,Actor|Producer|Writer
+1366,Jesper Salén,1978-12-05,Actor|Music Department|Soundtrack
+1367,Vladimir Cruz,1965-07-26,Actor|Director|Writer
+1368,Lance Henriksen,,
+1369,Victoria Smurfit,1974-03-31,Actress|Producer|Writer
+1370,Dermot Mulroney,1963-10-31,Actor|Music Department|Producer
+1371,Kadeem Hardison,1965-07-24,Actor|Director|Writer
+1372,Dom DeLuise,1933-08-01,Actor|Director|Writer
+1373,Katina Commings,,
+1374,Roseanne Barr,,
+1375,Yûko Mochizuki,1917-01-28,Actress|Director|Writer
+1376,Stacy Keach,,
+1377,Josh Hamilton,1969-06-09,Actor|Producer
+1378,Charlotte Gainsbourg,,
+1379,Landu Nzunzimbu Matshia,,
+1380,Steffen Schroeder,1974-04-16,Actor
+1381,Sharmila Tagore,1944-12-08,Actress|Producer
+1382,Thora Birch,,
+1383,David Patrick Kelly,,
+1384,Deborah Amos,1985-02-07,Actress|Writer|Producer
+1385,Kim Basinger,1953-12-08,Actress|Producer|Soundtrack
+1386,Alain Chabat,1958-11-24,Writer|Actor|Producer
+1387,Thokozani Nkosi,,
+1388,Kathy Jamieson,,Actress
+1389,Caridad Ravelo,,
+1390,Tushka Bergen,1969-10-13,Actress
+1391,Aitana Sánchez-Gijón,1968-11-05,Actress|Soundtrack
+1392,Mirta Ibarra,1946-02-28,Actress|Director|Writer
+1393,Julie Hagerty,1955-06-15,Actress|Soundtrack
+1394,Neve Campbell,,
+1395,Eric da Silva,,Actor
+1396,John Lithgow,,
+1397,James Frain,,
+1398,Jack Palance,,
+1399,Fereshteh Sadre Orafaiy,,Actress|Additional Crew|Director
+1400,Stanley Tucci,1960-11-11,Actor|Producer|Writer
+1401,Mary Beth Aylesworth,,
+1402,Ron Silver,1946-07-02,Actor|Director|Producer
+1403,Mathieu Kassovitz,1967-08-03,Actor|Director|Writer
+1404,U Aung Ko,1997-09-01,Actor|Composer|Director
+1405,Tim Matheson,,
+1406,Guy Pearce,,
+1407,Luke Edwards,1980-03-24,Actor|Producer|Director
+1408,Dave Foley,,
+1409,Sonia Braga,1950-06-08,Actress|Producer|Additional Crew
+1410,Edward Everett Horton,1886-03-18,Actor|Soundtrack
+1411,Halle Berry,1966-08-14,Actress|Producer|Director
+1412,Craig Fairbrass,1964-01-15,Actor|Producer|Writer
+1413,Jennifer Tilly,1958-09-16,Actress|Writer|Soundtrack
+1414,Louis Jourdan,1921-06-19,Actor|Production Manager|Soundtrack
+1415,Clifton Webb,1889-11-19,Actor|Soundtrack
+1416,Bernard Hill,1944-12-17,Actor|Additional Crew|Soundtrack
+1417,Arturo Cámara,,
+1418,Jason Lee,1970-04-25,Actor|Producer|Director
+1419,Jeanne Moreau,,
+1420,Larry B. Scott,1961-08-17,Actor|Director|Producer
+1421,William Shatner,1931-03-22,Actor|Producer|Writer
+1422,Marilyn Sokol,,
+1423,Tim Robbins,1958-10-16,Actor|Producer|Director
+1424,Robert Sean Leonard,1969-02-28,Actor|Soundtrack
+1425,Robert De Niro,1943-08-17,Actor|Producer|Director
+1426,Louise Smith,1944-05-28,Actress|Director|Producer
+1427,Barry Otto,,Actor
+1428,Nikita Mikhalkov,1945-10-21,Actor|Producer|Director
+1429,Tony Robinow,1946-08-15,Producer|Actor|Writer
+1430,Jennifer Grey,1960-03-26,Actress|Producer|Additional Crew
+1431,Steven Berkoff,1937-08-03,Actor|Writer|Director
+1432,Patricia Clarkson,1959-12-29,Actress|Producer|Soundtrack
+1433,James Brolin,1940-07-18,Actor|Producer|Director
+1434,Kaipu Cohen,,Actress
+1435,Fengyi Zhang,1956-09-01,Actor
+1436,Nathan Yapp,,Cinematographer
+1437,Aline Kominsky-Crumb,1948-08-01,
+1438,Anna Chlumsky,1980-12-03,Actress|Soundtrack
+1439,Peter Sellers,,
+1440,Jürgen Prochnow,1941-06-10,Actor|Producer|Soundtrack
+1441,Gena Rowlands,,
+1442,Linda Larkin,1970-03-20,Actress|Producer
+1443,Élodie Bouchez,1973-04-05,Actress|Producer|Soundtrack
+1444,Ginger Rogers,1911-07-16,Actress|Soundtrack
+1445,Ciarán Hinds,1953-02-09,Actor|Soundtrack
+1446,Juliet Landau,,
+1447,Mara Wilson,1987-07-24,Actress|Writer|Director
+1448,Harry Stockwell,1905-04-27,Actor|Soundtrack
+1449,Barbara Bel Geddes,,
+1450,Mohan Agashe,1947-07-23,Actor|Producer|Composer
+1451,Dr. Dre,1965-02-18,Music Artist|Actor|Composer
+1452,Demi Moore,1962-11-11,Actress|Producer|Director
+1453,Rhea Perlman,1948-03-31,Actress|Producer|Writer
+1454,Shar-Ron Corley,1973-05-26,Actor
+1455,Paul Rudd,,
+1456,Elisabeth Shue,1963-10-06,Actress|Producer|Soundtrack
+1457,Lili Taylor,1967-02-20,Actress|Writer|Producer
+1458,Gregory Peck,1916-04-05,Actor|Producer|Additional Crew
+1459,Carla Gugino,1971-08-29,Actress|Producer|Soundtrack
+1460,Ernest Borgnine,1917-01-24,Actor|Producer|Soundtrack
+1461,Eileen Colgan,1934-01-20,Actress
+1462,Karl Hardman,,
+1463,Paul Henreid,1908-01-10,Director|Actor|Producer
+1464,Joan Crawford,1906-03-23,Actress|Writer|Producer
+1465,Stephen Dorff,,
+1466,Alyssa Milano,,
+1467,Sissy Spacek,1949-12-25,Actress|Art Department|Director
+1468,Frédérique Feder,,Actress|Director|Writer
+1469,Kathy Larson,,Actress|Casting Department
+1470,Vincent Perez,1964-06-10,Actor|Director|Writer
+1471,Clive Russell,,
+1472,Patricia Neal,1926-01-20,Actress|Soundtrack
+1473,Gary Cole,1956-09-20,Actor|Additional Crew
+1474,William Sadler,,
+1475,Bill Nunn,,
+1476,Gabrielle Anwar,,
+1477,Ed Harris,1950-11-28,Actor|Producer|Director
+1478,Jim Broadbent,,
+1479,Joan Bennett,1910-02-27,Actress|Soundtrack
+1480,Mamaengaroa Kerr-Bell,,Actress
+1481,Michael Gambon,1940-10-19,Actor|Music Department|Soundtrack
+1482,Richard Brooks,1962-12-09,Actor|Director|Producer
+1483,Duane Jones,1937-04-11,Actor
+1484,Frank Whaley,1963-07-20,Actor|Director|Writer
+1485,Cathy Moriarty,1960-11-29,Actress|Soundtrack
+1486,Frank Thomas,1912-09-05,Animation Department|Writer|Actor
+1487,Cyril Collard,,
+1488,Patrick Stewart,,
+1489,Pierre Brasseur,1905-12-22,Actor|Writer|Additional Crew
+1490,Anthony Quinn,1915-04-21,Actor|Producer|Director
+1491,Kate Beckinsale,1973-07-26,Actress|Producer|Additional Crew
+1492,Omar Epps,,
+1493,Christoph Colomb,,Actor|Second Unit Director or Assistant Director|Director
+1494,Anne Parillaud,,
+1495,Edward Stanley,,Actor
+1496,Kim Greist,,
+1497,Martin Landau,,
+1498,Sergey Dreyden,1941-09-14,Actor
+1499,Lazar Ristovski,1952-10-26,Actor|Producer|Writer
+1500,Jeremy Northam,1961-12-01,Actor|Soundtrack
+1501,Michelle Trachtenberg,1985-10-11,Actress|Producer|Soundtrack
+1502,Kuei-Mei Yang,1959-09-06,Actress|Music Department
+1503,Kurt Russell,1951-03-17,Actor|Producer|Writer
+1504,Eddie Bowz,1991-05-06,Actor
+1505,Lynn Carlin,1938-01-31,Actress|Soundtrack
+1506,Karuna Bannerjee,,
+1507,Frederick Weller,1966-04-18,Actor|Director|Writer
+1508,Steven Duffy,,
+1509,Rose Gregorio,,
+1510,Adam Ant,,
+1511,Nicole Kidman,1967-06-20,Actress|Producer|Music Department
+1512,Art Carney,,
+1513,Dolph Lundgren,,
+1514,Paul Terry,1999-04-14,
+1515,Anthony Hopkins,,
+1516,Saul Rubinek,1948-07-02,Actor|Director|Writer
+1517,Catherine Deneuve,1943-10-22,Actress|Producer|Talent Agent
+1518,Dennis Haysbert,1954-06-02,Actor|Producer|Director
+1519,Walter Connolly,1887-04-08,Actor|Soundtrack
+1520,Michael Madsen,1957-09-25,Actor|Producer|Writer
+1521,John Larroquette,,
+1522,Harrison Ford,1942-07-13,Actor|Writer|Producer
+1523,James Duval,,
+1524,Nick Baldasare,,Actor|Director|Writer
+1525,Khaled Ksouri,,
+1526,Victoria Abril,1959-07-04,Actress|Soundtrack
+1527,Daniel Bernhardt,1965-08-31,Actor|Stunts|Director
+1528,Heather Beckel,,
+1529,David Paymer,1954-08-30,Actor|Director|Producer
+1530,Kevin J. O'Connor,1963-11-15,Actor|Soundtrack
+1531,Atsuko Tanaka,1962-11-14,Actress|Music Department
+1532,Grace Kelly,1929-11-12,Actress|Producer|Soundtrack
+1533,Marcia Gay Harden,1959-08-14,Actress|Producer
+1534,Billy Bob Thornton,1955-08-04,Actor|Writer|Director
+1535,Jochen Nickel,1959-04-10,Actor|Soundtrack
+1536,Kathleen Turner,1954-06-19,Actress|Producer|Director
+1537,Dustin Hoffman,1937-08-08,Actor|Producer|Director
+1538,Dylan McDermott,1961-10-26,Actor|Producer|Director
+1539,Nelly Alard,,
+1540,Youssef Abed-Alnour,,
+1541,Sharon Stone,1958-03-10,Actress|Producer|Additional Crew
+1542,Vladimir Vega,1952-10-07,Soundtrack
+1543,Dana Delany,,
+1544,Derek Keurvorst,,
+1545,Anthony DeSando,1965-12-04,Actor|Soundtrack
+1546,Stéphane Audran,1932-11-08,Actress|Soundtrack
+1547,Judith O'Dea,1945-04-20,Actress
+1548,John Haycraft,,
+1549,Patrick Bergin,1951-02-04,Actor|Producer|Soundtrack
+1550,Judy Davis,1955-04-23,Actress|Producer|Soundtrack
+1551,Shirley MacLaine,1934-04-24,Actress|Writer|Producer
+1552,Megan Ward,1969-09-24,Actress
+1553,Daniel Stern,,
+1554,Ann Turkel,1946-07-16,Actress|Manager
+1555,Ricki Lake,1968-09-21,Actress|Producer|Soundtrack
+1556,Embeth Davidtz,,
+1557,Michael Maloney,1957-06-19,Actor|Soundtrack
+1558,Serge Yanogo,1979-10-12,Actor
+1559,Jared Leto,1971-12-26,Actor|Producer|Director
+1560,Rutger Hauer,1944-01-23,Actor|Producer|Director
+1561,Jim Jarmusch,1953-01-22,Director|Writer|Actor
+1562,Ryan Slater,1983-04-19,Actor|Casting Department|Writer
+1563,Caroline Goodall,1959-11-13,Actress|Producer|Writer
+1564,John Plumpis,,Actor
+1565,Tina Cote,1943-08-04,Actress|Producer|Soundtrack
+1566,Roberta Guaspari,,
+1567,Robert Redford,1936-08-18,Producer|Actor|Director
+1568,Travis Tedford,1988-08-19,Actor
+1569,Ally Walker,1961-08-25,Actress|Writer|Producer
+1570,Randy Quaid,,
+1571,Owen Wilson,1968-11-18,Actor|Producer|Writer
+1572,Jeremy Davies,,
+1573,Patrick Swayze,1952-08-18,Actor|Producer|Additional Crew
+1574,Charlie Sheen,1965-09-03,Actor|Producer|Writer
+1575,Omar Townsend,,Actor
+1576,Ron Perlman,,
+1577,Will Smith,,
+1578,Laura Linney,1964-02-05,Actress|Producer|Additional Crew
+1579,Thomas Kretschmann,1962-09-08,Actor
+1580,William Frawley,1887-02-26,Actor|Soundtrack
+1581,Kelsey Grammer,1955-02-21,Producer|Actor|Music Department
+1582,Antoine Pialat,,
+1583,Edward Furlong,1977-08-02,Actor|Producer|Soundtrack
+1584,Cary Elwes,1962-10-26,Actor|Producer|Director
+1585,Brad Sullivan,1931-11-18,Actor|Soundtrack
+1586,Jessica Lange,1949-04-20,Actress|Producer|Soundtrack
+1587,Arie Verveen,,Actor|Producer|Director
+1588,Elsa Zylberstein,1968-10-16,Actress|Producer|Director
+1589,Denis Leary,1957-08-18,Writer|Actor|Producer
+1590,Donna Frotscher,,Actress
+1591,Bruklin Harris,,
+1592,Jeni Courtney,,
+1593,Tôru Nakamura,1965-09-05,Actor
+1594,Richard Lewis,1947-06-29,Actor|Writer|Producer
+1595,Danny Glover,1946-07-22,Actor|Producer|Director
+1596,Kate Burton,1957-09-10,Actress
+1597,Marya Cohn,,Actress|Producer
+1598,Olivier Martinez,1966-01-12,Actor
+1599,Susie Bright,1976-07-01,Actress|Soundtrack
+1600,Liv Tyler,1977-07-01,Actress|Producer|Soundtrack
+1601,Joe Mantegna,1947-11-13,Actor|Producer|Director
+1602,Margaret Cho,1968-12-05,Actress|Producer|Writer
+1603,Gandong Cervantes,,Actor
+1604,Jim Mallon,1956-03-19,Producer|Writer|Actor
+1605,Bill Paxton,1955-05-17,Actor|Producer|Writer
+1606,Joanne Nail,1947-06-03,Actress
+1607,Rosine Yanogo,,
+1608,Emma Coles,,
+1609,Adolphe Menjou,,
+1610,Anna Paquin,1982-07-24,Actress|Producer|Soundtrack
+1611,Corinna Harfouch,1954-10-16,Actress|Soundtrack
+1612,Helena Bonham Carter,1966-05-26,Actress|Director|Producer
+1613,Irène Jacob,,
+1614,Chazz Palminteri,1952-05-15,Actor|Writer|Producer
+1615,Courteney Cox,1964-06-15,Actress|Producer|Director
+1616,F. Murray Abraham,,
+1617,Jimmy Smits,1955-07-09,Actor|Producer|Soundtrack
+1618,John Ashton,,
+1619,Brock Pierce,1980-11-14,Actor|Producer|Additional Crew
+1620,Fred Astaire,1899-05-10,Actor|Additional Crew|Producer
+1621,Steve Cardenas,,
+1622,Don Rickles,1926-05-08,Actor|Writer|Soundtrack
+1623,Daniel Auteuil,1950-01-24,Actor|Director|Writer
+1624,Beulah Bondi,1889-05-03,Actress|Soundtrack
+1625,Kate Maberly,,
+1626,Winona Ryder,,
+1627,Robert Peterson,,
+1628,Jennifer Connelly,,
+1629,Paul Reiser,,
+1630,Shelley Long,1949-08-23,Actress|Producer|Additional Crew
+1631,Will Patton,,
+1632,Matt Keeslar,,
+1633,Akim Tamiroff,1899-10-29,Actor|Soundtrack
+1634,Ben Niu,,Editor|Editorial Department|Sound Department
+1635,Dina Meyer,,
+1636,George Peppard,1928-10-01,Actor|Second Unit Director or Assistant Director|Director
+1637,Bruce Davison,1946-06-28,Actor|Director|Producer
+1638,Oscar Levant,1906-12-27,Music Department|Actor|Composer
+1639,Carin C. Tietze,1964-10-03,Actress
+1640,Viveca Lindfors,1920-12-29,Actress|Director|Writer
+1641,Toni Collette,,
+1642,Jeanne Tripplehorn,,
+1643,Gemma Jones,1942-12-04,Actress|Soundtrack
+1644,Stéphane Rideau,,
+1645,Leonardo DiCaprio,1974-11-11,Producer|Actor|Writer
+1646,Johnny Depp,,
+1647,Aeryk Egan,,
+1648,Nina Xining Zuo,,
+1649,Jennifer Jason Leigh,1962-02-05,Actress|Producer|Writer
+1650,Rebecca De Mornay,1959-08-29,Actress|Producer|Director
+1651,Dennis Miller,1953-11-03,Writer|Producer|Actor
+1652,JD Souther,1945-11-02,Actor|Composer|Music Department
+1653,James Russo,,
+1654,Robert Morley,1984-12-20,Actor|Director|Soundtrack
+1655,Enrico Lo Verso,1964-01-18,Actor
+1656,Warren Beatty,1937-03-30,Actor|Producer|Writer
+1657,Claudia Kaleem,1996-06-20,Actress

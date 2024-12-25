@@ -205,10 +205,15 @@ public class DataManager {
                     continue;
                 }
                 String[] actorData = actorRawData.split(",");
-                if (actorData.length == 2) {
+                if (actorData.length == 4) {
                     Actor actor = new Actor();
                     actor.setActorId(Integer.parseInt(actorData[0]));
                     actor.setName(actorData[1].trim());
+                    actor.setBirthDate(actorData[2].trim());
+                    String[] jobTitles = actorData[3].split("\\|");
+                    for (String jobTitle : jobTitles) {
+                        actor.addJobTitle(jobTitle);
+                    }
                     this.actorMap.put(actor.getActorId(), actor);
                 }
             }
@@ -227,10 +232,15 @@ public class DataManager {
                     continue;
                 }
                 String[] directorData = directorRawData.split(",");
-                if (directorData.length == 2) {
+                if (directorData.length == 4) {
                     Director director = new Director();
                     director.setDirectorId(Integer.parseInt(directorData[0]));
                     director.setName(directorData[1].trim());
+                    director.setBirthDate(directorData[2].trim());
+                    String[] jobTitles = directorData[3].split("\\|");
+                    for (String jobTitle : jobTitles) {
+                        director.addJobTitle(jobTitle);
+                    }
                     this.directorMap.put(director.getDirectorId(), director);
                 }
             }

@@ -91,13 +91,16 @@ public class RecSysServer {
         context.addServlet(DefaultServlet.class,"/");
         context.addServlet(new ServletHolder(new MovieService()), "/getmovie");
         context.addServlet(new ServletHolder(new UserService()), "/getuser");
+        context.addServlet(new ServletHolder(new ActorService()), "/getactor");
+        context.addServlet(new ServletHolder(new DirectorService()), "/getdirector");
         context.addServlet(new ServletHolder(new SimilarMovieService()), "/getsimilarmovie");
         context.addServlet(new ServletHolder(new SimilarActorService()), "/getsimilaractor");
         context.addServlet(new ServletHolder(new SimilarDirectorService()), "/getsimilardirector");
         context.addServlet(new ServletHolder(new RecommendationService()), "/getrecommendation");
         context.addServlet(new ServletHolder(new RecForYouService()), "/getrecforyou");
-        context.addServlet(new ServletHolder(new ActorService()), "/getactor");
-        context.addServlet(new ServletHolder(new DirectorService()), "/getdirector");
+        context.addServlet(new ServletHolder(new RecForYouServiceActor()), "/getrecforyouactor");
+        context.addServlet(new ServletHolder(new RecForYouServiceDirector()), "/getrecforyoudirector");
+
 
         //set url handler
         server.setHandler(context);

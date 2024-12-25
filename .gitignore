@@ -36,3 +36,11 @@ src/main/resources/webroot/directors/
 
 # vscode
 .vscode/
+
+# recmodel data
+src/main/resources/webroot/sampledata/testSamples/
+src/main/resources/webroot/sampledata/trainingSamples/
+src/main/resources/webroot/sampledata/testSamplesActor/
+src/main/resources/webroot/sampledata/trainingSamplesActor/
+src/main/resources/webroot/sampledata/testSamplesDirector/
+src/main/resources/webroot/sampledata/trainingSamplesDirector/

@@ -12,6 +12,8 @@ import java.util.Map;
 public class Director {
     int directorId;
     String name;
+    String birthDate;
+    List<String> jobTitle;
     List<Integer> movies;
 
     int ratingNumber;
@@ -34,11 +36,28 @@ public class Director {
     public Director() {
         ratingNumber = 0;
         averageRating = 0;
+        this.jobTitle = new ArrayList<>();
         this.movies = new ArrayList<>();
         this.ratings = new ArrayList<>();
         this.topRatings = new LinkedList<>();
         this.emb = null;
         this.directorFeatures = null;
+    }
+
+    public String getBirthDate() {
+        return birthDate;
+    }
+
+    public List<String> getJobTitle() {
+        return jobTitle;
+    }
+
+    public void addJobTitle(String jobTitle) {
+        this.jobTitle.add(jobTitle);
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
     }
 
     public int getDirectorId() {

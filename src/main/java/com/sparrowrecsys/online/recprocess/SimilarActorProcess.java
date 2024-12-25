@@ -56,7 +56,7 @@ public class SimilarActorProcess {
         System.out.println("recList.size() = " + recList.size());
         System.out.println("Recommendation list for actor "+DataManager.getInstance().getActorById(1).getName()+":");
         for (Actor actor : recList) {
-           // System.out.println("    "+actor.getActorId() + " " + actor.getName());
+            System.out.println("    "+actor.getActorId() + " " + actor.getName());
         }
     }
 

@@ -1,697 +1,697 @@
-directorId,directorName
-0,Bill Forsyth
-1,Marcus DeLeon
-2,Nick Castle
-3,Stephen Sommers
-4,Terry Gilliam
-5,John Singleton
-6,Joe Johnston
-7,Joseph Strick
-8,Christopher Ashley
-9,Ernest R. Dickerson
-10,John Carpenter
-11,Jerry Ciccoritti
-12,Marc Rocco
-13,Terence Davies
-14,Atom Egoyan
-15,Christopher Monger
-16,Sönke Wortmann
-17,Yimou Zhang
-18,Michael A. Nickles
-19,Glenn Gordon Caron
-20,María Luisa Bemberg
-21,Alan Parker
-22,James Keach
-23,Rocky Morton
-24,Peter Horton
-25,Keisuke Kinoshita
-26,Nikita Mikhalkov
-27,James Lapine
-28,Arkadiy Tigay
-29,Paul Warner
-30,Bertrand Tavernier
-31,Nicole Holofcener
-32,F. Gary Gray
-33,Irwin Winkler
-34,Josiane Balasko
-35,Henry Jaglom
-36,George Hickenlooper
-37,Jonathan Kaplan
-38,Peter Medak
-39,Ross Kagan Marks
-40,Peter Farrelly
-41,Joel Schumacher
-42,Mitchell Leisen
-43,Ángel Muñiz
-44,Angela Pope
-45,Oliver Stone
-46,Richard Gordon
-47,Richard Rush
-48,Mort Ransen
-49,Ben Stiller
-50,Yale Strom
-51,Charles Burnett
-52,Steven Soderbergh
-53,Eli Cohen
-54,Michael Lindsay-Hogg
-55,Barry Caillier
-56,Danny Cannon
-57,Michael Caton-Jones
-58,Ivan Reitman
-59,Simon Wincer
-60,Anna Campion
-61,Brian Gibson
-62,Bruce Beresford
-63,Sidney Lumet
-64,Peter Weck
-65,Chris Menges
-66,Mike Gabriel
-67,Clint Eastwood
-68,Vincente Minnelli
-69,Howard Franklin
-70,Doug Ellin
-71,Harvey Wang
-72,Carroll Ballard
-73,Richard Linklater
-74,Rob Reiner
-75,John Halas
-76,Anthony Hopkins
-77,Douglas Keeve
-78,Rémy Duchemin
-79,John Lasseter
-80,John G. Avildsen
-81,Timothy Quay
-82,Dennis Dugan
-83,Michael Moore
-84,Scott McGehee
-85,Stuart Orme
-86,Anthony Minghella
-87,Richard Attenborough
-88,Carma Hinton
-89,Richard Loncraine
-90,Robert Lee King
-91,Gerald Potterton
-92,Robert Zemeckis
-93,Roger Avary
-94,Jaime Hellman
-95,Walter Lang
-96,John Landis
-97,Andrew Davis
-98,Larry Leker
-99,Lisa Krueger
-100,Kar-Wai Wong
-101,Gabriel Barylli
-102,Peter Weir
-103,Luc Besson
-104,Fred Williamson
-105,Claude Chabrol
-106,Gene Kelly
-107,Joseph Ruben
-108,Laurent Heynemann
-109,Victor Schertzinger
-110,Mika Kaurismäki
-111,Billy Wilder
-112,Dave Borthwick
-113,Keith Gordon
-114,Vincent Robert
-115,Brett Leonard
-116,Lilly Wachowski
-117,Thaddeus O'Sullivan
-118,Daniel Petrie
-119,Herbert Ross
-120,Damian Harris
-121,Sam Weisman
-122,Irene von Alberti
-123,Sandip Ray
-124,Benjamin Ross
-125,Edwin L. Marin
-126,Patricia Rozema
-127,Elia Kazan
-128,Allen Hughes
-129,Brad Silberling
-130,Jennifer Lynch
-131,Roger Vadim
-132,Luis Llosa
-133,Jonathan Lynn
-134,Emir Kusturica
-135,Roman Polanski
-136,Preston A. Whitmore II
-137,Geoff Murphy
-138,Arthur Joffé
-139,Chris Noonan
-140,Wolfgang Petersen
-141,Alfonso Arau
-142,Brian Levant
-143,Joseph L. Mankiewicz
-144,Yves Angelo
-145,Robert M. Young
-146,Neil Jordan
-147,Matty Rich
-148,Paul Weiland
-149,Rob Cohen
-150,Steven Spielberg
-151,Sean Penn
-152,Catherine Cyran
-153,Michael Hoffman
-154,Peter Shaner
-155,Harvey Miller
-156,Beeban Kidron
-157,Fred Dekker
-158,Woody Allen
-159,Robert Longo
-160,Jeremiah S. Chechik
-161,Ho Yim
-162,Wesley Strick
-163,David Frankel
-164,Tom DeCerchio
-165,Jerzy Kaszubowski
-166,Rowdy Herrington
-167,Terry Zwigoff
-168,Danny DeVito
-169,Amy Holden Jones
-170,Farhad Mann
-171,Victor Fleming
-172,Hal Salwen
-173,Krzysztof Kieslowski
-174,Dwight H. Little
-175,Lina Wertmüller
-176,Bryan Spicer
-177,Howard Deutch
-178,Michael Goldenberg
-179,Nick Gomez
-180,Arne Glimcher
-181,Roland Emmerich
-182,Michael Gottlieb
-183,Amy Heckerling
-184,Robert Altman
-185,Brian Gilbert
-186,John Waters
-187,D.A. Pennebaker
-188,Friðrik Þór Friðriksson
-189,Åke Sandgren
-190,Éric Rohmer
-191,Lucas Platt
-192,Harold Becker
-193,Franco Zeffirelli
-194,Nick Hamm
-195,Arthur Hiller
-196,Jim McKay
-197,Jim Mallon
-198,Gary Fleder
-199,Nagisa Ôshima
-200,Larry Cohen
-201,Ted Demme
-202,Annabel Jankel
-203,Carlo Carlei
-204,Tim Hunter
-205,Peter Jackson
-206,Stephan Elliott
-207,Stacy Cochran
-208,George Huang
-209,Christopher Hampton
-210,Michele Soavi
-211,Alex Graves
-212,Jon Blair
-213,Blake Edwards
-214,Sydney Pollack
-215,Frank Oz
-216,Eva Sereny
-217,T. Hee
-218,Bernardo Bertolucci
-219,Richard Stanley
-220,Andrew Fleming
-221,Karim Dridi
-222,Todd Verow
-223,Ridley Scott
-224,Nicole Garcia
-225,Trevor Nunn
-226,Stanley Tucci
-227,Theo van Gogh
-228,Doug McHenry
-229,Georges Franju
-230,Jocelyn Moorhouse
-231,Brett Thompson
-232,Steven Baigelman
-233,Archie Mayo
-234,Harold Ramis
-235,Rebecca Miller
-236,David Siegel
-237,Charles Matthau
-238,James Cameron
-239,Max Ophüls
-240,Suri Krishnamma
-241,Agnieszka Holland
-242,Victor Sjöström
-243,George Mihalka
-244,John Sayles
-245,Albert Pyun
-246,Chuck Russell
-247,John L'Ecuyer
-248,Barry Sonnenfeld
-249,Geoff Burton
-250,Peter Hyams
-251,Martin Enlen
-252,Kathryn Bigelow
-253,Charles Walters
-254,Freida Lee Mock
-255,Bryan Singer
-256,Lesli Linka Glatter
-257,Jessie Nelson
-258,David Mickey Evans
-259,Christian Duguay
-260,Paul Michael Glaser
-261,Jim Sheridan
-262,Kevin Yagher
-263,Chris Newby
-264,Walter Hill
-265,Steve James
-266,Tim Sullivan
-267,Gregg Araki
-268,Michael Curtiz
-269,Howard Hawks
-270,John Cassavetes
-271,Gray Hofmeyr
-272,Diane Keaton
-273,Mark Sandrich
-274,Gregory La Cava
-275,Jeffrey Friedman
-276,Jane Campion
-277,Stanley Donen
-278,Brian De Palma
-279,René Bonnière
-280,Hal Hartley
-281,Ildikó Enyedi
-282,Paul Sabella
-283,Bill Bennett
-284,Manuel Gómez Pereira
-285,Ken Kwapis
-286,Danny Boyle
-287,George Miller
-288,Allison Anders
-289,Mike Newell
-290,Eric Meza
-291,Jeremy Leven
-292,Richard Pearce
-293,Ron Shelton
-294,Mathieu Kassovitz
-295,Art Clokey
-296,Gus Van Sant
-297,Jim Jarmusch
-298,Paul Williams
-299,Jean-Paul Rappeneau
-300,Izidore K. Musallam
-301,Alan Rudolph
-302,Brett Piper
-303,Nick Park
-304,Luis Buñuel
-305,James Bruce
-306,Tom DiCillo
-307,Frank Capra
-308,Mike Figgis
-309,Jacques Demy
-310,Dominic Sena
-311,James Ivory
-312,Bill Couturié
-313,Chris Hunt
-314,Lana Wachowski
-315,Richard Benjamin
-316,Brian Henson
-317,Julio de Fleischner
-318,Michael Mann
-319,Andrew Morahan
-320,James L. Brooks
-321,Hervé Palud
-322,Mweze Ngangura
-323,Joshua Brand
-324,Daniel Petrie Jr.
-325,Kirk Wise
-326,Michael Winterbottom
-327,Jakov Sedlar
-328,Ernst Lubitsch
-329,Pat O'Connor
-330,Steve Barron
-331,John Rubino
-332,Simon Wells
-333,Gaston Kaboré
-334,William Friedkin
-335,Frieder Schlaich
-336,Ron Howard
-337,Tim Reid
-338,Lee David Zlotoff
-339,Antonia Bird
-340,Fraser C. Heston
-341,Jeff Pollack
-342,Robert Redford
-343,Greg Beeman
-344,Quentin Tarantino
-345,Peter Yates
-346,André Téchiné
-347,Phillip Noyce
-348,Gilbert Adler
-349,George A. Romero
-350,Pixote Hunt
-351,Stuart Gordon
-352,Peter Segal
-353,Tony Richardson
-354,Victoria Foyt
-355,Wolfgang Reitherman
-356,Orson Welles
-357,Jennifer Warren
-358,John Badham
-359,Michael Austin
-360,Charles Shyer
-361,Barry Levinson
-362,Sally Potter
-363,Jack O'Connell
-364,Scott Kalvert
-365,John Cromwell
-366,Louis Malle
-367,Clement Virgo
-368,Manoel de Oliveira
-369,Betty Thomas
-370,Stephen Poliakoff
-371,Kevin Hooks
-372,Tim Pope
-373,Maurice Pialat
-374,Zalman King
-375,Lucian Pintilie
-376,Massimo Troisi
-377,David O. Russell
-378,Roger Allers
-379,Arlene Sanford
-380,Goran Paskaljevic
-381,Pen Densham
-382,Stephen Gyllenhaal
-383,Noah Baumbach
-384,Robert Wuhl
-385,Randall Miller
-386,Ed Herzog
-387,George Cukor
-388,Corey Yuen
-389,Rob Minkoff
-390,Michael Ritchie
-391,Tamra Davis
-392,Scott Winant
-393,Victor Saville
-394,Roger Michell
-395,Norman Ferguson
-396,Jonathan R. Betuel
-397,Rusty Cundieff
-398,Steven E. de Souza
-399,Federico Fellini
-400,Paris Barclay
-401,Rachel Talalay
-402,Gregory Nava
-403,Garry Marshall
-404,Jon Turteltaub
-405,Kelly Makin
-406,Philip Tan
-407,Martin Lawrence
-408,Patrick Read Johnson
-409,Werner Herzog
-410,David R. Ellis
-411,Yuri Mamin
-412,John O'Brien
-413,Mel Gibson
-414,Mel Chionglo
-415,Michael Lehmann
-416,Rolf Silber
-417,Richard W. Munchkin
-418,Djibril Diop Mambéty
-419,Betty Kaplan
-420,Stuart Baird
-421,Holly Goldberg Sloan
-422,Robert Z. Leonard
-423,Sam Wood
-424,Fred Schepisi
-425,John Irvin
-426,David Carson
-427,Deran Sarafian
-428,Julianna Lavin
-429,Guillermo del Toro
-430,Steve Oedekerk
-431,Wes Craven
-432,Paul Auster
-433,Bill Condon
-434,Carlo Rola
-435,Wallace Wolodarsky
-436,Tom Noonan
-437,Les Mayfield
-438,Gregory Hoblit
-439,Wayne Wang
-440,Geoffrey Wright
-441,Christopher Larkin
-442,Michael Corrente
-443,Mike Leigh
-444,Renny Harlin
-445,John Fortenberry
-446,Campbell Scott
-447,Charles T. Kanganis
-448,Peter Hewitt
-449,Rafael Moleón
-450,Lawrence Kasdan
-451,Kenneth Branagh
-452,Caroline Thompson
-453,Henry Selick
-454,Ebrahim Forouzesh
-455,Wilfred Jackson
-456,John Pasquin
-457,Todd Haynes
-458,John Frankenheimer
-459,Joe Chappelle
-460,Jack Hill
-461,Lasse Hallström
-462,Sam Peckinpah
-463,William Keighley
-464,Norman Jewison
-465,Tim Burton
-466,Billy Crystal
-467,Eric Goldberg
-468,Kevin James Dobson
-469,Bo Widerberg
-470,Stanley Tong
-471,Kevin Dowling
-472,Gianni Amelio
-473,Marco Brambilla
-474,Darrell Roodt
-475,Steve Gomer
-476,Tôru Murakawa
-477,Kevin Reynolds
-478,Rouben Mamoulian
-479,Michael Radford
-480,Martin Scorsese
-481,Patrice Chéreau
-482,Jean-Jacques Annaud
-483,Peter MacDonald
-484,Michael Tolkin
-485,Ron Underwood
-486,John Boorman
-487,Rick Friedberg
-488,Mary Harron
-489,Edward Zwick
-490,Phillip Borsos
-491,Vadim Jean
-492,Robert Leacock
-493,David Hand
-494,Satyajit Ray
-495,Michael Bay
-496,Joel Coen
-497,David Koepp
-498,Wes Anderson
-499,Jon Amiel
-500,Susanne Ofteringer
-501,Douglas McGrath
-502,Michael Almereyda
-503,Edward Burns
-504,Jason Bloom
-505,Frank Borzage
-506,Martin Campbell
-507,Jafar Panahi
-508,David Anspaugh
-509,Penny Marshall
-510,William Cottrell
-511,Jean-Marie Poiré
-512,Brian Robbins
-513,Mario Van Peebles
-514,Pat Verducci
-515,Otto Preminger
-516,Craig Baldwin
-517,Jerry Zucker
-518,Gregory Widen
-519,Margarethe von Trotta
-520,Anh Hung Tran
-521,Gregg Champion
-522,Junli Zheng
-523,Ethan Coen
-524,Fred Gerber
-525,Alex Proyas
-526,Richard Donner
-527,Penelope Spheeris
-528,Paul Mazursky
-529,Roy Allen Smith
-530,John Schlesinger
-531,Iain Softley
-532,Fernando Trueba
-533,Theodore Thomas
-534,Roger Donaldson
-535,J.F. Lawton
-536,Gillies MacKinnon
-537,David Keating
-538,John Bruno
-539,Étienne Chatiliez
-540,Taylor Hackford
-541,Albert Hughes
-542,David S. Ward
-543,Lee Tamahori
-544,Joseph Vilsmaier
-545,Allan Miller
-546,Martha Coolidge
-547,Park Chul-Soo
-548,Michael Verhoeven
-549,Steve Miner
-550,John Woo
-551,Helen De Michiel
-552,Guy Ferland
-553,James Gray
-554,Robby Henson
-555,Jonathan Demme
-556,George Stevens
-557,Gérard Corbiau
-558,Pedro Almodóvar
-559,Jim Abrahams
-560,Ulu Grosbard
-561,Jon Avnet
-562,Giuseppe Tornatore
-563,Paul Verhoeven
-564,Juan Carlos Tabío
-565,Nigel Finch
-566,Nick Broomfield
-567,Adam Resnick
-568,Norberto Barba
-569,John Dahl
-570,Rob Epstein
-571,Reginald Hudlin
-572,Matthew Broderick
-573,Thomas Schlamme
-574,Alan Shapiro
-575,John Herzfeld
-576,Ron Clements
-577,James Foley
-578,Weiser Quay
-579,Raoul O'Connell
-580,Kayo Hatta
-581,Victor Salva
-582,Norman René
-583,John Payson
-584,François Girard
-585,René Clément
-586,Philip Kaufman
-587,Maurizio Nichetti
-588,Tsai Ming-liang
-589,William A. Seiter
-590,Ken Loach
-591,Gordon Willis
-592,Helena Solberg
-593,Ringo Lam
-594,Robert Allan Ackerman
-595,Daisy von Scherler Mayer
-596,Benoît Lamy
-597,Brian Sloan
-598,Jan de Bont
-599,Mel Smith
-600,Mike Nichols
-601,Spike Lee
-602,Chris Hegedus
-603,Steve Rash
-604,Anne Goursaud
-605,Stephen Low
-606,Peter Sehr
-607,Alan Jacobs
-608,Andrew Sipes
-609,Abel Ferrara
-610,Michael Apted
-611,John Huston
-612,Alfred Hitchcock
-613,Claude Lelouch
-614,Tony Scott
-615,Clive Barker
-616,David Fincher
-617,Rolf de Heer
-618,Steve Cohen
-619,Claude Sautet
-620,Ang Lee
-621,James Orr
-622,Mark Malone
-623,Robert Rodriguez
-624,Francis Ford Coppola
-625,Stanley Kubrick
-626,Robert Tinnell
-627,Daniel Schmid
-628,Moufida Tlatli
-629,Stijn Coninx
-630,Christopher Cain
-631,Paul W.S. Anderson
-632,John Ruane
-633,Stephen Frears
-634,Ping He
-635,Denys Arcand
-636,C.M. Talkington
-637,Matt Reeves
-638,Bobby Farrelly
-639,Gary Winick
-640,Randal Kleiser
-641,Bronwen Hughes
-642,W.S. Van Dyke
-643,Alexandre Rockwell
-644,Mina Shum
-645,Steven Brill
-646,Bernard Rose
-647,Barbet Schroeder
-648,Nora Ephron
-649,Stephen Quay
-650,Frank Darabont
-651,Richard Wherrett
-652,Whit Stillman
-653,Carl Reiner
-654,John Whitesell
-655,Steve Kloves
-656,Rose Troche
-657,Mark Joffe
-658,John McTiernan
-659,Tom Shadyac
-660,Gary Trousdale
-661,Férid Boughedir
-662,Tim Metcalfe
-663,Nanni Moretti
-664,Henry Koster
-665,Cyril Collard
-666,Kaige Chen
-667,Christopher Menaul
-668,Carl Franklin
-669,Andrew Scheinman
-670,Robert Lepage
-671,Frank Marshall
-672,Donald Petrie
-673,Alfonso Cuarón
-674,Curtis Hanson
-675,Robert Benton
-676,Bille August
-677,Mamoru Oshii
-678,Andrew Bergman
-679,John Musker
-680,Udayan Prasad
-681,Nicolas Roeg
-682,Mel Brooks
-683,Andy Tennant
-684,Stephen Hopkins
-685,Mitch Marcus
-686,Robert De Niro
-687,Richard Brooks
-688,Li Yin
-689,Tomás Gutiérrez Alea
-690,Gillian Armstrong
-691,Chris Columbus
-692,Michel Negroponte
-693,Alan Mehrez
-694,Kevin Costner
-695,Kevin Smith
+directorId,directorName,birthDate,jobTitle
+0,Bill Forsyth,1946-07-29,Director|Writer|Editor
+1,Marcus DeLeon,1935-11-08,Actor|Producer|Writer
+2,Nick Castle,1947-09-21,Writer|Director|Actor
+3,Stephen Sommers,1962-03-20,Producer|Writer|Director
+4,Terry Gilliam,1940-11-22,Director|Writer|Actor
+5,John Singleton,1968-01-06,Producer|Writer|Director
+6,Joe Johnston,1950-05-13,Director|Visual Effects|Producer
+7,Joseph Strick,1923-07-06,Producer|Director|Writer
+8,Christopher Ashley,,Director|Executive|Producer
+9,Ernest R. Dickerson,1951-06-25,Director|Cinematographer|Camera and Electrical Department
+10,John Carpenter,,
+11,Jerry Ciccoritti,1956-08-05,Director|Producer|Writer
+12,Marc Rocco,,Actor|Director|Producer
+13,Terence Davies,1945-11-10,Writer|Director|Actor
+14,Atom Egoyan,,
+15,Christopher Monger,,Director|Writer|Producer
+16,Sönke Wortmann,1959-08-25,Director|Actor|Writer
+17,Yimou Zhang,1951-11-14,Director|Writer|Producer
+18,Michael A. Nickles,,Writer|Director|Producer
+19,Glenn Gordon Caron,,Producer|Writer|Director
+20,María Luisa Bemberg,1922-04-14,Writer|Director|Actress
+21,Alan Parker,1944-02-14,Director|Writer|Producer
+22,James Keach,1947-12-07,Actor|Director|Producer
+23,Rocky Morton,,Director|Actor|Second Unit Director or Assistant Director
+24,Peter Horton,,Producer|Actor|Director
+25,Keisuke Kinoshita,1912-12-05,Writer|Director|Producer
+26,Nikita Mikhalkov,1945-10-21,Actor|Producer|Director
+27,James Lapine,1949-01-10,Writer|Director|Additional Crew
+28,Arkadiy Tigay,,
+29,Paul Warner,,
+30,Bertrand Tavernier,1941-04-25,Director|Writer|Producer
+31,Nicole Holofcener,1960-03-22,Director|Writer|Producer
+32,F. Gary Gray,1969-07-17,Director|Producer|Actor
+33,Irwin Winkler,1931-05-28,Producer|Writer|Director
+34,Josiane Balasko,1950-04-15,Actress|Writer|Director
+35,Henry Jaglom,1938-01-26,Writer|Director|Actor
+36,George Hickenlooper,1963-05-25,Director|Writer|Producer
+37,Jonathan Kaplan,,
+38,Peter Medak,1937-12-23,Director|Producer|Second Unit Director or Assistant Director
+39,Ross Kagan Marks,,Producer|Director|Writer
+40,Peter Farrelly,1956-12-17,Producer|Writer|Director
+41,Joel Schumacher,,
+42,Mitchell Leisen,1898-10-06,Director|Art Director|Costume Designer
+43,Ángel Muñiz,,
+44,Angela Pope,,Actress
+45,Oliver Stone,1946-09-15,Director|Producer|Writer
+46,Richard Gordon,1956-10-10,Producer|Director|Actor
+47,Richard Rush,1929-04-15,Director|Writer|Producer
+48,Mort Ransen,1933-08-16,Director|Writer|Actor
+49,Ben Stiller,,
+50,Yale Strom,1922-04-05,Actress|Soundtrack
+51,Charles Burnett,1944-04-13,Director|Writer|Cinematographer
+52,Steven Soderbergh,1963-01-14,Producer|Director|Cinematographer
+53,Eli Cohen,,
+54,Michael Lindsay-Hogg,1940-05-05,Director|Additional Crew|Actor
+55,Barry Caillier,,
+56,Danny Cannon,,Producer|Director|Writer
+57,Michael Caton-Jones,1957-10-15,Director|Producer|Actor
+58,Ivan Reitman,,
+59,Simon Wincer,,Director|Second Unit Director or Assistant Director|Producer
+60,Anna Campion,1952-10-28,Actress|Producer|Soundtrack
+61,Brian Gibson,1944-09-22,Director|Producer|Writer
+62,Bruce Beresford,1940-08-16,Director|Producer|Writer
+63,Sidney Lumet,1924-06-25,Director|Writer|Producer
+64,Peter Weck,1930-08-12,Actor|Director|Producer
+65,Chris Menges,1940-09-15,Cinematographer|Camera and Electrical Department|Director
+66,Mike Gabriel,1954-11-05,Art Department|Animation Department|Additional Crew
+67,Clint Eastwood,1930-05-31,Actor|Producer|Director
+68,Vincente Minnelli,1903-02-28,Director|Additional Crew|Music Department
+69,Howard Franklin,,Writer|Director|Script and Continuity Department
+70,Doug Ellin,1968-04-06,Writer|Producer|Actor
+71,Harvey Wang,,Actor
+72,Carroll Ballard,1937-10-14,Director|Camera and Electrical Department|Cinematographer
+73,Richard Linklater,,
+74,Rob Reiner,1947-03-06,Actor|Writer|Producer
+75,John Halas,,Actor
+76,Anthony Hopkins,,
+77,Douglas Keeve,1915-09-14,Actor
+78,Rémy Duchemin,,
+79,John Lasseter,1957-01-12,Producer|Writer|Additional Crew
+80,John G. Avildsen,1935-12-21,Director|Editor|Producer
+81,Timothy Quay,,Director|Animation Department|Cinematographer
+82,Dennis Dugan,1946-09-05,Actor|Director|Writer
+83,Michael Moore,,
+84,Scott McGehee,,Producer|Director|Writer
+85,Stuart Orme,1965-07-19,Actor
+86,Anthony Minghella,1954-01-06,Script and Continuity Department|Writer|Producer
+87,Richard Attenborough,1923-08-29,Actor|Producer|Director
+88,Carma Hinton,,
+89,Richard Loncraine,1946-10-20,Director|Writer|Actor
+90,Robert Lee King,,Actor|Producer|Writer
+91,Gerald Potterton,,
+92,Robert Zemeckis,1952-05-14,Producer|Writer|Director
+93,Roger Avary,,
+94,Jaime Hellman,,Producer|Production Manager|Additional Crew
+95,Walter Lang,1896-08-10,Director|Writer|Additional Crew
+96,John Landis,,
+97,Andrew Davis,1946-11-21,Director|Cinematographer|Writer
+98,Larry Leker,,Director|Writer|Second Unit Director or Assistant Director
+99,Lisa Krueger,,Script and Continuity Department|Director|Writer
+100,Kar-Wai Wong,1956-07-17,Director|Producer|Writer
+101,Gabriel Barylli,,
+102,Peter Weir,1944-08-21,Director|Writer|Producer
+103,Luc Besson,1959-03-18,Writer|Producer|Director
+104,Fred Williamson,,
+105,Claude Chabrol,1930-06-24,Director|Writer|Actor
+106,Gene Kelly,1912-08-23,Actor|Additional Crew|Director
+107,Joseph Ruben,1950-05-10,Director|Writer|Producer
+108,Laurent Heynemann,,
+109,Victor Schertzinger,1888-04-08,Director|Music Department|Composer
+110,Mika Kaurismäki,1955-09-21,Producer|Director|Writer
+111,Billy Wilder,1906-06-22,Writer|Director|Producer
+112,Dave Borthwick,,
+113,Keith Gordon,1961-02-03,Director|Actor|Producer
+114,Vincent Robert,1978-01-03,Actor
+115,Brett Leonard,,
+116,Lilly Wachowski,1967-12-29,Writer|Producer|Director
+117,Thaddeus O'Sullivan,,Director|Cinematographer|Additional Crew
+118,Daniel Petrie,1920-11-26,Director|Producer|Actor
+119,Herbert Ross,1927-05-13,Additional Crew|Director|Producer
+120,Damian Harris,,
+121,Sam Weisman,,Director|Actor|Producer
+122,Irene von Alberti,1958-03-14,Actor|Producer|Additional Crew
+123,Sandip Ray,1953-09-08,Director|Writer|Composer
+124,Benjamin Ross,1974-03-23,Actor|Second Unit Director or Assistant Director|Producer
+125,Edwin L. Marin,,
+126,Patricia Rozema,1958-08-20,Director|Writer|Producer
+127,Elia Kazan,1909-09-07,Director|Writer|Producer
+128,Allen Hughes,1972-04-01,Director|Producer|Writer
+129,Brad Silberling,1963-09-08,Producer|Director|Writer
+130,Jennifer Lynch,1968-04-07,Director|Writer|Producer
+131,Roger Vadim,1928-01-26,Writer|Director|Actor
+132,Luis Llosa,,Producer|Director|Writer
+133,Jonathan Lynn,1943-04-03,Writer|Actor|Director
+134,Emir Kusturica,1954-11-24,Director|Writer|Actor
+135,Roman Polanski,1933-08-18,Director|Actor|Writer
+136,Preston A. Whitmore II,1962-06-26,Writer|Director|Producer
+137,Geoff Murphy,1938-10-12,Director|Actor|Writer
+138,Arthur Joffé,1953-09-20,Writer|Director|Actor
+139,Chris Noonan,1952-11-14,Writer|Director|Producer
+140,Wolfgang Petersen,1941-03-14,Director|Writer|Producer
+141,Alfonso Arau,,
+142,Brian Levant,1952-08-06,Producer|Writer|Director
+143,Joseph L. Mankiewicz,1909-02-11,Writer|Producer|Director
+144,Yves Angelo,1956-01-22,Cinematographer|Camera and Electrical Department|Director
+145,Robert M. Young,1924-11-22,Director|Cinematographer|Writer
+146,Neil Jordan,1950-02-25,Writer|Producer|Director
+147,Matty Rich,,
+148,Paul Weiland,1953-07-11,Director|Writer|Actor
+149,Rob Cohen,,
+150,Steven Spielberg,1946-12-18,Producer|Writer|Director
+151,Sean Penn,1960-08-17,Actor|Producer|Director
+152,Catherine Cyran,1962-02-10,Director|Writer|Producer
+153,Michael Hoffman,1956-11-30,Director|Writer|Producer
+154,Peter Shaner,1918-06-24,Actor|Additional Crew
+155,Harvey Miller,1933-03-01,
+156,Beeban Kidron,1961-05-02,Director|Producer|Writer
+157,Fred Dekker,1959-04-09,Writer|Producer|Director
+158,Woody Allen,1935-11-30,Writer|Director|Actor
+159,Robert Longo,,
+160,Jeremiah S. Chechik,,Director|Producer|Actor
+161,Ho Yim,,Director|Writer|Actor
+162,Wesley Strick,1954-02-11,Producer|Writer|Director
+163,David Frankel,1959-04-02,Director|Producer|Production Manager
+164,Tom DeCerchio,,Director|Writer
+165,Jerzy Kaszubowski,,
+166,Rowdy Herrington,,Writer|Director|Additional Crew
+167,Terry Zwigoff,1949-05-18,Director|Writer|Producer
+168,Danny DeVito,1944-11-17,Actor|Producer|Director
+169,Amy Holden Jones,1953-09-17,Writer|Producer|Director
+170,Farhad Mann,,Director|Producer|Writer
+171,Victor Fleming,1889-02-23,Director|Cinematographer|Producer
+172,Hal Salwen,,Writer|Director|Actor
+173,Krzysztof Kieslowski,1941-06-27,Writer|Director|Actor
+174,Dwight H. Little,1956-01-13,Producer|Director|Writer
+175,Lina Wertmüller,1928-08-14,Writer|Director|Additional Crew
+176,Bryan Spicer,1964-04-09,Producer|Director|Second Unit Director or Assistant Director
+177,Howard Deutch,1950-09-14,Director|Producer|Additional Crew
+178,Michael Goldenberg,,
+179,Nick Gomez,1978-10-02,Actor|Writer|Producer
+180,Arne Glimcher,,
+181,Roland Emmerich,1955-11-10,Writer|Producer|Director
+182,Michael Gottlieb,1945-04-12,Director|Writer|Cinematographer
+183,Amy Heckerling,,Writer|Director|Producer
+184,Robert Altman,1925-02-20,Director|Producer|Writer
+185,Brian Gilbert,1994-01-29,Actor|Writer|Director
+186,John Waters,1946-04-22,Actor|Writer|Director
+187,D.A. Pennebaker,1925-07-15,Director|Cinematographer|Editor
+188,Friðrik Þór Friðriksson,1953-05-12,Producer|Director|Writer
+189,Åke Sandgren,,
+190,Éric Rohmer,,
+191,Lucas Platt,,
+192,Harold Becker,1928-09-25,Director|Producer|Cinematographer
+193,Franco Zeffirelli,1923-02-12,Additional Crew|Production Designer|Director
+194,Nick Hamm,,Director|Producer|Executive
+195,Arthur Hiller,1923-11-22,Director|Producer|Actor
+196,Jim McKay,1921-09-24,Writer|Actor
+197,Jim Mallon,1956-03-19,Producer|Writer|Actor
+198,Gary Fleder,1965-12-19,Producer|Director|Additional Crew
+199,Nagisa Ôshima,,
+200,Larry Cohen,1936-07-15,Writer|Producer|Director
+201,Ted Demme,1963-10-26,Director|Producer|Actor
+202,Annabel Jankel,1955-08-01,Director|Producer|Animation Department
+203,Carlo Carlei,1960-04-16,Director|Writer
+204,Tim Hunter,1947-06-15,Director|Producer|Writer
+205,Peter Jackson,1961-10-31,Producer|Director|Writer
+206,Stephan Elliott,1964-08-27,Director|Writer|Second Unit Director or Assistant Director
+207,Stacy Cochran,,
+208,George Huang,,Director|Writer|Additional Crew
+209,Christopher Hampton,1946-01-26,Writer|Producer|Director
+210,Michele Soavi,1957-07-03,Director|Actor|Second Unit Director or Assistant Director
+211,Alex Graves,,Producer|Director|Writer
+212,Jon Blair,,
+213,Blake Edwards,1922-07-26,Writer|Producer|Director
+214,Sydney Pollack,1934-07-01,Director|Producer|Actor
+215,Frank Oz,1944-05-25,Actor|Additional Crew|Director
+216,Eva Sereny,1972-02-25,Actor|Costume and Wardrobe Department|Costume Designer
+217,T. Hee,1950-11-22,Actor|Music Department|Writer
+218,Bernardo Bertolucci,1941-03-16,Writer|Director|Producer
+219,Richard Stanley,1966-11-22,Writer|Director|Actor
+220,Andrew Fleming,1965-12-30,Director|Producer|Writer
+221,Karim Dridi,1961-01-09,Director|Writer|Cinematographer
+222,Todd Verow,1966-11-11,Director|Producer|Editor
+223,Ridley Scott,,
+224,Nicole Garcia,1946-04-22,Actress|Writer|Director
+225,Trevor Nunn,1940-01-14,Director|Additional Crew|Writer
+226,Stanley Tucci,1960-11-11,Actor|Producer|Writer
+227,Theo van Gogh,1957-07-23,Director|Writer|Actor
+228,Doug McHenry,,Additional Crew|Writer|Producer
+229,Georges Franju,1912-04-12,Director|Writer|Composer
+230,Jocelyn Moorhouse,1960-09-04,Director|Writer|Producer
+231,Brett Thompson,1972-07-17,Producer|Actor|Executive
+232,Steven Baigelman,,Writer|Producer|Director
+233,Archie Mayo,1995-02-10,Actor|Producer|Soundtrack
+234,Harold Ramis,,
+235,Rebecca Miller,1962-09-15,Actress|Writer|Director
+236,David Siegel,,Producer|Director|Writer
+237,Charles Matthau,,
+238,James Cameron,1954-08-16,Writer|Producer|Director
+239,Max Ophüls,1902-05-06,Director|Writer|Producer
+240,Suri Krishnamma,1961-05-10,Director|Writer
+241,Agnieszka Holland,,
+242,Victor Sjöström,1879-09-20,Director|Actor|Writer
+243,George Mihalka,1948-09-23,Actor|Director
+244,John Sayles,,
+245,Albert Pyun,1953-05-19,Director|Writer|Producer
+246,Chuck Russell,1958-05-09,Director|Producer|Writer
+247,John L'Ecuyer,,
+248,Barry Sonnenfeld,1953-04-01,Producer|Director|Cinematographer
+249,Geoff Burton,1924-03-28,Actor
+250,Peter Hyams,1943-07-26,Director|Cinematographer|Writer
+251,Martin Enlen,1954-04-16,Actress|Producer
+252,Kathryn Bigelow,1951-11-27,Director|Producer|Actress
+253,Charles Walters,1911-11-17,Director|Additional Crew|Actor
+254,Freida Lee Mock,,Producer|Director|Writer
+255,Bryan Singer,1965-09-17,Producer|Director|Actor
+256,Lesli Linka Glatter,,
+257,Jessie Nelson,,Producer|Writer|Director
+258,David Mickey Evans,1962-10-20,Director|Writer|Producer
+259,Christian Duguay,,Director|Cinematographer
+260,Paul Michael Glaser,1943-03-25,Actor|Producer|Director
+261,Jim Sheridan,1949-02-06,Producer|Director|Writer
+262,Kevin Yagher,,Director|Writer|Composer
+263,Chris Newby,,Actor|Writer|Director
+264,Walter Hill,,
+265,Steve James,1952-02-19,Actor|Stunts|Writer
+266,Tim Sullivan,1964-07-02,Producer|Writer|Director
+267,Gregg Araki,1959-12-17,Writer|Director|Producer
+268,Michael Curtiz,1886-12-24,Director|Writer|Actor
+269,Howard Hawks,,
+270,John Cassavetes,1929-12-09,Actor|Director|Writer
+271,Gray Hofmeyr,,
+272,Diane Keaton,,
+273,Mark Sandrich,1900-10-26,Director|Writer|Producer
+274,Gregory La Cava,,
+275,Jeffrey Friedman,,
+276,Jane Campion,1954-04-30,Writer|Director|Producer
+277,Stanley Donen,1924-04-13,Director|Additional Crew|Producer
+278,Brian De Palma,1940-09-11,Director|Writer|Producer
+279,René Bonnière,1965-08-31,Actress
+280,Hal Hartley,1959-11-03,Director|Producer|Writer
+281,Ildikó Enyedi,1955-11-15,Director|Writer|Additional Crew
+282,Paul Sabella,,Actress
+283,Bill Bennett,,Director|Writer|Producer
+284,Manuel Gómez Pereira,1958-12-08,Director|Writer|Second Unit Director or Assistant Director
+285,Ken Kwapis,1957-08-17,Director|Producer|Writer
+286,Danny Boyle,1956-10-20,Director|Producer|Writer
+287,George Miller,1945-03-03,Producer|Writer|Director
+288,Allison Anders,1954-11-16,Director|Writer|Producer
+289,Mike Newell,1942-03-28,Director|Producer|Executive
+290,Eric Meza,,Director
+291,Jeremy Leven,1971-01-07,Actor|Producer|Sound Department
+292,Richard Pearce,1943-01-25,Director|Cinematographer|Producer
+293,Ron Shelton,1945-09-15,Writer|Director|Producer
+294,Mathieu Kassovitz,1967-08-03,Actor|Director|Writer
+295,Art Clokey,1919-10-11,Actor|Music Department|Composer
+296,Gus Van Sant,1952-07-24,Director|Producer|Actor
+297,Jim Jarmusch,1953-01-22,Director|Writer|Actor
+298,Paul Williams,,
+299,Jean-Paul Rappeneau,1932-04-08,Writer|Director|Second Unit Director or Assistant Director
+300,Izidore K. Musallam,,
+301,Alan Rudolph,1943-12-18,Director|Writer|Second Unit Director or Assistant Director
+302,Brett Piper,1966-11-16,Actor|Producer
+303,Nick Park,1958-12-06,Writer|Producer|Director
+304,Luis Buñuel,1900-02-22,Writer|Director|Actor
+305,James Bruce,1975-04-25,Actor
+306,Tom DiCillo,1953-08-14,Director|Cinematographer|Writer
+307,Frank Capra,,
+308,Mike Figgis,1948-02-28,Director|Writer|Composer
+309,Jacques Demy,1931-06-05,Director|Writer|Actor
+310,Dominic Sena,,
+311,James Ivory,1928-06-07,Director|Writer|Producer
+312,Bill Couturié,,
+313,Chris Hunt,,Producer|Director|Writer
+314,Lana Wachowski,,
+315,Richard Benjamin,1938-05-22,Actor|Director|Producer
+316,Brian Henson,1963-11-03,Producer|Actor|Director
+317,Julio de Fleischner,,
+318,Michael Mann,1943-02-05,Producer|Writer|Director
+319,Andrew Morahan,,Director|Producer|Writer
+320,James L. Brooks,1940-05-09,Writer|Producer|Additional Crew
+321,Hervé Palud,1953-04-14,Director|Actor|Writer
+322,Mweze Ngangura,,
+323,Joshua Brand,,
+324,Daniel Petrie Jr.,,Writer|Producer|Director
+325,Kirk Wise,1963-08-24,Director|Art Department|Additional Crew
+326,Michael Winterbottom,1961-03-29,Director|Writer|Producer
+327,Jakov Sedlar,,
+328,Ernst Lubitsch,1892-01-29,Director|Actor|Writer
+329,Pat O'Connor,,Director|Producer|Second Unit Director or Assistant Director
+330,Steve Barron,1956-05-04,Director|Producer|Writer
+331,John Rubino,,
+332,Simon Wells,1961-10-19,Art Department|Animation Department|Director
+333,Gaston Kaboré,1951-04-23,Director|Writer|Producer
+334,William Friedkin,1935-08-29,Director|Writer|Producer
+335,Frieder Schlaich,,
+336,Ron Howard,1954-03-01,Producer|Actor|Writer
+337,Tim Reid,1944-12-19,Actor|Producer|Writer
+338,Lee David Zlotoff,1954-07-10,Writer|Producer|Additional Crew
+339,Antonia Bird,1951-05-27,Director|Producer
+340,Fraser C. Heston,1955-02-12,Producer|Director|Writer
+341,Jeff Pollack,,
+342,Robert Redford,1936-08-18,Producer|Actor|Director
+343,Greg Beeman,,Producer|Director|Actor
+344,Quentin Tarantino,1963-03-27,Producer|Writer|Actor
+345,Peter Yates,1929-07-24,Director|Producer|Second Unit Director or Assistant Director
+346,André Téchiné,1943-03-13,Writer|Director|Actor
+347,Phillip Noyce,1950-04-29,Producer|Director|Writer
+348,Gilbert Adler,,
+349,George A. Romero,,
+350,Pixote Hunt,,Animation Department|Art Department|Art Director
+351,Stuart Gordon,1947-08-11,Writer|Director|Producer
+352,Peter Segal,1962-04-20,Director|Producer|Writer
+353,Tony Richardson,1928-06-05,Director|Producer|Writer
+354,Victoria Foyt,1958-04-07,Actress|Writer|Director
+355,Wolfgang Reitherman,1909-06-26,Animation Department|Director|Producer
+356,Orson Welles,1915-05-06,Actor|Writer|Director
+357,Jennifer Warren,,
+358,John Badham,,
+359,Michael Austin,,
+360,Charles Shyer,,Writer|Producer|Second Unit Director or Assistant Director
+361,Barry Levinson,1942-04-06,Producer|Writer|Director
+362,Sally Potter,1949-09-19,Director|Writer|Composer
+363,Jack O'Connell,1990-08-01,Actor
+364,Scott Kalvert,1964-08-15,Director|Producer|Writer
+365,John Cromwell,,
+366,Louis Malle,1932-10-30,Director|Writer|Producer
+367,Clement Virgo,1966-06-01,Producer|Director|Additional Crew
+368,Manoel de Oliveira,1908-12-11,Director|Writer|Editor
+369,Betty Thomas,1947-07-27,Actress|Director|Producer
+370,Stephen Poliakoff,,
+371,Kevin Hooks,1958-09-19,Director|Producer|Actor
+372,Tim Pope,,Director|Producer|Writer
+373,Maurice Pialat,,
+374,Zalman King,1942-05-23,Producer|Director|Actor
+375,Lucian Pintilie,1933-11-09,Director|Writer|Producer
+376,Massimo Troisi,,
+377,David O. Russell,1958-08-20,Producer|Director|Writer
+378,Roger Allers,,Director|Writer|Animation Department
+379,Arlene Sanford,,
+380,Goran Paskaljevic,1947-04-22,Director|Writer|Producer
+381,Pen Densham,1947-10-14,Producer|Writer|Director
+382,Stephen Gyllenhaal,1949-10-04,Director|Producer|Writer
+383,Noah Baumbach,1969-09-03,Writer|Director|Producer
+384,Robert Wuhl,1951-10-09,Actor|Writer|Producer
+385,Randall Miller,,Director|Producer|Writer
+386,Ed Herzog,1942-09-05,Director|Writer|Producer
+387,George Cukor,1899-07-07,Director|Additional Crew|Second Unit Director or Assistant Director
+388,Corey Yuen,1951-02-15,Actor|Stunts|Director
+389,Rob Minkoff,1962-08-11,Producer|Director|Animation Department
+390,Michael Ritchie,1938-11-28,Director|Producer|Actor
+391,Tamra Davis,1962-01-22,Director|Producer|Editor
+392,Scott Winant,,Producer|Director|Additional Crew
+393,Victor Saville,1895-09-25,Director|Producer|Writer
+394,Roger Michell,1956-06-05,Director|Writer|Producer
+395,Norman Ferguson,,
+396,Jonathan R. Betuel,,
+397,Rusty Cundieff,1960-12-13,Director|Actor|Writer
+398,Steven E. de Souza,1947-11-17,Writer|Producer|Additional Crew
+399,Federico Fellini,1920-01-20,Writer|Director|Actor
+400,Paris Barclay,,Producer|Director|Writer
+401,Rachel Talalay,,
+402,Gregory Nava,1949-04-10,Writer|Director|Producer
+403,Garry Marshall,1934-11-13,Writer|Producer|Actor
+404,Jon Turteltaub,1963-08-08,Producer|Director|Writer
+405,Kelly Makin,,Music Department|Actress|Director
+406,Philip Tan,1960-07-22,Stunts|Actor|Second Unit Director or Assistant Director
+407,Martin Lawrence,,
+408,Patrick Read Johnson,,Writer|Director|Visual Effects
+409,Werner Herzog,1942-09-05,Director|Writer|Producer
+410,David R. Ellis,1952-09-08,Stunts|Second Unit Director or Assistant Director|Actor
+411,Yuri Mamin,,
+412,John O'Brien,,Actor|Writer
+413,Mel Gibson,1956-01-03,Actor|Producer|Director
+414,Mel Chionglo,1946-07-16,Director|Additional Crew|Writer
+415,Michael Lehmann,1957-03-30,Director|Producer|Additional Crew
+416,Rolf Silber,,
+417,Richard W. Munchkin,,
+418,Djibril Diop Mambéty,1945-01-23,Director|Writer|Actor
+419,Betty Kaplan,,Director|Writer|Producer
+420,Stuart Baird,1947-01-14,Editor|Editorial Department|Director
+421,Holly Goldberg Sloan,,Writer|Producer|Director
+422,Robert Z. Leonard,1889-10-07,Director|Actor|Producer
+423,Sam Wood,1883-07-10,Director|Producer|Actor
+424,Fred Schepisi,1939-12-26,Director|Producer|Writer
+425,John Irvin,,
+426,David Carson,,Director|Producer|Writer
+427,Deran Sarafian,,Producer|Director|Actor
+428,Julianna Lavin,,Actress
+429,Guillermo del Toro,1964-10-09,Writer|Producer|Director
+430,Steve Oedekerk,1961-11-27,Writer|Director|Actor
+431,Wes Craven,,
+432,Paul Auster,1947-02-03,Writer|Director|Producer
+433,Bill Condon,1955-10-22,Director|Writer|Producer
+434,Carlo Rola,1961-04-17,Actor|Additional Crew|Producer
+435,Wallace Wolodarsky,,Producer|Writer|Actor
+436,Tom Noonan,1951-04-12,Actor|Writer|Director
+437,Les Mayfield,1959-12-23,Producer|Director|Camera and Electrical Department
+438,Gregory Hoblit,1944-11-27,Producer|Director|Actor
+439,Wayne Wang,1949-01-12,Director|Producer|Writer
+440,Geoffrey Wright,,
+441,Christopher Larkin,,
+442,Michael Corrente,1959-04-06,Producer|Director|Actor
+443,Mike Leigh,1943-02-20,Director|Writer|Actor
+444,Renny Harlin,1959-03-15,Producer|Director|Writer
+445,John Fortenberry,,Director|Producer|Special Effects
+446,Campbell Scott,1961-07-19,Actor|Producer|Director
+447,Charles T. Kanganis,,Director|Writer|Actor
+448,Peter Hewitt,1962-10-09,Director|Writer|Producer
+449,Rafael Moleón,1969-03-04,Actress|Soundtrack
+450,Lawrence Kasdan,1949-01-14,Writer|Producer|Director
+451,Kenneth Branagh,,
+452,Caroline Thompson,1956-04-23,Writer|Producer|Director
+453,Henry Selick,1952-11-30,Director|Writer|Animation Department
+454,Ebrahim Forouzesh,,
+455,Wilfred Jackson,1906-01-24,Director|Animation Department|Music Department
+456,John Pasquin,1945-06-08,Director|Producer|Actor
+457,Todd Haynes,1961-01-02,Director|Producer|Writer
+458,John Frankenheimer,1930-02-19,Director|Additional Crew|Producer
+459,Joe Chappelle,,Producer|Director|Second Unit Director or Assistant Director
+460,Jack Hill,1933-01-28,Writer|Director|Editor
+461,Lasse Hallström,,
+462,Sam Peckinpah,,
+463,William Keighley,1889-08-04,Director|Additional Crew|Actor
+464,Norman Jewison,1926-07-21,Director|Producer|Actor
+465,Tim Burton,1958-08-25,Producer|Writer|Additional Crew
+466,Billy Crystal,1948-03-14,Actor|Writer|Producer
+467,Eric Goldberg,1955-05-01,Animation Department|Director|Writer
+468,Kevin James Dobson,1985-10-13,Actor
+469,Bo Widerberg,1930-06-08,Director|Writer|Editor
+470,Stanley Tong,,
+471,Kevin Dowling,,
+472,Gianni Amelio,,
+473,Marco Brambilla,,Director|Writer|Editor
+474,Darrell Roodt,1962-04-28,Director|Writer|Additional Crew
+475,Steve Gomer,,Director|Producer|Additional Crew
+476,Tôru Murakawa,,
+477,Kevin Reynolds,,
+478,Rouben Mamoulian,1897-10-08,Director|Writer|Producer
+479,Michael Radford,1946-02-24,Director|Writer|Producer
+480,Martin Scorsese,1942-11-17,Producer|Director|Actor
+481,Patrice Chéreau,1944-11-02,Additional Crew|Director|Actor
+482,Jean-Jacques Annaud,1943-10-01,Director|Producer|Writer
+483,Peter MacDonald,,
+484,Michael Tolkin,1955-10-06,Producer|Writer|Director
+485,Ron Underwood,,Director|Writer|Producer
+486,John Boorman,1933-01-18,Producer|Director|Writer
+487,Rick Friedberg,,
+488,Mary Harron,1953-01-12,Director|Producer|Writer
+489,Edward Zwick,1952-10-08,Producer|Writer|Director
+490,Phillip Borsos,1915-05-22,Writer
+491,Vadim Jean,,
+492,Robert Leacock,,
+493,David Hand,1941-01-09,Director|Actor|Additional Crew
+494,Satyajit Ray,1921-05-02,Writer|Composer|Director
+495,Michael Bay,1965-02-17,Producer|Director|Actor
+496,Joel Coen,1954-11-29,Producer|Writer|Director
+497,David Koepp,1963-06-09,Writer|Additional Crew|Director
+498,Wes Anderson,1969-05-01,Director|Writer|Producer
+499,Jon Amiel,1948-05-20,Director|Producer|Writer
+500,Susanne Ofteringer,,
+501,Douglas McGrath,1958-02-12,Writer|Actor|Director
+502,Michael Almereyda,1959-04-07,Director|Writer|Producer
+503,Edward Burns,1968-01-29,Writer|Actor|Producer
+504,Jason Bloom,1972-11-14,Actor|Producer
+505,Frank Borzage,1894-04-23,Actor|Director|Producer
+506,Martin Campbell,1943-10-24,Director|Producer|Actor
+507,Jafar Panahi,1960-07-11,Director|Editor|Writer
+508,David Anspaugh,1946-09-24,Producer|Director
+509,Penny Marshall,,
+510,William Cottrell,,Actor
+511,Jean-Marie Poiré,1945-07-10,Writer|Director|Producer
+512,Brian Robbins,1963-11-22,Producer|Actor|Writer
+513,Mario Van Peebles,,
+514,Pat Verducci,,Actress
+515,Otto Preminger,1905-12-05,Director|Producer|Actor
+516,Craig Baldwin,,
+517,Jerry Zucker,1950-03-11,Producer|Writer|Director
+518,Gregory Widen,,Actor|Producer
+519,Margarethe von Trotta,1942-02-21,Actress|Director|Writer
+520,Anh Hung Tran,1962-12-23,Director|Writer|Producer
+521,Gregg Champion,,
+522,Junli Zheng,1966-01-08,Actress
+523,Ethan Coen,1957-09-21,Producer|Writer|Director
+524,Fred Gerber,,Director|Producer|Production Manager
+525,Alex Proyas,1963-09-23,Director|Writer|Producer
+526,Richard Donner,1930-04-24,Director|Producer|Actor
+527,Penelope Spheeris,,
+528,Paul Mazursky,1930-04-25,Actor|Writer|Director
+529,Roy Allen Smith,1938-11-28,Director|Producer|Actor
+530,John Schlesinger,1926-02-16,Actor|Director|Second Unit Director or Assistant Director
+531,Iain Softley,,Director|Writer|Producer
+532,Fernando Trueba,,
+533,Theodore Thomas,,Producer|Director|Writer
+534,Roger Donaldson,1945-11-15,Director|Producer|Writer
+535,J.F. Lawton,,
+536,Gillies MacKinnon,1948-01-08,Director|Writer|Soundtrack
+537,David Keating,,
+538,John Bruno,,Animation Department|Art Department|Visual Effects
+539,Étienne Chatiliez,1952-06-17,Director|Writer|Actor
+540,Taylor Hackford,1944-12-31,Producer|Director|Writer
+541,Albert Hughes,1972-04-01,Producer|Director|Writer
+542,David S. Ward,1945-10-25,Writer|Director|Additional Crew
+543,Lee Tamahori,,
+544,Joseph Vilsmaier,1939-01-24,Cinematographer|Director|Producer
+545,Allan Miller,,Actor
+546,Martha Coolidge,1946-08-17,Director|Producer|Writer
+547,Park Chul-Soo,1967-01-18,Actor
+548,Michael Verhoeven,1938-07-13,Director|Writer|Actor
+549,Steve Miner,,
+550,John Woo,1946-09-22,Director|Producer|Writer
+551,Helen De Michiel,,
+552,Guy Ferland,,
+553,James Gray,1969-04-14,Director|Writer|Producer
+554,Robby Henson,,Director|Writer|Editor
+555,Jonathan Demme,1944-02-22,Director|Producer|Writer
+556,George Stevens,1904-12-18,Cinematographer|Director|Writer
+557,Gérard Corbiau,1941-09-19,Director|Writer|Second Unit Director or Assistant Director
+558,Pedro Almodóvar,1949-09-25,Writer|Director|Producer
+559,Jim Abrahams,1944-05-10,Writer|Producer|Director
+560,Ulu Grosbard,,
+561,Jon Avnet,1949-11-17,Director|Producer|Writer
+562,Giuseppe Tornatore,1956-05-27,Director|Writer|Actor
+563,Paul Verhoeven,1938-07-18,Director|Producer|Writer
+564,Juan Carlos Tabío,1943-09-03,Director|Writer|Actor
+565,Nigel Finch,1944-02-09,Actor|Producer|Soundtrack
+566,Nick Broomfield,1948-01-30,Director|Producer|Writer
+567,Adam Resnick,,Producer|Production Manager|Director
+568,Norberto Barba,1963-09-12,Producer|Director|Actor
+569,John Dahl,1956-06-15,Director|Art Department|Writer
+570,Rob Epstein,,
+571,Reginald Hudlin,1961-12-15,Producer|Director|Writer
+572,Matthew Broderick,1962-03-21,Actor|Director|Producer
+573,Thomas Schlamme,1950-05-22,Producer|Director|Additional Crew
+574,Alan Shapiro,,
+575,John Herzfeld,,
+576,Ron Clements,1953-04-25,Writer|Director|Animation Department
+577,James Foley,,Director|Writer|Producer
+578,Weiser Quay,,
+579,Raoul O'Connell,,Executive
+580,Kayo Hatta,,
+581,Victor Salva,1958-03-29,Writer|Director|Producer
+582,Norman René,1959-10-17,Actor|Writer|Producer
+583,John Payson,,
+584,François Girard,1963-01-12,Director|Writer|Additional Crew
+585,René Clément,1913-03-18,Director|Writer|Actor
+586,Philip Kaufman,1936-10-23,Writer|Director|Producer
+587,Maurizio Nichetti,1948-05-08,Actor|Writer|Director
+588,Tsai Ming-liang,1957-10-27,Director|Writer|Producer
+589,William A. Seiter,1890-06-10,Director|Writer|Producer
+590,Ken Loach,1936-06-17,Director|Writer|Producer
+591,Gordon Willis,1931-05-28,Cinematographer|Director|Camera and Electrical Department
+592,Helena Solberg,1986-05-21,Actress|Producer|Director
+593,Ringo Lam,1955-12-08,Director|Writer|Producer
+594,Robert Allan Ackerman,1930-05-12,Writer|Director|Actor
+595,Daisy von Scherler Mayer,,Director|Producer|Writer
+596,Benoît Lamy,,
+597,Brian Sloan,,
+598,Jan de Bont,1943-10-22,Cinematographer|Camera and Electrical Department|Producer
+599,Mel Smith,1952-12-03,Actor|Writer|Producer
+600,Mike Nichols,,
+601,Spike Lee,1957-03-20,Director|Producer|Writer
+602,Chris Hegedus,1952-04-23,Director|Editor|Producer
+603,Steve Rash,,Director
+604,Anne Goursaud,1996-04-04,Actress|Soundtrack
+605,Stephen Low,,
+606,Peter Sehr,1972-07-10,Actor|Producer|Writer
+607,Alan Jacobs,,Director|Writer|Producer
+608,Andrew Sipes,1957-09-29,Actor|Producer|Writer
+609,Abel Ferrara,1951-07-19,Director|Actor|Writer
+610,Michael Apted,1941-02-10,Director|Producer|Additional Crew
+611,John Huston,1906-08-05,Actor|Director|Writer
+612,Alfred Hitchcock,1899-08-13,Director|Producer|Writer
+613,Claude Lelouch,1937-10-30,Director|Writer|Producer
+614,Tony Scott,1944-06-21,Producer|Director|Actor
+615,Clive Barker,1952-10-05,Writer|Producer|Actor
+616,David Fincher,1962-08-28,Producer|Director|Writer
+617,Rolf de Heer,1951-05-04,Producer|Director|Writer
+618,Steve Cohen,,Director|Producer|Writer
+619,Claude Sautet,1924-02-23,Writer|Director|Second Unit Director or Assistant Director
+620,Ang Lee,,
+621,James Orr,,Writer|Producer|Director
+622,Mark Malone,,
+623,Robert Rodriguez,1968-06-20,Producer|Writer|Director
+624,Francis Ford Coppola,1939-04-07,Producer|Director|Writer
+625,Stanley Kubrick,1928-07-26,Director|Writer|Producer
+626,Robert Tinnell,1961-04-27,Producer|Writer|Director
+627,Daniel Schmid,1941-12-26,Director|Writer|Actor
+628,Moufida Tlatli,1942-08-04,Editor|Director|Writer
+629,Stijn Coninx,1957-02-21,Director|Second Unit Director or Assistant Director|Writer
+630,Christopher Cain,1970-07-30,Writer|Producer|Director
+631,Paul W.S. Anderson,1965-03-04,Writer|Producer|Director
+632,John Ruane,,Actor|Writer|Director
+633,Stephen Frears,1941-06-20,Director|Producer|Actor
+634,Ping He,,
+635,Denys Arcand,1941-06-25,Writer|Director|Actor
+636,C.M. Talkington,,
+637,Matt Reeves,,
+638,Bobby Farrelly,1958-06-17,Producer|Director|Writer
+639,Gary Winick,1961-03-31,Producer|Director|Editor
+640,Randal Kleiser,1946-07-20,Director|Writer|Producer
+641,Bronwen Hughes,,Director|Producer|Writer
+642,W.S. Van Dyke,,
+643,Alexandre Rockwell,1956-08-01,Director|Writer|Producer
+644,Mina Shum,,Director|Writer|Producer
+645,Steven Brill,1962-05-27,Writer|Producer|Actor
+646,Bernard Rose,1960-08-04,Director|Writer|Cinematographer
+647,Barbet Schroeder,1941-08-26,Director|Producer|Actor
+648,Nora Ephron,1941-05-19,Writer|Producer|Director
+649,Stephen Quay,,Director|Animation Department|Cinematographer
+650,Frank Darabont,1959-01-28,Writer|Producer|Director
+651,Richard Wherrett,1968-12-15,Actor|Stunts|Soundtrack
+652,Whit Stillman,1952-01-25,Director|Writer|Actor
+653,Carl Reiner,,
+654,John Whitesell,1953-12-02,Director|Producer|Additional Crew
+655,Steve Kloves,1960-03-18,Writer|Producer|Director
+656,Rose Troche,1964-05-30,Director|Producer|Writer
+657,Mark Joffe,,Director|Second Unit Director or Assistant Director|Producer
+658,John McTiernan,1951-01-08,Director|Producer|Writer
+659,Tom Shadyac,1958-12-11,Producer|Director|Actor
+660,Gary Trousdale,1960-06-08,Director|Writer|Art Department
+661,Férid Boughedir,,Director|Writer|Actor
+662,Tim Metcalfe,1978-12-09,Actor|Producer|Soundtrack
+663,Nanni Moretti,1953-08-19,Producer|Writer|Director
+664,Henry Koster,1905-05-01,Director|Writer|Producer
+665,Cyril Collard,,
+666,Kaige Chen,1952-08-12,Producer|Director|Writer
+667,Christopher Menaul,1944-07-25,Director|Writer|Script and Continuity Department
+668,Carl Franklin,1949-04-11,Actor|Director|Producer
+669,Andrew Scheinman,,Editor|Producer|Second Unit Director or Assistant Director
+670,Robert Lepage,,
+671,Frank Marshall,1946-09-13,Producer|Additional Crew|Director
+672,Donald Petrie,,Director|Actor|Producer
+673,Alfonso Cuarón,1961-11-28,Writer|Producer|Director
+674,Curtis Hanson,1945-03-24,Director|Producer|Writer
+675,Robert Benton,1932-09-29,Writer|Director|Producer
+676,Bille August,1948-11-09,Director|Writer|Cinematographer
+677,Mamoru Oshii,1951-08-08,Writer|Director|Art Department
+678,Andrew Bergman,1945-02-20,Writer|Director|Producer
+679,John Musker,1953-11-08,Writer|Director|Animation Department
+680,Udayan Prasad,1953-02-04,Director|Producer|Actor
+681,Nicolas Roeg,1928-08-15,Camera and Electrical Department|Director|Cinematographer
+682,Mel Brooks,1926-06-28,Actor|Writer|Producer
+683,Andy Tennant,1955-06-15,Producer|Director|Writer
+684,Stephen Hopkins,,Producer|Director|Additional Crew
+685,Mitch Marcus,1988-12-27,Actor
+686,Robert De Niro,1943-08-17,Actor|Producer|Director
+687,Richard Brooks,1962-12-09,Actor|Director|Producer
+688,Li Yin,1963-01-10,Actress|Producer|Soundtrack
+689,Tomás Gutiérrez Alea,1928-12-11,Director|Writer|Editor
+690,Gillian Armstrong,1950-12-18,Director|Producer|Writer
+691,Chris Columbus,,
+692,Michel Negroponte,,Producer|Director|Cinematographer
+693,Alan Mehrez,,
+694,Kevin Costner,1955-01-18,Actor|Producer|Writer
+695,Kevin Smith,1970-08-02,Producer|Actor|Writer
