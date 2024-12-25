@@ -448,6 +448,159 @@ function addRelatedActors(pageId, containerId, actorId, baseUrl) {
     });
 }
 
+function addDirectorDetails(containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getdirector?id=" + directorId, function (directorObject) {
+        var jobTitle = "";
+        $.each(directorObject.jobTitle, function (i, genre) {
+            jobTitle += ('<span><a href="' + baseUrl + 'collection.html?type=genre&value=' + genre + '"><b>' + genre + '</b></a>');
+            if (i < directorObject.jobTitle.length - 1) {
+                jobTitle += ", </span>";
+            } else {
+                jobTitle += "</span>";
+            }
+        });
 
+        var ratingUsers = "";
+        $.each(directorObject.topRatings, function (i, rating) {
+            ratingUsers += ('<span><a href="' + baseUrl + 'user.html?id=' + rating.rating.userId + '"><b>User' + rating.rating.userId + '</b></a>');
+            if (i < directorObject.topRatings.length - 1) {
+                ratingUsers += ", </span>";
+            } else {
+                ratingUsers += "</span>";
+            }
+        });
 
+        var directorDetails = '<div class="row movie-details-header movie-details-block">\
+                                        <div class="col-md-2 header-backdrop">\
+                                            <img alt="director backdrop image" height="250" src="./directors/'+ directorObject.directorId + '.jpg">\
+                                        </div>\
+                                        <div class="col-md-9"><h1 class="movie-title"> '+ directorObject.name + ' </h1>\
+                                            <div class="row movie-highlights">\
+                                                <div class="col-md-2">\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Birth Date</div>\
+                                                        <div> '+ directorObject.birthDate + ' </div>\
+                                                    </div>\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Links</div>\
+                                                        <a target="_blank" href="http://www.imdb.com/name/nm' + directorObject.imdbId + '">imdb</a>\
+                                                    </div>\
+                                                </div>\
+                                                <div class="col-md-3">\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">MovieLens predicts for you</div>\
+                                                        <div> 5.0 stars</div>\
+                                                    </div>\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Average of '+ directorObject.ratingNumber + ' ratings</div>\
+                                                        <div> '+ directorObject.averageRating.toPrecision(2) + ' stars\
+                                                        </div>\
+                                                    </div>\
+                                                </div>\
+                                                <div class="col-md-6">\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Job Title</div>\
+                                                        '+ jobTitle + '\
+                                                    </div>\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Who likes the director most</div>\
+                                                        '+ ratingUsers + '\
+                                                    </div>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                    </div>';
+        $("#" + containerId).prepend(directorDetails);
+    });
+}
 
+function addDirectorMovies(pageId, containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getdirector?id=" + directorId, function (directorObject) {
+        var rowDiv = '<div class="frontpage-section-top"> \
+                <div class="explore-header frontpage-section-header">\
+                 Movies \
+                </div>\
+                <div class="movie-row">\
+                 <div class="movie-row-bounds">\
+                  <div class="movie-row-scrollable" id="' + containerId + '" style="margin-left: 0px;">\
+                  </div>\
+                 </div>\
+                 <div class="clearfix"></div>\
+                </div>\
+               </div>';
+        $(pageId).prepend(rowDiv);
+
+        var moviesId = directorObject.movies;
+        for (var i = 0; i < moviesId.length; i++) {
+            $.getJSON(baseUrl + "getmovie?id=" + moviesId[i], function (movieObject) {
+                appendMovie2Row(containerId, movieObject.title, movieObject.movieId, movieObject.releaseYear, movieObject.averageRating.toPrecision(2), movieObject.ratingNumber, movieObject.genres, baseUrl);
+            });
+        }
+    });
+}
+
+function addRelatedDirectors(pageId, containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getsimilaractor?model=emb&size=10&actorId=" + directorId, function (directorObjectArray) {
+        var rowDiv = `
+            <div class="frontpage-section-top">
+                <div class="explore-header frontpage-section-header">
+                    Related Directors
+                </div>
+                <div class="movie-row">
+                    <div class="movie-row-bounds">
+                        <div class="movie-row-scrollable" id="${containerId}" style="margin-left: 0px;">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>`;
+        $(pageId).prepend(rowDiv);
+
+        $.each(directorObjectArray, function (_, directorObject) {
+            var directorDiv = `
+                <div class="movie-row-item" style="margin-right:5px">
+                    <movie-card-smart>
+                        <movie-card-md1>
+                            <div class="movie-card-md1">
+                                <div class="card">
+                                    <link-or-emit>
+                                        <a uisref="base.director" href="./director.html?directorId=${directorObject.directorId}">
+                                            <span>
+                                                <div class="poster">
+                                                    <img src="./directors/${directorObject.directorId}.jpg" />
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </link-or-emit>
+                                    <div class="overlay">
+                                        <div class="above-fold">
+                                            <link-or-emit>
+                                                <a uisref="base.director" href="./director.html?directorId=${directorObject.directorId}">
+                                                    <span><p class="title">${directorObject.name}</p></span>
+                                                </a>
+                                            </link-or-emit>
+                                            <div class="rating-indicator">
+                                                <ml4-rating-or-prediction>
+                                                    <div class="rating-or-prediction predicted">
+                                                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" class="star-icon" height="14px" version="1.1" viewBox="0 0 14 14" width="14px" xmlns="http://www.w3.org/2000/svg">
+                                                            <defs></defs>
+                                                            <polygon fill-rule="evenodd" points="13.7714286 5.4939887 9.22142857 4.89188383 7.27142857 0.790044361 5.32142857 4.89188383 0.771428571 5.4939887 4.11428571 8.56096041 3.25071429 13.0202996 7.27142857 10.8282616 11.2921429 13.0202996 10.4285714 8.56096041" stroke="none"></polygon>
+                                                        </svg>
+                                                        <div class="rating-value">
+                                                            ${directorObject.averageRating.toPrecision(2)}
+                                                        </div>
+                                                    </div>
+                                                </ml4-rating-or-prediction>
+                                            </div>
+                                            <p class="year">${directorObject.birthDate}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </movie-card-md1>
+                    </movie-card-smart>
+                </div>`;
+            $("#" + containerId).append(directorDiv);
+        });
+    });
+}
