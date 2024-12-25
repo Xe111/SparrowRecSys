@@ -677,7 +677,7 @@ function addActorRec(pageId, containerId, actorId, model,baseUrl) {
     });
 }
 
-function addDirectorRec(pageId, containerId, directorId, baseUrl) {
+function addDirectorRec(pageId, containerId, directorId,model, baseUrl) {
     $.getJSON(baseUrl + "getrecforyoudirector?model="+model+"&size=5&id=" + directorId, function (directorObjectArray) {
         var rowDiv = `
             <div class="frontpage-section-top">
