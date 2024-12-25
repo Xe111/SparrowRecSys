@@ -62,6 +62,70 @@ function appendMovie2Row(rowId, movieName, movieId, year, rating, rateNumber, ge
     $('#' + rowId).append(divstr);
 };
 
+function appendPerson2Row(rowId, personName, personId, jobTitle, rating, rateNumber, birthDate, baseUrl, isactor) {
+    var jobTitleStr = "";
+    $.each(jobTitle, function (i, job) {
+        jobTitleStr += ('<div class="genre"><a href="' + baseUrl + 'collection.html?type=jobTitle&value=' + job + '"><b>' + job + '</b></a></div>');
+    });
+
+
+    var divstr = `
+        <div class="movie-row-item" style="margin-right:5px">
+            <movie-card-smart>
+                <movie-card-md1>
+                    <div class="movie-card-md1">
+                        <div class="card">
+                            <link-or-emit>
+                                <a uisref="base.movie" href="./${isactor ? 'actor' : 'director'}.html?${isactor ? 'actor' : 'director'}Id=${personId}">
+                                    <span>
+                                        <div class="poster">
+                                            <img src="./${isactor ? 'actors' : 'directors'}/${personId}.jpg" />
+                                        </div>
+                                    </span>
+                                </a>
+                            </link-or-emit>
+                            <div class="overlay">
+                                <div class="above-fold">
+                                    <link-or-emit>
+                                        <a uisref="base.movie" href="./${isactor ? 'actor' : 'director'}.html?${isactor ? 'actor' : 'director'}Id=${personId}">
+                                            <span><p class="title">${personName}</p></span>
+                                        </a>
+                                    </link-or-emit>
+                                    <div class="rating-indicator">
+                                        <ml4-rating-or-prediction>
+                                            <div class="rating-or-prediction predicted">
+                                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" class="star-icon" height="14px" version="1.1" viewbox="0 0 14 14" width="14px" xmlns="http://www.w3.org/2000/svg">
+                                                    <defs></defs>
+                                                    <polygon fill-rule="evenodd" points="13.7714286 5.4939887 9.22142857 4.89188383 7.27142857 0.790044361 5.32142857 4.89188383 0.771428571 5.4939887 4.11428571 8.56096041 3.25071429 13.0202996 7.27142857 10.8282616 11.2921429 13.0202996 10.4285714 8.56096041" stroke="none"></polygon>
+                                                </svg>
+                                                <div class="rating-value">
+                                                    ${rating}
+                                                </div>
+                                            </div>
+                                        </ml4-rating-or-prediction>
+                                    </div>
+                                    <p class="year">${birthDate}</p>
+                                </div>
+                                <div class="below-fold">
+                                    <div class="genre-list">
+                                        ${jobTitleStr}
+                                    </div>
+                                    <div class="ratings-display">
+                                        <div class="rating-average">
+                                            <span class="rating-large">${rating}</span>
+                                            <span class="rating-total">/5</span>
+                                            <p class="rating-caption"> ${rateNumber} ratings </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </movie-card-md1>
+            </movie-card-smart>
+        </div>`;
+    $('#' + rowId).append(divstr);
+};
 
 function addRowFrame(pageId, rowName, rowId, baseUrl) {
     var divstr = '<div class="frontpage-section-top"> \
@@ -103,6 +167,28 @@ function addGenreRow(pageId, rowName, rowId, size, baseUrl) {
         });
     });
 };
+
+function addJobTitleRow(pageId, rowName, rowId, size, baseUrl) {
+    addRowFrame(pageId, rowName, rowId, baseUrl);
+    $.getJSON(baseUrl + "getactorrecommendation?jobtitle=" + rowName + "&size=" + size + "&sortby=rating", function (resultActor) {
+        $.getJSON(baseUrl + "getdirectorrecommendation?jobtitle=" + rowName + "&size=" + size + "&sortby=rating", function (resultDirector) {
+            var resultMerge = resultActor.concat(resultDirector);
+            resultMerge.sort(function (a, b) {
+                return b.averageRating - a.averageRating;
+            });
+            $.each(resultMerge, function (i, person) {
+                if (person.actorId != undefined) {
+                    appendPerson2Row(rowId, person.name, person.actorId, person.jobTitle, person.averageRating.toPrecision(2), person.ratingNumber, person.birthDate, baseUrl, person.actorId != null);
+                } else {
+                    appendPerson2Row(rowId, person.name, person.directorId, person.jobTitle, person.averageRating.toPrecision(2), person.ratingNumber, person.birthDate, baseUrl, person.actorId != null);
+                }
+            });
+        });
+    });
+};
+
+
+
 
 function addRelatedMovies(pageId, containerId, movieId, baseUrl) {
 
@@ -294,7 +380,7 @@ function addActorDetails(containerId, actorId, baseUrl) {
 
         var jobTitle = "";
         $.each(actorObject.jobTitle, function (i, genre) {
-            jobTitle += ('<span><a href="' + baseUrl + 'collection.html?type=genre&value=' + genre + '"><b>' + genre + '</b></a>');
+            jobTitle += ('<span><a href="' + baseUrl + 'collection.html?type=jobTitle&value=' + genre + '"><b>' + genre + '</b></a>');
             if (i < actorObject.jobTitle.length - 1) {
                 jobTitle += ", </span>";
             } else {
@@ -399,55 +485,217 @@ function addRelatedActors(pageId, containerId, actorId, baseUrl) {
             </div>`;
         $(pageId).prepend(rowDiv);
 
-        $.each(actorObjectArray, function (_, actorObject) {
-            var actorDiv = `
-                <div class="movie-row-item" style="margin-right:5px">
-                    <movie-card-smart>
-                        <movie-card-md1>
-                            <div class="movie-card-md1">
-                                <div class="card">
-                                    <link-or-emit>
-                                        <a uisref="base.actor" href="./actor.html?actorId=${actorObject.actorId}">
-                                            <span>
-                                                <div class="poster">
-                                                    <img src="./actors/${actorObject.actorId}.jpg" />
-                                                </div>
-                                            </span>
-                                        </a>
-                                    </link-or-emit>
-                                    <div class="overlay">
-                                        <div class="above-fold">
-                                            <link-or-emit>
-                                                <a uisref="base.actor" href="./actor.html?actorId=${actorObject.actorId}">
-                                                    <span><p class="title">${actorObject.name}</p></span>
-                                                </a>
-                                            </link-or-emit>
-                                            <div class="rating-indicator">
-                                                <ml4-rating-or-prediction>
-                                                    <div class="rating-or-prediction predicted">
-                                                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" class="star-icon" height="14px" version="1.1" viewbox="0 0 14 14" width="14px" xmlns="http://www.w3.org/2000/svg">
-                                                            <defs></defs>
-                                                            <polygon fill-rule="evenodd" points="13.7714286 5.4939887 9.22142857 4.89188383 7.27142857 0.790044361 5.32142857 4.89188383 0.771428571 5.4939887 4.11428571 8.56096041 3.25071429 13.0202996 7.27142857 10.8282616 11.2921429 13.0202996 10.4285714 8.56096041" stroke="none"></polygon>
-                                                        </svg>
-                                                        <div class="rating-value">
-                                                            ${actorObject.averageRating.toPrecision(2)}
-                                                        </div>
-                                                    </div>
-                                                </ml4-rating-or-prediction>
-                                            </div>
-                                            <p class="year">${actorObject.birthDate}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </movie-card-md1>
-                    </movie-card-smart>
-                </div>`;
-            $("#" + containerId).append(actorDiv);
+        for (var i = 0; i < actorObjectArray.length; i++) {
+            appendPerson2Row(containerId, actorObjectArray[i].name, actorObjectArray[i].actorId, actorObjectArray[i].jobTitle, actorObjectArray[i].averageRating.toPrecision(2), actorObjectArray[i].ratingNumber, actorObjectArray[i].birthDate, baseUrl, true);
+        }
+    });
+}
+
+function addMovieActors(pageId, containerId, movieId, baseUrl) {
+    $.getJSON(baseUrl + "getmovie?id=" + movieId, function (movieObject) {
+        var rowDiv = `
+            <div class="frontpage-section-top">
+                <div class="explore-header frontpage-section-header">
+                   Main Actors
+                </div>
+                <div class="movie-row">
+                    <div class="movie-row-bounds">
+                        <div class="movie-row-scrollable" id="${containerId}" style="margin-left: 0px;">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>`;
+        $(pageId).prepend(rowDiv);
+
+        for (var i = 0; i < movieObject.actors.length; i++) {
+            $.getJSON(baseUrl + "getactor?id=" + movieObject.actors[i], function (actorObject) {
+                appendPerson2Row(containerId, actorObject.name, actorObject.actorId, actorObject.jobTitle, actorObject.averageRating.toPrecision(2), actorObject.ratingNumber, actorObject.birthDate, baseUrl, true);
+            });
+        }
+    });
+}
+
+function addMovieDirectors(pageId, containerId, movieId, baseUrl) {
+    $.getJSON(baseUrl + "getmovie?id=" + movieId, function (movieObject) {
+        var rowDiv = `
+            <div class="frontpage-section-top">
+                <div class="explore-header frontpage-section-header">
+                   Main Directors
+                </div>
+                <div class="movie-row">
+                    <div class="movie-row-bounds">
+                        <div class="movie-row-scrollable" id="${containerId}" style="margin-left: 0px;">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>`;
+        $(pageId).prepend(rowDiv);
+
+        for (var i = 0; i < movieObject.directors.length; i++) {
+            $.getJSON(baseUrl + "getdirector?id=" + movieObject.directors[i], function (directorObject) {
+                appendPerson2Row(containerId, directorObject.name, directorObject.directorId, directorObject.jobTitle, directorObject.averageRating.toPrecision(2), directorObject.ratingNumber, directorObject.birthDate, baseUrl, false);
+            });
+        }
+    });
+}
+
+function addDirectorDetails(containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getdirector?id=" + directorId, function (directorObject) {
+        var jobTitle = "";
+        $.each(directorObject.jobTitle, function (i, genre) {
+            jobTitle += ('<span><a href="' + baseUrl + 'collection.html?type=jobTitle&value=' + genre + '"><b>' + genre + '</b></a>');
+            if (i < directorObject.jobTitle.length - 1) {
+                jobTitle += ", </span>";
+            } else {
+                jobTitle += "</span>";
+            }
+        });
+
+        var ratingUsers = "";
+        $.each(directorObject.topRatings, function (i, rating) {
+            ratingUsers += ('<span><a href="' + baseUrl + 'user.html?id=' + rating.rating.userId + '"><b>User' + rating.rating.userId + '</b></a>');
+            if (i < directorObject.topRatings.length - 1) {
+                ratingUsers += ", </span>";
+            } else {
+                ratingUsers += "</span>";
+            }
+        });
+
+        var directorDetails = '<div class="row movie-details-header movie-details-block">\
+                                        <div class="col-md-2 header-backdrop">\
+                                            <img alt="movie backdrop image" height="250" src="./directors/'+ directorObject.directorId + '.jpg">\
+                                        </div>\
+                                        <div class="col-md-9"><h1 class="movie-title"> '+ directorObject.name + ' </h1>\
+                                            <div class="row movie-highlights">\
+                                                <div class="col-md-2">\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Birth Date</div>\
+                                                        <div> '+ directorObject.birthDate + ' </div>\
+                                                    </div>\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Links</div>\
+                                                        <a target="_blank" href="http://www.imdb.com/title/tt'+ directorObject.imdbId + '">imdb</a>\
+                                                    </div>\
+                                                </div>\
+                                                <div class="col-md-3">\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading"> MovieLens predicts for you</div>\
+                                                        <div> 5.0 stars</div>\
+                                                    </div>\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading"> Average of '+ directorObject.ratingNumber + ' ratings</div>\
+                                                        <div> '+ directorObject.averageRating.toPrecision(2) + ' stars\
+                                                        </div>\
+                                                    </div>\
+                                                </div>\
+                                                <div class="col-md-6">\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Job Title</div>\
+                                                        '+ jobTitle + '\
+                                                    </div>\
+                                                    <div class="heading-and-data">\
+                                                        <div class="movie-details-heading">Who likes the director most</div>\
+                                                        '+ ratingUsers + '\
+                                                    </div>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                    </div>'
+        $("#" + containerId).prepend(directorDetails);
+    });
+};
+
+function addDirectorMovies(pageId, containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getdirector?id=" + directorId, function (directorObject) {
+        var rowDiv = '<div class="frontpage-section-top"> \
+                <div class="explore-header frontpage-section-header">\
+                 Movies \
+                </div>\
+                <div class="movie-row">\
+                 <div class="movie-row-bounds">\
+                  <div class="movie-row-scrollable" id="' + containerId + '" style="margin-left: 0px;">\
+                  </div>\
+                 </div>\
+                 <div class="clearfix"></div>\
+                </div>\
+               </div>'
+        $(pageId).prepend(rowDiv);
+        var moviesId = directorObject.movies;
+        for (var i = 0; i < moviesId.length; i++) {
+            $.getJSON(baseUrl + "getmovie?id=" + moviesId[i], function (movieObject) {
+                appendMovie2Row(containerId, movieObject.title, movieObject.movieId, movieObject.releaseYear, movieObject.averageRating.toPrecision(2), movieObject.ratingNumber, movieObject.genres, baseUrl);
+            });
+        }
+    });
+};
+
+function addRelatedDirectors(pageId, containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getsimilardirector?model=emb&size=10&directorId=" + directorId, function (directorObjectArray) {
+        var rowDiv = `
+            <div class="frontpage-section-top">
+                <div class="explore-header frontpage-section-header">
+                    Related Directors
+                </div>
+                <div class="movie-row">
+                    <div class="movie-row-bounds">
+                        <div class="movie-row-scrollable" id="${containerId}" style="margin-left: 0px;">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>`;
+        $(pageId).prepend(rowDiv);
+
+        for (var i = 0; i < directorObjectArray.length; i++) {
+            appendPerson2Row(containerId, directorObjectArray[i].name, directorObjectArray[i].directorId, directorObjectArray[i].jobTitle, directorObjectArray[i].averageRating.toPrecision(2), directorObjectArray[i].ratingNumber, directorObjectArray[i].birthDate, baseUrl, false);
+        }
+    });
+}
+
+function addActorRec(pageId, containerId, actorId, baseUrl) {
+    $.getJSON(baseUrl + "getrecforyouactor?model=neuralcf&size=5&id=" + actorId, function (actorObjectArray) {
+        var rowDiv = `
+            <div class="frontpage-section-top">
+                <div class="explore-header frontpage-section-header">
+                    Recommended Actors
+                </div>
+                <div class="movie-row">
+                    <div class="movie-row-bounds">
+                        <div class="movie-row-scrollable" id="${containerId}" style="margin-left: 0px;">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>`;
+        $(pageId).prepend(rowDiv);
+
+        $.each(actorObjectArray, function (i, actorObject) {
+            appendPerson2Row(containerId, actorObject.name, actorObject.actorId, actorObject.jobTitle, actorObject.averageRating.toPrecision(2), actorObject.ratingNumber, actorObject.birthDate, baseUrl, true);
         });
     });
 }
 
+function addDirectorRec(pageId, containerId, directorId, baseUrl) {
+    $.getJSON(baseUrl + "getrecforyoudirector?model=neuralcf&size=5&id=" + directorId, function (directorObjectArray) {
+        var rowDiv = `
+            <div class="frontpage-section-top">
+                <div class="explore-header frontpage-section-header">
+                    Recommended Directors
+                </div>
+                <div class="movie-row">
+                    <div class="movie-row-bounds">
+                        <div class="movie-row-scrollable" id="${containerId}" style="margin-left: 0px;">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>`;
+        $(pageId).prepend(rowDiv);
 
-
-
+        $.each(directorObjectArray, function (i, directorObject) {
+            appendPerson2Row(containerId, directorObject.name, directorObject.directorId, directorObject.jobTitle, directorObject.averageRating.toPrecision(2), directorObject.ratingNumber, directorObject.birthDate, baseUrl, false);
+        });
+    });
+}

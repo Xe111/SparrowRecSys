@@ -139,8 +139,11 @@ if(null == model){
 var baseUrl = windowLocation.protocol + "//" + windowLocation.host + "/"
 
 addUserDetails("user-details-container", userId, baseUrl);
-addRecForYou("#recPage", "recForYou", userId, model, baseUrl);
 addUserHistory("#recPage", "userHistory", userId, baseUrl);
+addRecForYou("#recPage", "recForYou", userId, model, baseUrl);
+addDirectorRec("#recPage", "directorRec", userId, baseUrl);
+addActorRec("#recPage", "actorRec", userId, baseUrl);
+
 
 </script>
 </html>

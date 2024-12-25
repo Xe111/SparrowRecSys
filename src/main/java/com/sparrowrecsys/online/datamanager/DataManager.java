@@ -23,6 +23,8 @@ public class DataManager {
     HashMap<Integer, Director> directorMap;
     // genre reverse index for quick querying all movies in a genre
     HashMap<String, List<Movie>> genreReverseIndexMap;
+    HashMap<String,List<Actor>> jobTitleReverseIndexMapActor;
+    HashMap<String,List<Director>> jobTitleReverseIndexMapDirector;
 
     // main for test
     public static void main(String[] args) throws Exception {
@@ -89,6 +91,9 @@ public class DataManager {
                 }
             }
         }
+
+        //print all job titles
+        DataManager.getInstance().printAllJobTitle();
     }
 
     private DataManager() {
@@ -97,6 +102,8 @@ public class DataManager {
         this.actorMap = new HashMap<>();
         this.directorMap = new HashMap<>();
         this.genreReverseIndexMap = new HashMap<>();
+        this.jobTitleReverseIndexMapActor = new HashMap<>();
+        this.jobTitleReverseIndexMapDirector = new HashMap<>();
         instance = this;
     }
 
@@ -213,6 +220,7 @@ public class DataManager {
                     String[] jobTitles = actorData[3].split("\\|");
                     for (String jobTitle : jobTitles) {
                         actor.addJobTitle(jobTitle);
+                        addActor2JobTitleIndex(jobTitle, actor);
                     }
                     this.actorMap.put(actor.getActorId(), actor);
                 }
@@ -240,6 +248,7 @@ public class DataManager {
                     String[] jobTitles = directorData[3].split("\\|");
                     for (String jobTitle : jobTitles) {
                         director.addJobTitle(jobTitle);
+                        addDirector2JobTitleIndex(jobTitle, director);
                     }
                     this.directorMap.put(director.getDirectorId(), director);
                 }
@@ -642,6 +651,20 @@ public class DataManager {
         this.genreReverseIndexMap.get(genre).add(movie);
     }
 
+    private void addActor2JobTitleIndex(String jobTitle, Actor actor) {
+        if (!this.jobTitleReverseIndexMapActor.containsKey(jobTitle)) {
+            this.jobTitleReverseIndexMapActor.put(jobTitle, new ArrayList<>());
+        }
+        this.jobTitleReverseIndexMapActor.get(jobTitle).add(actor);
+    }
+
+    private void addDirector2JobTitleIndex(String jobTitle, Director director) {
+        if (!this.jobTitleReverseIndexMapDirector.containsKey(jobTitle)) {
+            this.jobTitleReverseIndexMapDirector.put(jobTitle, new ArrayList<>());
+        }
+        this.jobTitleReverseIndexMapDirector.get(jobTitle).add(director);
+    }
+
     // get movies by genre, and order the movies by sortBy method
     public List<Movie> getMoviesByGenre(String genre, int size, String sortBy) {
         if (null != genre) {
@@ -662,6 +685,57 @@ public class DataManager {
             return movies;
         }
         return null;
+    }
+
+    public List<Actor> getActorsByJobTitle(String jobTitle, int size, String sortBy) {
+        if (null != jobTitle) {
+            List<Actor> actors = new ArrayList<>(this.jobTitleReverseIndexMapActor.get(jobTitle));
+            switch (sortBy) {
+                case "rating":
+                    actors.sort((a1, a2) -> Double.compare(a2.getAverageRating(), a1.getAverageRating()));
+                    break;
+                default:
+            }
+
+            if (actors.size() > size) {
+                return actors.subList(0, size);
+            }
+            return actors;
+        }
+        return null;
+    }
+
+    public List<Director> getDirectorsByJobTitle(String jobTitle, int size, String sortBy) {
+        if (null != jobTitle) {
+            List<Director> directors = new ArrayList<>(this.jobTitleReverseIndexMapDirector.get(jobTitle));
+            switch (sortBy) {
+                case "rating":
+                    directors.sort((d1, d2) -> Double.compare(d2.getAverageRating(), d1.getAverageRating()));
+                    break;
+                default:
+            }
+
+            if (directors.size() > size) {
+                return directors.subList(0, size);
+            }
+            return directors;
+        }
+        return null;
+    }
+
+    public void printAllJobTitle() {
+        System.out.println("Job Titles:");
+        //merge jobtitles from all actors and directors
+        Set<String> jobTitles = new HashSet<>();
+        for(String jobtitle: this.jobTitleReverseIndexMapActor.keySet()){
+            jobTitles.add(jobtitle);
+        }
+        for(String jobtitle: this.jobTitleReverseIndexMapDirector.keySet()){
+            jobTitles.add(jobtitle);
+        }
+        for(String jobtitle: jobTitles){
+            System.out.println(jobtitle);
+        }
     }
 
     public List<Actor> getActorsByMovie(String movieId, int size, String sortBy) {

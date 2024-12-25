@@ -21,74 +21,75 @@ public class RecSysServer {
         new RecSysServer().run();
     }
 
-    //recsys server port number
+    // recsys server port number
     private static final int DEFAULT_PORT = 6010;
 
-    public void run() throws Exception{
+    public void run() throws Exception {
 
         int port = DEFAULT_PORT;
         try {
             port = Integer.parseInt(System.getenv("PORT"));
-        } catch (NumberFormatException ignored) {}
+        } catch (NumberFormatException ignored) {
+        }
 
-        //set ip and port number
+        // set ip and port number
         InetSocketAddress inetAddress = new InetSocketAddress("0.0.0.0", port);
         Server server = new Server(inetAddress);
 
-        //get index.html path
+        // get index.html path
         URL webRootLocation = this.getClass().getResource("/webroot/index.html");
-        if (webRootLocation == null)
-        {
+        if (webRootLocation == null) {
             throw new IllegalStateException("Unable to determine webroot URL location");
         }
 
-        //set index.html as the root page
-        URI webRootUri = URI.create(webRootLocation.toURI().toASCIIString().replaceFirst("/index.html$","/"));
+        // set index.html as the root page
+        URI webRootUri = URI.create(webRootLocation.toURI().toASCIIString().replaceFirst("/index.html$", "/"));
         System.out.printf("Web Root URI: %s%n", webRootUri.getPath());
 
-        //define basePath
+        // define basePath
         String basePath = webRootUri.getPath();
 
-        //load all the data to DataManager
-        /* 
-        DataManager.getInstance().loadData(webRootUri.getPath() + "sampledata/movies.csv",
-                webRootUri.getPath() + "sampledata/links.csv",webRootUri.getPath() + "sampledata/ratings.csv",
-                webRootUri.getPath() + "modeldata/item2vecEmb.csv",
-                webRootUri.getPath() + "modeldata/userEmb.csv",
-                "i2vEmb", "uEmb");
-        */
+        // load all the data to DataManager
+        /*
+         * DataManager.getInstance().loadData(webRootUri.getPath() +
+         * "sampledata/movies.csv",
+         * webRootUri.getPath() + "sampledata/links.csv",webRootUri.getPath() +
+         * "sampledata/ratings.csv",
+         * webRootUri.getPath() + "modeldata/item2vecEmb.csv",
+         * webRootUri.getPath() + "modeldata/userEmb.csv",
+         * "i2vEmb", "uEmb");
+         */
         DataManager.getInstance().loadData(basePath + "/sampledata/movies.csv",
-                    basePath + "/sampledata/links.csv", basePath + "/sampledata/ratings.csv",
-                    basePath + "/modeldata2/item2vecEmb.csv",
-                    basePath + "/modeldata2/userEmb.csv",
-                    "i2vEmb", "uEmb");
-            // 加载演员和导演数据
-            DataManager.getInstance().loadActorDirectorData(basePath + "/sampledata/actor_director.csv",
-                    basePath + "/sampledata/actors.csv",
-                    basePath + "/modeldata2/actorEmb.csv",
-                    "actor:",
-                    basePath + "/modeldata2/userActorEmb.csv",
-                    "actor_user:",
-                    basePath + "/sampledata/actor_ratings.csv",
-                    basePath + "/sampledata/directors.csv",
-                    basePath + "/modeldata2/directorEmb.csv",
-                    "director:",
-                    basePath + "/modeldata2/userDirectorEmb.csv",
-                    "director_user:",
-                    basePath + "/sampledata/director_ratings.csv");
-            
+                basePath + "/sampledata/links.csv", basePath + "/sampledata/ratings.csv",
+                basePath + "/modeldata2/item2vecEmb.csv",
+                basePath + "/modeldata2/userEmb.csv",
+                "i2vEmb", "uEmb");
+        // 加载演员和导演数据
+        DataManager.getInstance().loadActorDirectorData(basePath + "/sampledata/actor_director.csv",
+                basePath + "/sampledata/actors.csv",
+                basePath + "/modeldata2/actorEmb.csv",
+                "actor:",
+                basePath + "/modeldata2/userActorEmb.csv",
+                "actor_user:",
+                basePath + "/sampledata/actor_ratings.csv",
+                basePath + "/sampledata/directors.csv",
+                basePath + "/modeldata2/directorEmb.csv",
+                "director:",
+                basePath + "/modeldata2/userDirectorEmb.csv",
+                "director_user:",
+                basePath + "/sampledata/director_ratings.csv");
 
-        //TODO:load actor and director data
+        // TODO:load actor and director data
 
-        //create server context
+        // create server context
         ServletContextHandler context = new ServletContextHandler();
         context.setContextPath("/");
         context.setBaseResource(Resource.newResource(webRootUri));
         context.setWelcomeFiles(new String[] { "index.html" });
-        context.getMimeTypes().addMimeMapping("txt","text/plain;charset=utf-8");
+        context.getMimeTypes().addMimeMapping("txt", "text/plain;charset=utf-8");
 
-        //bind services with different servlets
-        context.addServlet(DefaultServlet.class,"/");
+        // bind services with different servlets
+        context.addServlet(DefaultServlet.class, "/");
         context.addServlet(new ServletHolder(new MovieService()), "/getmovie");
         context.addServlet(new ServletHolder(new UserService()), "/getuser");
         context.addServlet(new ServletHolder(new SimilarMovieService()), "/getsimilarmovie");
@@ -99,14 +100,16 @@ public class RecSysServer {
         context.addServlet(new ServletHolder(new DirectorService()), "/getdirector");
         context.addServlet(new ServletHolder(new SimilarActorService()), "/getsimilaractor");
         context.addServlet(new ServletHolder(new SimilarDirectorService()), "/getsimilardirector");
+        context.addServlet(new ServletHolder(new ActorRecommendationService()), "/getactorrecommendation");
+        context.addServlet(new ServletHolder(new DirectorRecommendationService()), "/getdirectorrecommendation");
         context.addServlet(new ServletHolder(new RecForYouServiceActor()), "/getrecforyouactor");
         context.addServlet(new ServletHolder(new RecForYouServiceDirector()), "/getrecforyoudirector");
 
-        //set url handler
+        // set url handler
         server.setHandler(context);
         System.out.println("RecSys Server has started.");
 
-        //start Server
+        // start Server
         server.start();
         server.join();
     }

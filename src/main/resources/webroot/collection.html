@@ -133,6 +133,9 @@ var baseUrl = windowLocation.protocol + "//" + windowLocation.host + "/"
 if(type == "genre"){
     addGenreRow('#recPage', value, value.toLowerCase() + '-collection', 100, baseUrl);
 }
+else if(type == "jobTitle"){
+    addJobTitleRow('#recPage', value, value.toLowerCase() + '-collection', 100, baseUrl);
+}
 
 </script>
 </html>
