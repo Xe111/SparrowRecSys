@@ -654,8 +654,8 @@ function addRelatedDirectors(pageId, containerId, directorId, baseUrl) {
     });
 }
 
-function addActorRec(pageId, containerId, actorId, baseUrl) {
-    $.getJSON(baseUrl + "getrecforyouactor?model=neuralcf&size=5&id=" + actorId, function (actorObjectArray) {
+function addActorRec(pageId, containerId, actorId, model,baseUrl) {
+    $.getJSON(baseUrl + "getrecforyouactor?model="+model+"&size=5&id=" + actorId, function (actorObjectArray) {
         var rowDiv = `
             <div class="frontpage-section-top">
                 <div class="explore-header frontpage-section-header">
@@ -678,7 +678,7 @@ function addActorRec(pageId, containerId, actorId, baseUrl) {
 }
 
 function addDirectorRec(pageId, containerId, directorId, baseUrl) {
-    $.getJSON(baseUrl + "getrecforyoudirector?model=neuralcf&size=5&id=" + directorId, function (directorObjectArray) {
+    $.getJSON(baseUrl + "getrecforyoudirector?model="+model+"&size=5&id=" + directorId, function (directorObjectArray) {
         var rowDiv = `
             <div class="frontpage-section-top">
                 <div class="explore-header frontpage-section-header">

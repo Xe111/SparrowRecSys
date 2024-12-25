@@ -133,7 +133,6 @@ var userId = getQueryString("id",windowLocation);
 var model = getQueryString("model",windowLocation);
 if(null == model){
     model = "emb";
-    //model = "nerualcf"
 }
 
 var baseUrl = windowLocation.protocol + "//" + windowLocation.host + "/"
@@ -141,8 +140,8 @@ var baseUrl = windowLocation.protocol + "//" + windowLocation.host + "/"
 addUserDetails("user-details-container", userId, baseUrl);
 addUserHistory("#recPage", "userHistory", userId, baseUrl);
 addRecForYou("#recPage", "recForYou", userId, model, baseUrl);
-addDirectorRec("#recPage", "directorRec", userId, baseUrl);
-addActorRec("#recPage", "actorRec", userId, baseUrl);
+addDirectorRec("#recPage", "directorRec", userId, model,baseUrl);
+addActorRec("#recPage", "actorRec", userId, model,baseUrl);
 
 
 </script>
